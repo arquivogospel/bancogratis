@@ -490,7 +490,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 890px;
+  width: 740px;
 }
 
 #main-content img {
@@ -539,7 +539,7 @@ header a.button {
 aside a.button {
   display: block;
   width: 138px;
-  padding-left: 64px;
+  padding-left: 14px;
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
