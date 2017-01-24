@@ -1,0 +1,43 @@
+<xml src="cd_cat.xml" id="xmldso" async="false">
+</xml>
+
+<table datasrc="#xmldso" width="100%" border="1">
+
+<thead>
+<th>Title</th>
+<th>Artist</th>
+<th>Year</th>
+</thead>
+
+<tr align="left">
+<td><span datafld="TITLE"></span></td>
+<td><span datafld="ARTIST"></span></td>
+<td><span datafld="YEAR"></span></td>
+</tr>
+</table>
+
+<br />Title:
+<span datasrc="#xmldso" datafld="TITLE"></span>
+<br />Artist:
+<span datasrc="#xmldso" datafld="ARTIST"></span>
+<br />Year:
+<span datasrc="#xmldso" datafld="YEAR"></span>
+
+<script type="text/javascript">
+function movenext()
+{
+x=xmldso.recordset
+if (x.absoluteposition < x.recordcount)
+	{
+	x.movenext()
+	}
+}
+function moveprevious()
+{
+x=xmldso.recordset
+if (x.absoluteposition > 1)
+	{
+	x.moveprevious()
+	}
+}
+</script>
