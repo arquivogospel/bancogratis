@@ -1,4 +1,21 @@
-
+<BODY onload=startCountdown()>
+<SCRIPT language=JavaScript>
+ 
+var g_iCount = new Number();
+ 
+// de 30 a 0 //
+var g_iCount = 30;
+ 
+function startCountdown(){
+       if((g_iCount - 1) >= 0){
+               g_iCount = g_iCount - 1;
+               numberCountdown.innerText = '' + g_iCount;
+               setTimeout('startCountdown()',1000);
+       }
+}
+</SCRIPT>
+<FONT face=verdana color=#1e90ff size=9><B>
+<DIV id=numberCountdown align=center></DIV></FONT>
 <meta http-equiv="refresh" content="30;url=http://www.arquivocristao.com.br/arte.htm">
 <br>
   <p>Olá! você é o visitante de numero ✔<script type="text/javascript" src="http://counter.topster.de/?user=0000000001"></script>. Muito obrigado e volte sempre.🎈🥂</p>
