@@ -1,0 +1,88 @@
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Canais Reservados Para:</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="http://www.urlinteligente.com/som_gospel.php?sintonia=1">1 = Aline Barros</a>
+    <a href="http://www.urlinteligente.com/som_gospel.php?sintonia=2">2 = Anderson Freire</a>
+    <a href="http://www.urlinteligente.com/som_gospel.php?sintonia=3">3 = Shirley Carvalhaes</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=4">4 = Fernandinho</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=5">5 = Damares</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=6">6 = Mara Lima</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=7">7 = Lauriete</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=8">8 = Eliane Fernandes</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=9">9 = Fernanda Brum</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=10">10 = Salmos</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=11">11 = Provérbios</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=12">12 = Cassiane</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=13">13 = Rose Nascimento</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=14">14 = 3 minutos</a>
+<a href="http://www.urlinteligente.com/som_gospel.php?sintonia=15">15 = Rádio Gospel</a>
+  </div>
+</div> 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
