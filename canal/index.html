@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img{
+ max-width:100%;
+ height:auto;
+}
+</style>
+</head>
+  <body>
+
+
+
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Noto+Sans:700'>
+<style class="cp-pen-styles">body{
+  font-family: 'Noto Sans', sans-serif;
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+header{
+	width:100%; 
+	background:#ffffff; 
+	height:60px; 
+	line-height:60px;
+	border-bottom:1px solid #dddddd;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}</style></head><body>
+<header>
+	<h2><span style="color:#006600"><strong>Sistema Áudio Cristão</strong></span></h2>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="https://archive.org/embed/arquivo_gospel_aline_barros__discografia_completa&playlist=1&autoplay=1" target="Janela"><li>Aline Barros</li></a>
+       <a href="https://archive.org/embed/discografia_anderson_freire&playlist=1&autoplay=1" target="Janela"><li>Anderson Freire</li></a>
+
+  </ul>
+</div> 
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
+});
+
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+//# sourceURL=pen.js
+</script>
+</body></html>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:">
+	<tbody>
+<tr><p align="center">
+
+      <img src="http://www.arquivocristao.com.br/ac/1.jpg" title="Sistema Áudio Cristão"></center></p></tr>
+		<tr>
+			<td style="background-color:#000000"><a href="http://www.arquivocristao.com.br/" target="_blank"><img src="https://urlinteligente.000webhostapp.com/audio.gif" /></a></td>
+		</tr>
+		<tr>
+			<td style="background-color:#000000; text-align:center"><iframe name="Janela" frameborder="0" height="220" scrolling="no" src="https://archive.org/embed/arquivo_gospel_aline_barros__discografia_completa&playlist=1&autoplay=1" width="100%"></iframe></td>
+		</tr>
+	</tbody>
+</table>
+</html>
