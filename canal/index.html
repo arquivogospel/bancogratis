@@ -11,180 +11,302 @@ img{
   <body>
 
 
-
-
-<style class="cp-pen-styles">/* Color Declarations */
-/* Color Config */
-/* Menu Config */
-html, body {
-  font-family: 'Open Sans', sans-serif;
-  font-wight: 100;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css'>
+<style class="cp-pen-styles">@charset "UTF-8";
+/* ICOMOON STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@font-face {
+  font-family: 'icomoon';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
-body {
-  background: url();
-}
-
-a {
-  text-decoration: none;
-}
-a i {
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-}
-
-nav {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  position: fixed;
-  right: -300px;
-  top: 0;
-  -moz-transition: right 0.2s linear;
-  -o-transition: right 0.2s linear;
-  -webkit-transition: right 0.2s linear;
-  transition: right 0.2s linear;
-  width: 300px;
-  z-index: 9001;
-  /* IT'S OVER 9000! */
-}
-nav #menuToggle {
-  background: rgba(0, 0, 0, 0.6);
-  display: block;
-  position: relative;
-  height: 40px;
-  left: -50px;
-  top: 75px;
-  width: 50px;
-}
-nav #menuToggle span {
-  background: white;
-  display: block;
-  height: 10%;
-  left: 10%;
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
   position: absolute;
-  top: 45%;
-  width: 80%;
-}
-nav #menuToggle span:before, nav #menuToggle span:after {
-  background: white;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: -250%;
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  width: 100%;
-}
-nav #menuToggle span:after {
-  top: 250%;
-}
-nav a:nth-child(n+2) {
-  color: white;
-  display: block;
-  font-size: 2.5em;
-  margin: 30px 0 30px 30px;
-}
-nav a:nth-child(n+2):after {
-  background: #ffa53e;
-  content: '';
-  display: block;
-  height: 2px;
-  -moz-transition: width 0.2s;
-  -o-transition: width 0.2s;
-  -webkit-transition: width 0.2s;
-  transition: width 0.2s;
-  width: 0;
-}
-nav a:nth-child(n+2):hover:after {
-  width: 100%;
+  top: 50%;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.open {
+[class^="icon-"]:not(.icon-play),
+[class*=" icon-"]:not(.icon-play) {
+  margin-top: -6.5px;
   right: 0;
 }
-.open #menuToggle span {
-  background: transparent;
-  left: 10%;
-  top: 45%;
-}
-.open #menuToggle span:before, .open #menuToggle span:after {
-  background: white;
-  top: 0;
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.open #menuToggle span:after {
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+
+.icon-play:before {
+  content: "\ea15";
 }
 
-#menuToggle .navClosed {
-  -moz-transition: background 0.1s linear;
-  -o-transition: background 0.1s linear;
-  -webkit-transition: background 0.1s linear;
-  transition: background 0.1s linear;
+.icon-circle-right:before {
+  content: "\ea42";
 }
-#menuToggle .navClosed:before, #menuToggle .navClosed:after {
-  -moz-transition: top 0.2s linear 0.1s, -moz-transform 0.2s linear 0.1s;
-  -o-transition: top 0.2s linear 0.1s, -o-transform 0.2s linear 0.1s;
-  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s linear;
-  -webkit-transition-delay: 0.1s, 0.1s;
-  transition: top 0.2s linear 0.1s, transform 0.2s linear 0.1s;
+
+/* GENERAL STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  background: lightgray;
 }
-#menuToggle .navOpen {
-  -moz-transition: background 0.1s linear 0.2s;
-  -o-transition: background 0.1s linear 0.2s;
-  -webkit-transition: background 0.1s linear;
-  -webkit-transition-delay: 0.2s;
-  transition: background 0.1s linear 0.2s;
+
+body, h3 {
+  color: white;
 }
-#menuToggle .navOpen:before, #menuToggle .navOpen:after {
-  -moz-transition: top 0.2s linear, -moz-transform 0.2s linear;
-  -o-transition: top 0.2s linear, -o-transform 0.2s linear;
-  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s linear;
-  transition: top 0.2s linear, transform 0.2s linear;
+
+p {
+  font-size: .9em;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: .5em 0;
+  margin: .5em 0;
+}
+
+img {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* MEGA MENU POSITIONING STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-bar-section .has-dropdown {
+  position: static;
+}
+.top-bar-section .has-dropdown a {
+  position: relative;
+}
+
+.top-bar-section .has-dropdown.moved {
+  position: static;
+}
+.top-bar-section .has-dropdown.moved > a:after {
+  display: block;
+}
+
+  /* DROPDOWN GENERAL STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.m-menu {
+  border-top: 1px solid #4E4E4E;
+}
+.m-menu a {
+  display: block;
+  opacity: .5;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+.m-menu a:hover {
+  opacity: 1;
+}
+
+  /* TOP LINKS INSIDE DROPDOWN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.column li:not(:first-child) a {
+  border-top: 1px solid #262626;
+}
+.column li:not(:last-child) a {
+  border-bottom: 1px solid #4E4E4E;
+}
+.column li a:hover i {
+  right: 3px;
+}
+
+  /* BOTTOM LINKS INSIDE FIRST DROPDOWN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.intro .icon-play {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 2.5em;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+.intro:hover .icon-play {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+  /* TARGET DIV INSIDE SECOND DROPDOWN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.column > img {
+  margin: 1em 0;
+}
+
+.info-wrap h3 {
+  width: 50%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #4E4E4E;
+}
+
+.info {
+  display: none;
+}
+
+.info-visible {
+  display: block;
+}
+
+.dt {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  padding: 0 20px;
+}
+
+.p {
+  color: black;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 </style></head><body>
-<nav>
-  <a href="" id="menuToggle" title="Mostrar Canais">
-    <span class="navClosed"><i>show menu</i></span>
-  </a>
-  <a href="https://archive.org/embed/arquivo_gospel_aline_barros__discografia_completa&playlist=1&autoplay=1" target="Janela"><li>Aline Barros (Cantora)</li></a>
-    <a href="https://archive.org/embed/discografia_anderson_freire&playlist=1&autoplay=1" target="Janela"><li>Anderson Freire (Cantor)</li></a>
-    <a href="https://archive.org/embed/arquivo_gospel_shirley_cavalhaes_discografia_completa&playlist=1&autoplay=1" target="Janela"><li>Shirley Carvalhaes (Cantora)</li></a>
-</nav>
-<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script>(function($){
-	// Menu Functions
-	$(document).ready(function(){
-  	$('#menuToggle').click(function(e){
-    	var $parent = $(this).parent('nav');
-      $parent.toggleClass("open");
-      var navState = $parent.hasClass('open') ? "hide" : "mostrar";
-      $(this).attr("title", navState + " canais");
-			// Set the timeout to the animation length in the CSS.
-			setTimeout(function(){
-				console.log("timeout set");
-				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
-			}, 200);
-    	e.preventDefault();
-  	});
-  });
-})(jQuery);
+<div class="contain-to-grid">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Arquivo Cristão</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><span>Menu</span></a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="left">
+        <li class="divider"></li>
+        
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Canais Gospel</a>
+          <ul class="dropdown m-menu">
+            <li>
+              <div class="row">
+                <div class="medium-4 column">
+                  
+                </div><!--end of .column-->
+              </div><!--end of .row-->
+              <div class="row">
+                <div class="medium-4 column">
+                  <h3>Aline Barros</h3>
+                  <a href="https://archive.org/embed/arquivo_gospel_aline_barros__discografia_completa&playlist=1&autoplay=1" target="Janela" class="intro">
+                    <i class="icon-play"></i>
+                    <img src="https://ia601205.us.archive.org/22/items/arquivo_gospel_aline_barros__discografia_completa/aline_barros.png" />
+                  </a>
+                </div><!--end of .column-->
+                <div class="medium-4 column">
+                  <h3>Build</h3>
+                  <a href="#" class="intro">
+                    <i class="icon-play"></i>
+                    <img src="https://unsplash.it/400/280?image=534" />
+                  </a>
+                </div><!--end of .column-->
+                <div class="medium-4 column">
+                  <h3>Enjoy</h3>
+                  <a href="#" class="intro">
+                    <i class="icon-play"></i>
+                    <img src="https://unsplash.it/400/280?image=452" />
+                  </a>
+                </div><!--end of .column-->
+
+              </div><!--end of .row-->
+            </li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Studies</a>
+          <ul class="dropdown m-menu">
+            <li>
+              <div class="row">
+                <div class="medium-6 column show-for-medium-up">
+                  <img src="https://unsplash.it/380/220?image=668" />
+                  <div class="info-wrap">
+                    <div class="info info-visible">
+                      <h3>Select your program...</h3>
+                      <p>More info...</p>
+                    </div>
+                    <div class="info">
+                      <h3>Undergraduate Studies</h3>
+                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    </div>
+                    <div class="info">
+                      <h3>Graduate Studies</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+                    </div>
+                    <div class="info">
+                      <h3>Internships</h3>
+                      <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae adipisci velit, sed quia non numquam eius.</p>
+                    </div>
+                    <div class="info">
+                      <h3>Other Studies</h3>
+                      <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    </div>
+                    <div class="info">
+                      <h3>Useful Contacts</h3>
+                      <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat adipisci velit, sed quia non numquam eius.</p>
+                    </div>
+                  </div><!-- .info-wrap -->
+
+                </div><!--end of .column-->
+                <div class="medium-6 column">
+                  <h3>Programs</h3>
+                  <ul class="is-hover">
+                    <li><a href="#"><i class="icon-circle-right"></i>Undergraduate</a></li>
+                    <li><a href="#"><i class="icon-circle-right"></i>Graduate</a></li>
+                    <li><a href="#"><i class="icon-circle-right"></i>Internships</a></li>
+                    <li><a href="#"><i class="icon-circle-right"></i>Other</a></li>
+                    <li><a href="#"><i class="icon-circle-right"></i>Contact</a></li>
+                  </ul>
+                </div><!--end of .column-->
+              </div><!--end of .row-->
+            </li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li>
+          <a href="#">Student Life</a>
+        </li>
+        <li class="divider"></li>
+      </ul>
+    </section>
+  </nav>
+</div><!--end .contain-to-grid-->
+
+
+
+
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js'></script>
+<script>$(document).foundation();
+
+// below does the "Programs" info switch
+$('.is-hover a').on('mouseover', function () {
+  var idx = $(this).parent().index() + 2;
+  $('.info:nth-child(' + idx + ')').addClass('info-visible');
+  $('.info:nth-child(' + idx + ')').siblings().removeClass('info-visible');
+});
+
+$('.dropdown').on('mouseout', function () {
+  $('.info:nth-child(1)').addClass('info-visible').siblings().removeClass('info-visible');
+});
 //# sourceURL=pen.js
 </script>
-</body></html>
+
 
 
 </body></html>
