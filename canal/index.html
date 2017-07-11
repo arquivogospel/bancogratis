@@ -1,372 +1,261 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html><html class=''>
 <head>
 
-  <body>
 
-
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css'>
-<style class="cp-pen-styles">@charset "UTF-8";
-/* ICOMOON STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@font-face {
-  font-family: 'icomoon';
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.eot") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.ttf") format("truetype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/icomoon_copy.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  position: absolute;
-  top: 50%;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'><script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script><link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css'>
+<style class="cp-pen-styles">body {
+  padding: 3%;
 }
 
-[class^="icon-"]:not(.icon-play),
-[class*=" icon-"]:not(.icon-play) {
-  margin-top: -6.5px;
-  right: 0;
-}
-
-.icon-play:before {
-  content: "\ea15";
-}
-
-.icon-circle-right:before {
-  content: "\ea42";
-}
-
-/* GENERAL STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-body {
-  background: lightgray;
-}
-
-body, h3 {
-  color: white;
-}
-
-p {
-  font-size: .9em;
-}
-
-h3 {
-  text-transform: uppercase;
-  font-size: 1em;
-  padding: .5em 0;
-  margin: .5em 0;
-}
-
-img {
-  margin-bottom: 20px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-/* MEGA MENU POSITIONING STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.top-bar-section .has-dropdown {
-  position: static;
-}
-.top-bar-section .has-dropdown a {
-  position: relative;
-}
-
-.top-bar-section .has-dropdown.moved {
-  position: static;
-}
-.top-bar-section .has-dropdown.moved > a:after {
-  display: block;
-}
-
-  /* DROPDOWN GENERAL STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.m-menu {
-  border-top: 1px solid #4E4E4E;
-}
-.m-menu a {
-  display: block;
-  opacity: .5;
-  -webkit-transition: opacity .3s ease;
-  transition: opacity .3s ease;
-}
-.m-menu a:hover {
-  opacity: 1;
-}
-
-  /* TOP LINKS INSIDE DROPDOWN STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.column li:not(:first-child) a {
-  border-top: 1px solid #262626;
-}
-.column li:not(:last-child) a {
-  border-bottom: 1px solid #4E4E4E;
-}
-.column li a:hover i {
-  right: 3px;
-}
-
-  /* BOTTOM LINKS INSIDE FIRST DROPDOWN STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.intro .icon-play {
-  position: absolute;
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 2.5em;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
-}
-.intro:hover .icon-play {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-  /* TARGET DIV INSIDE SECOND DROPDOWN STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.column > img {
-  margin: 1em 0;
-}
-
-.info-wrap h3 {
-  width: 50%;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #4E4E4E;
-}
-
-.info {
-  display: none;
-}
-
-.info-visible {
-  display: block;
-}
-
-.dt {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 2em;
-  padding: 0 20px;
-}
-
-.p {
-  color: black;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
+.nav-mega {
   width: 100%;
 }
+.nav-mega .dropdown {
+  position: static;
+}
+.nav-mega .dropdown-menu.mega-menu {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  min-width: auto;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+  border-color: #ccc;
+}
+.nav-mega .dropdown-menu.mega-menu > li {
+  padding: 20px;
+}
+.nav-mega .dropdown-menu.mega-menu .media-list .media {
+  padding: 10px;
+  font-size: 13px;
+}
+.nav-mega .dropdown-menu.mega-menu .media-list .media-heading {
+  font-size: 16px;
+}
 </style></head><body>
-<div class="contain-to-grid">
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Arquivo Cristão</a></h1>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <ul class="nav nav-mega">
+      <li class="dropdown">
+      	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      		Gadgets <b class="caret"></b>
+      	</a>
+        <ul class="dropdown-menu mega-menu">
+          <li>
+            <div class="row-fluid">
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <hr>
+            <div class="row-fluid">
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul class="media-list span4">
+                <li class="media">
+                	<a href="#" class="pull-left">
+                		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                	</a>
+                  <div class="media-body">
+                    <h5 class="media-heading"><a href="#">Shiny Gadgets</a></h5>
+                    <ul class="unstyled">
+                      <li><a href="#">Subcategory One</a></li>
+                      <li><a href="#">Subcategory Two</a></li>
+                      <li><a href="#">Subcategory Three</a></li>
+                      <li><a href="#">Subcategory Four</a></li>
+                      <li><a href="#">Subcategory Five</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </li>
-      <li class="toggle-topbar menu-icon">
-        <a href="#"><span>Menu</span></a>
+      <li class="dropdown">
+      	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      		Widgets <b class="caret"></b>
+      	</a>
+        <ul class="dropdown-menu mega-menu">
+          <li>
+            <div class="row-fluid">
+              <div class="span8">
+                <div class="row-fluid">
+                  <ul class="media-list span6">
+                    <li class="media">
+                    	<a href="#" class="pull-left">
+                    		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                    	</a>
+                      <div class="media-body">
+                        <h5 class="media-heading"><a href="#">Shiny Widgets</a></h5>
+                        <ul class="unstyled">
+                          <li><a href="#">Subcategory One</a></li>
+                          <li><a href="#">Subcategory Two</a></li>
+                          <li><a href="#">Sub Category Three with a Longer Name</a></li>
+                          <li><a href="#">Subcategory Four</a></li>
+                          <li><a href="#">Subcategory Five</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="media-list span6">
+                    <li class="media">
+                    	<a href="#" class="pull-left">
+                    		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                    	</a>
+                      <div class="media-body">
+                        <h5 class="media-heading"><a href="#">Shiny Widgets</a></h5>
+                        <ul class="unstyled">
+                          <li><a href="#">Subcategory One</a></li>
+                          <li><a href="#">Subcategory Two</a></li>
+                          <li><a href="#">Sub Category Three with a Longer Name</a></li>
+                          <li><a href="#">Subcategory Four</a></li>
+                          <li><a href="#">Subcategory Five</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <hr>
+                <div class="row-fluid">
+                  <ul class="media-list span6">
+                    <li class="media">
+                    	<a href="#" class="pull-left">
+                    		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                    	</a>
+                      <div class="media-body">
+                        <h5 class="media-heading"><a href="#">Shiny Widgets</a></h5>
+                        <ul class="unstyled">
+                          <li><a href="#">Subcategory One</a></li>
+                          <li><a href="#">Subcategory Two</a></li>
+                          <li><a href="#">Sub Category Three with a Longer Name</a></li>
+                          <li><a href="#">Subcategory Four</a></li>
+                          <li><a href="#">Subcategory Five</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="media-list span6">
+                    <li class="media">
+                    	<a href="#" class="pull-left">
+                    		<img src="http://lorempixel.com/70/70/" alt="" class="media-object">
+                    	</a>
+                      <div class="media-body">
+                        <h5 class="media-heading"><a href="#">Shiny Widgets</a></h5>
+                        <ul class="unstyled">
+                          <li><a href="#">Subcategory One</a></li>
+                          <li><a href="#">Subcategory Two</a></li>
+                          <li><a href="#">Sub Category Three with a Longer Name</a></li>
+                          <li><a href="#">Subcategory Four</a></li>
+                          <li><a href="#">Subcategory Five</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span4">
+                <h5>Featured Item</h5>
+              </div>
+            </div>
+          </li>
+        </ul>
       </li>
     </ul>
-    <section class="top-bar-section">
-      <ul class="left">
-        <li class="divider"></li>
-        
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Canais Gospel</a>
-          <ul class="dropdown m-menu">
-            <li>
-              <div class="row">
-                <div class="medium-3 column">
-                  
-                </div><!--end of .column-->
-              </div><!--end of .row-->
-              <div class="row">
-                <div class="medium-3 column">
-                  <h3>Aline Barros</h3>
-                  <a href="https://archive.org/embed/arquivo_gospel_aline_barros__discografia_completa&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601205.us.archive.org/22/items/arquivo_gospel_aline_barros__discografia_completa/aline_barros.png" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
-                <div class="medium-3 column">
-                  <h3>Anderson Freire</h3>
-                  <a href="https://archive.org/embed/discografia_anderson_freire&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601504.us.archive.org/18/items/discografia_anderson_freire/Anderson%20Freire/Anderson%20Freire%20%26%20Amigos/Folder.jpg?cnt=0"  width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
-                <div class="medium-3 column">
-                  <h3>Shirley Carvalhaes</h3>
-                  <a href="https://archive.org/embed/arquivo_gospel_shirley_cavalhaes_discografia_completa&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://raw.githubusercontent.com/arquivogospel/bancogratis/gh-pages/shirley_carvalhaes/shirley_carvalhaes.jpg" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
+  </div>
+</div>
 
-<div class="medium-3 column">
-                  <h3>Fernandinho</h3>
-                  <a href="https://archive.org/embed/discografia-fernandinho&playlist=1&autoplay=1" target="Janela" class="intro">
-                   
-                    <img src="https://ia801509.us.archive.org/2/items/discografia-fernandinho/As%2015%20Mais%20de%20Fernandinho/Folder.jpg?cnt=0" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
-<div class="medium-3 column">
-                  <h3>Damares</h3>
-                  <a href="https://archive.org/embed/arquivo_gospel_damares_discografia_completa&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="http://www.arquivocristao.com.br/damares/damares.jpg" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
-<div class="medium-3 column">
-                  <h3>Mara Lima</h3>
-                  <a href="https://archive.org/embed/arquivo_gospel_discografia_mara_lima&playlist=1&autoplay=1" target="Janela" class="intro">
-                   
-                    <img src="https://github.com/arquivogospel/bancogratis/blob/gh-pages/mara_lima/mara_lima.png?raw=true" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
 
- <div class="medium-3 column">
-                  <h3>Lauriete</h3>
-                  <a href="https://archive.org/embed/arquivo_gospel_lauriete_discografia&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://github.com/arquivogospel/bancogratis/blob/gh-pages/lauriete/lauriete.png?raw=true" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
- <div class="medium-3 column">
-                  <h3>Eliane Fernandes</h3>
-                  <a href="https://archive.org/embed/discografia_eliane_fernandes&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601504.us.archive.org/23/items/discografia_eliane_fernandes/Eliane%20Fernandes%20-%20A%20Cruz/Folder.jpg" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
- <div class="medium-3 column">
-                  <h3>Fernanda Brum</h3>
-                  <a href="https://archive.org/embed/discografia_fernanda_brum&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601500.us.archive.org/34/items/discografia_fernanda_brum/Fernanda%20Brum%20-%20As%20melhores/Folder.jpg?cnt=0" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
- <div class="medium-3 column">
-                  <h3>Kleber Lucas</h3>
-                  <a href="https://archive.org/embed/discografia_kleber_lucas&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601503.us.archive.org/31/items/discografia_kleber_lucas/Cd-1996-Rendei%20Gra%C3%A7as-Kleber%20Lucas/Folder.jpg?cnt=0" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
- <div class="medium-3 column">
-                  <h3>Proverbios</h3>
-                  <a href="https://archive.org/embed/Proverbios_&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="http://www.arquivocristao.com.br/biblia_audio/biblia_audio.png" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
- 
-<div class="medium-3 column">
-                  <h3>Cassiane</h3>
-                  <a href="https://archive.org/embed/discografia-cassiane&playlist=1&autoplay=1" target="Janela" class="intro">
-                    
-                    <img src="https://ia601509.us.archive.org/34/items/discografia-cassiane/Folder.jpg?cnt=0" width="200" height="139"/>
-                  </a>
-                </div><!--end of .column-->
-
-
-              </div><!--end of .row-->
-            </li>
-          </ul>
-        </li>
-        <li class="divider"></li>
-        
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Studies</a>
-          <ul class="dropdown m-menu">
-            <li>
-              <div class="row">
-                <div class="medium-6 column show-for-medium-up">
-                  <img src="https://unsplash.it/380/220?image=668" />
-                  <div class="info-wrap">
-                    <div class="info info-visible">
-                      <h3>Select your program...</h3>
-                      <p>More info...</p>
-                    </div>
-                    <div class="info">
-                      <h3>Undergraduate Studies</h3>
-                      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                    </div>
-                    <div class="info">
-                      <h3>Graduate Studies</h3>
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                    </div>
-                    <div class="info">
-                      <h3>Internships</h3>
-                      <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae adipisci velit, sed quia non numquam eius.</p>
-                    </div>
-                    <div class="info">
-                      <h3>Other Studies</h3>
-                      <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                    </div>
-                    <div class="info">
-                      <h3>Useful Contacts</h3>
-                      <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat adipisci velit, sed quia non numquam eius.</p>
-                    </div>
-                  </div><!-- .info-wrap -->
-
-                </div><!--end of .column-->
-                <div class="medium-6 column">
-                  <h3>Programs</h3>
-                  <ul class="is-hover">
-                    <li><a href="#"><i class="icon-circle-right"></i>Undergraduate</a></li>
-                    <li><a href="#"><i class="icon-circle-right"></i>Graduate</a></li>
-                    <li><a href="#"><i class="icon-circle-right"></i>Internships</a></li>
-                    <li><a href="#"><i class="icon-circle-right"></i>Other</a></li>
-                    <li><a href="#"><i class="icon-circle-right"></i>Contact</a></li>
-                  </ul>
-                </div><!--end of .column-->
-              </div><!--end of .row-->
-            </li>
-          </ul>
-        </li>
-        <li class="divider"></li>
-        <li>
-          <a href="#">Student Life</a>
-        </li>
-        <li class="divider"></li>
-      </ul>
-    </section>
-  </nav>
-</div><!--end .contain-to-grid-->
-
-
-
-
-<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js'></script>
-<script>$(document).foundation();
-
-// below does the "Programs" info switch
-$('.is-hover a').on('mouseover', function () {
-  var idx = $(this).parent().index() + 2;
-  $('.info:nth-child(' + idx + ')').addClass('info-visible');
-  $('.info:nth-child(' + idx + ')').siblings().removeClass('info-visible');
-});
-
-$('.dropdown').on('mouseout', function () {
-  $('.info:nth-child(1)').addClass('info-visible').siblings().removeClass('info-visible');
-});
-//# sourceURL=pen.js
-</script>
 
 
 
@@ -385,3 +274,4 @@ $('.dropdown').on('mouseout', function () {
 	</tbody>
 </table>
 </html> 
+
