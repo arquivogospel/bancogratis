@@ -32,9 +32,9 @@ body{ overflow:hidden; }
 #bsap_1299699 iframe { width: 250px; height: 250px; }
 
 </style>
-<link rel="stylesheet" type="text/css" href="css/site.css" />
-<link rel="stylesheet" type="text/css" href="css/scm.css" />
-<link rel="stylesheet" type="text/css" data-bind="attr:{href:skin}" id="skin" href="skins/tunes/skin.css" />
+<link rel="stylesheet" type="text/css" href="scm-music-player-github/css/site.css" />
+<link rel="stylesheet" type="text/css" href="scm-music-player-github/css/scm.css" />
+<link rel="stylesheet" type="text/css" data-bind="attr:{href:skin}" id="skin" href="scm-music-player-github/skins/tunes/skin.css" />
 </head>
 <body>
 <div id="containerW" data-bind="style:{top:placement()=='top'?'25px':'0',
@@ -78,8 +78,8 @@ body{ overflow:hidden; }
 
 <!-- <div style="border-radius:10px;padding:5px; text-align:center;background: #eee center no-repeat; "> -->
 <!-- <div style="border-radius:10px;text-align: center; padding:5px;border: #bbb 1px solid; "> -->
-<!-- <iframe src="/ads/600_250.html" scrolling="no" width="600" height="250" frameborder="0"></iframe> -->
-<!-- <iframe src="/ads/600_330.html" scrolling="no" width="600" height="330" frameborder="0"></iframe> -->
+<!-- <iframe src="scm-music-player-github//ads/600_250.html" scrolling="no" width="600" height="250" frameborder="0"></iframe> -->
+<!-- <iframe src="scm-music-player-github//ads/600_330.html" scrolling="no" width="600" height="330" frameborder="0"></iframe> -->
 <!-- </div> -->
 <div id="setup" style="border-radius:10px;padding:5px; margin: 15px 0; text-align:center;background:url(ad.png) #eee center no-repeat;">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -206,9 +206,9 @@ require([
 	'knockout','jquery','underscore',
 	'util/parseparams',
 
-	'text!view/player.html',
-	'text!view/playlist.html',
-	'text!view/wizard.html',
+	'text!scm-music-player-github/view/player.html',
+	'text!scm-music-player-github/view/playlist.html',
+	'text!vscm-music-player-github/iew/wizard.html',
 
 	'scm','scm.ui','scm.wizard',
 
@@ -312,7 +312,7 @@ require([
     function checkAd(){
       if(SCM.showPlaylist() && !shown){
         // $.getScript('https://s3.buysellads.com/ac/bsa.js');
-        $('#bsap_1306386').html('<iframe src="/ads/300_250.html" scrolling="no" width="300" height="250" frameborder="0"></iframe>');
+        $('#bsap_1306386').html('<iframe src="scm-music-player-github//ads/300_250.html" scrolling="no" width="300" height="250" frameborder="0"></iframe>');
         shown = true;
       }
     }
