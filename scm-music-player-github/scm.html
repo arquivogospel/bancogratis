@@ -21,34 +21,7 @@ body{overflow:hidden; background:transparent; }
 <body>
 	<div id="contentW" data-bind="style:{top:placement()=='top'?'25px':'0',
 		bottom:placement()=='top'?'0':'25px', right:showPlaylist()?'202px':'0'}">
-<script type="text/javascript">
-(function(){
- 	if(window==window.parent)
-		location.href = '';
-	var addEvent = function(elm, evType, fn) {
-			if(elm.addEventListener) 
-				elm.addEventListener(evType, fn);
-			else if (elm.attachEvent) 
-				elm.attachEvent('on' + evType, fn);
-			else
-				elm['on' + evType] = fn;
-		},
-		url = location.hash.substr(1),
-		host = url.substr(0,url.indexOf('/',10));
 
-	window.SCMQueue = [];
-	addEvent(window,'message',function(e){
-		var data = e.data;
-		if(data.indexOf('SCM')!=0) 
-			return;
-		if(window.SCM && window.Song)
-			(new Function("SCM,Song",data))(SCM,Song);
-		else
-			SCMQueue.push(data);
-	});
-	document.write('<iframe src="javascript:location.replace(\''+url+'\');" frameborder="0" id="content" allowtransparency="true" name="content"></iframe>');
-})();
-</script>
 </div>
 <div id="playerW" data-bind="style:{ top:placement()=='top'?'0':'auto', 
 	bottom:placement()=='top'?'auto':'0',height:'25px'}"></div>
