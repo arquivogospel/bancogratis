@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>Recibo Online | Clube dos Construtores Campistas</title>
+	<meta name="description" content="Gerador de recibo online para imprimir. Modelo para emitir recibo de pagamento, de compra e venda, de aluguel, de salário, com logomarca, etc" />		<meta property="og:title" content="Ferramentas e Aplicativos Online" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.arquivocristao.com.br" />
+		<meta property="og:image" content="https://www.invertexto.com/img/face-note.png" />
+		<meta property="og:site_name" content="arquivocristao.com.br" />
+		<meta property="og:description" content="Site com diversas ferramentas de manipulação de textos, código de barras, criptografia, números aleatórios, entre outras..." />
+		<meta property="fb:app_id" content="515652911960455" />
+	
+	<link rel="canonical" href="https://www.invertexto.com/recibo-online" />
+	<link href="/favicon.ico" rel="shortcut icon" type="image/ico" />
+	<link href="http://www.arquivocristao.com.br/css/app-v1.7.5.css" rel="stylesheet">
+
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-73907168-2', 'auto');
+	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<header class="hidden-print">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-11 col-md-9 col-lg-8">
+						<a href="/">
+							<img class="logo" src="http://www.arquivocristao.com.br/img/logo-pt.png" alt="CCC" />
+						</a>
+					</div>
+					<div class="col-sm-13 col-md-15 col-lg-16 banner hidden-xs">
+													<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- Responsive -->
+							<ins class="adsbygoogle"
+							style="display:block"
+							data-ad-client="ca-pub-0032213399467558"
+							data-ad-slot="1888019684"
+							data-ad-format="horizontal"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+											</div>
+				</div>
+			</div>
+		</div>
+
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="like pull-left"></div>
+
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				    <span class="sr-only">Menu</span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				  </button>
+				</div>
+				
+											</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	
+	<main>
+		
+<style>
+body{background-color:#f8fafd}
+.options{background-color:#fff;border:1px solid #ddd;padding:20px}
+.recibo{
+	background-color:#fff;
+	border:1px solid #ddd;
+	min-height:300px;
+	padding:48px;
+	font-size:16px;
+}
+.recibo input{
+	outline: none;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: transparent;
+	padding:0;
+	width:0px;
+}
+@media (max-width: 767px){
+	.recibo{padding:20px}
+}
+@media print{
+	.recibo .empty{visibility: hidden}
+	.segunda-via{display:block !important}
+}
+.recibo input:hover{border-color:#ffa800}
+.recibo input::placeholder{color:#ccc}
+.recibo input:-ms-input-placeholder{color:#ccc}
+.recibo input::-ms-input-placeholder{color:#ccc}
+.recibo input.invalid{color:red}
+.recibo input.zero{color:#ccc}
+.recibo .logomarca{min-width:160px;max-height:90px;cursor:pointer}
+.recibo .logomarca.empty{border:2px dashed #ddd;display:flex;justify-content:center;align-items:center}
+.recibo .logomarca:hover{border-color:#ffa800}
+.recibo .logomarca span{font-size:12px}
+.recibo .logomarca img{max-height:90px}
+.recibo .title{font-size:24px;font-weight:bold}
+.recibo .body{margin-top:25px;text-align:justify}
+.recibo .date{text-align:right;margin-top:20px}
+.recibo .signature{margin-top:45px}
+.recibo .signature p{margin:0;font-size:12px}
+.segunda-via{margin-top:50px;display:none}
+.tool-tip{display: inline-block}
+.btn[disabled]{pointer-events:none}
+</style>
+
+<div class="func-wrap container" id="app">
+	<h1 class="hidden-print">Recibo Online</h1>
+
+	<div class="document">
+		<div class="recibo">
+			<div class="d-flex justify-content-between">
+				<label for="getFile" class="logomarca" :class="{ empty: !hasImage }">
+					<div class="text-muted" v-if="!hasImage">
+						<i class="glyphicon glyphicon-picture"></i> <span>Logomarca</span>
+					</div>
+					<img :src="receipt.image" v-show="hasImage">
+					<input type="file" id="getFile" accept="image/*" style="display:none" @change="updateImage($event)">
+				</label>
+				<div class="title text-right">
+					<p><input type="text" placeholder="RECIBO Nº 1" v-model="receipt.title"></p>
+					<p style="font-size:16px">Valor: R$ <input type="text" class="valor" placeholder="0,00" :class="{ zero: receipt.value=='0,00' }" v-model="receipt.value" v-money="money"></p>
+				</div>
+			</div>
+			
+			<div class="body">
+				<p>Recebi(emos) de <input type="text" placeholder="Nome do Cliente" v-model="receipt.client">, <span>{{ clientDocTitle }}</span> nº <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.client_doc" @input="updateDoc($event)">, a importância de <span>{{ fullNumber }}</span> referente à(ao) <input type="text" placeholder="Serviço Prestado" v-model="receipt.service">.</p>
+
+				<p>Para maior clareza firmo(amos) o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.</p>
+
+				<p class="date"><input type="text" placeholder="Cidade" v-model="receipt.city">, <input type="text" placeholder="Dia" v-model="receipt.day"> de <input type="text" placeholder="Mês" value="" v-model="receipt.month"> de <input type="text" placeholder="Ano" value="2020" v-model="receipt.year"></p>
+				
+				<div class="signature text-center">
+					<p>_________________________________________________</p>
+					<p><input type="text" placeholder="Nome ou Empresa" v-model="receipt.user"></p>
+					<p><span>{{ userDocTitle }}</span>: <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.user_doc" @input="updateDoc($event)"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="options hidden-print" style="margin-top:25px">
+		<div class="form-inline">
+			<div class="form-group" style="margin-right:10px">
+				<select class="form-control" id="vias" v-model="copies">
+					<option value="1">1 Via</option>
+					<option value="2">2 Vias</option>
+				</select>
+			</div>
+			<button class="btn btn-default" id="clear" style="margin-right:10px" @click="clear"><i class="glyphicon glyphicon-trash"></i> Limpar</button>
+			<span class="tool-tip" data-toggle="tooltip" data-placement="right" :data-original-title="isButtonDisabled ? 'Preencha todos os campos' : ''">
+				<button class="btn btn-custom" id="print" @click="print" :disabled="isButtonDisabled"><i class="glyphicon glyphicon-print"></i> Imprimir</button>
+			</span>
+		</div>
+	</div>
+
+	
+</div>
+	</main>
+
+			<div class="container hidden-print">
+			<div class="bottom-banner">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<ins class="adsbygoogle"
+				style="display:block"
+				data-ad-client="ca-pub-0032213399467558"
+				data-ad-slot="3778065286"
+				data-ad-format="auto"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</div>
+	
+	<footer class="hidden-print"></footer>
+
+	<script src="http://www.arquivocristao.com.br/css/app-v1.7.5.css"></script>
+	
+	<script src="http://www.arquivocristao.com.br/js/vue.min.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/vue-the-mask.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/v-money.js"></script>
+	<script src="https://www.invertexto.com/js/stretchy.min.js"></script>
+	<script src="https://www.invertexto.com/js/helpers.js"></script>
+	<script src="https://www.invertexto.com/js/recibo-online.js"></script>
+	<script>
+	if (typeof run === "function") { 
+    	run();
+	}
+	</script>
+
+</body>
+</html>
