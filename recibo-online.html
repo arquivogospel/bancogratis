@@ -5,17 +5,17 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<title>Recibo Online | Clube dos Construtores Campistas</title>
+	<title>Recibo Online | CCC</title>
 	<meta name="description" content="Gerador de recibo online para imprimir. Modelo para emitir recibo de pagamento, de compra e venda, de aluguel, de salário, com logomarca, etc" />		<meta property="og:title" content="Ferramentas e Aplicativos Online" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.arquivocristao.com.br" />
+		<meta property="og:url" content="https://www.invertexto.com" />
 		<meta property="og:image" content="https://www.invertexto.com/img/face-note.png" />
-		<meta property="og:site_name" content="arquivocristao.com.br" />
+		<meta property="og:site_name" content="invertexto.com" />
 		<meta property="og:description" content="Site com diversas ferramentas de manipulação de textos, código de barras, criptografia, números aleatórios, entre outras..." />
 		<meta property="fb:app_id" content="515652911960455" />
 	
-	<link rel="canonical" href="https://www.invertexto.com/recibo-online" />
-	<link href="/favicon.ico" rel="shortcut icon" type="image/ico" />
+	<link rel="canonical" href="http://www.arquivocristao.com.br/recibo-online" />
+	<link href="https://www.invertexto.com/favicon.ico" rel="shortcut icon" type="image/ico" />
 	<link href="http://www.arquivocristao.com.br/css/app-v1.7.5.css" rel="stylesheet">
 
 	<script>
@@ -33,8 +33,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-11 col-md-9 col-lg-8">
-						<a href="/">
-							<img class="logo" src="http://www.arquivocristao.com.br/img/logo-pt.png" alt="CCC" />
+						<a href="http://www.arquivocristao.com.br">
+							<img class="logo" src="https://www.invertexto.com/img/logo-pt.png" alt="CCC" />
 						</a>
 					</div>
 					<div class="col-sm-13 col-md-15 col-lg-16 banner hidden-xs">
@@ -55,18 +55,10 @@
 
 		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
-				<div class="like pull-left"></div>
-
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				    <span class="sr-only">Menu</span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				    <span class="icon-bar"></span>
-				  </button>
-				</div>
 				
-											</ul>
+
+				
+				
 				</div>
 			</div>
 		</nav>
@@ -141,9 +133,9 @@ body{background-color:#f8fafd}
 			</div>
 			
 			<div class="body">
-				<p>Recebi(emos) de <input type="text" placeholder="Nome do Cliente" v-model="receipt.client">, <span>{{ clientDocTitle }}</span> nº <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.client_doc" @input="updateDoc($event)">, a importância de <span>{{ fullNumber }}</span> referente à(ao) <input type="text" placeholder="Serviço Prestado" v-model="receipt.service">.</p>
+				<p>Recebi de <input type="text" placeholder="Nome do Cliente" v-model="receipt.client">, <span>{{ clientDocTitle }}</span> nº <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.client_doc" @input="updateDoc($event)">, a importância de <span>{{ fullNumber }}</span> referente à(ao) <input type="text" placeholder="Serviço Prestado" v-model="receipt.service">.</p>
 
-				<p>Para maior clareza firmo(amos) o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.</p>
+				<p>Para maior clareza firmo o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.</p>
 
 				<p class="date"><input type="text" placeholder="Cidade" v-model="receipt.city">, <input type="text" placeholder="Dia" v-model="receipt.day"> de <input type="text" placeholder="Mês" value="" v-model="receipt.month"> de <input type="text" placeholder="Ano" value="2020" v-model="receipt.year"></p>
 				
@@ -171,7 +163,12 @@ body{background-color:#f8fafd}
 		</div>
 	</div>
 
-	
+	<div class="panel panel-custom hidden-print">
+		<div class="panel-heading">Ferramentas Relacionadas</div>
+		<ul class="list-group">
+			<a href="/nota-promissoria-online" class="list-group-item">Nota Promissória Online</a>
+		</ul>
+	</div>
 </div>
 	</main>
 
@@ -191,11 +188,11 @@ body{background-color:#f8fafd}
 	
 	<footer class="hidden-print"></footer>
 
-	<script src="http://www.arquivocristao.com.br/css/app-v1.7.5.css"></script>
+	<script src="http://www.arquivocristao.com.br/js/app-v1.js"></script>
 	
 	<script src="http://www.arquivocristao.com.br/js/vue.min.js"></script>
 	<script src="http://www.arquivocristao.com.br/js/vue-the-mask.js"></script>
-	<script src="http://www.arquivocristao.com.br/js/v-money.js"></script>
+	<script src="https://www.invertexto.com/js/v-money.js"></script>
 	<script src="https://www.invertexto.com/js/stretchy.min.js"></script>
 	<script src="https://www.invertexto.com/js/helpers.js"></script>
 	<script src="https://www.invertexto.com/js/recibo-online.js"></script>
@@ -207,3 +204,5 @@ body{background-color:#f8fafd}
 
 </body>
 </html>
+
+	
