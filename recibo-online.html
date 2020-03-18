@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<title>Recibo Online | CCC</title>
+	<title>Recibo | CCC</title>
 	<meta name="description" content="Gerador de recibo online para imprimir. Modelo para emitir recibo de pagamento, de compra e venda, de aluguel, de salário, com logomarca, etc" />		<meta property="og:title" content="Ferramentas e Aplicativos Online" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.invertexto.com" />
-		<meta property="og:image" content="https://www.invertexto.com/img/face-note.png" />
+		<meta property="og:image" content="http://www.arquivocristao.com.br/img/face-note.png" />
 		<meta property="og:site_name" content="invertexto.com" />
 		<meta property="og:description" content="Site com diversas ferramentas de manipulação de textos, código de barras, criptografia, números aleatórios, entre outras..." />
 		<meta property="fb:app_id" content="515652911960455" />
@@ -34,7 +34,7 @@
 				<div class="row">
 					<div class="col-sm-11 col-md-9 col-lg-8">
 						<a href="http://www.arquivocristao.com.br">
-							<img class="logo" src="https://www.invertexto.com/img/logo-pt.png" alt="CCC" />
+							<img class="logo" src="http://www.arquivocristao.com.br/img/logo-pt.png" alt="CCC" />
 						</a>
 					</div>
 					<div class="col-sm-13 col-md-15 col-lg-16 banner hidden-xs">
@@ -133,7 +133,7 @@ body{background-color:#f8fafd}
 			</div>
 			
 			<div class="body">
-				<p>Recebi de <input type="text" placeholder="Nome do Cliente" v-model="receipt.client">, <span>{{ clientDocTitle }}</span> nº <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.client_doc" @input="updateDoc($event)">, a importância de <span>{{ fullNumber }}</span> referente à(ao) <input type="text" placeholder="Serviço Prestado" v-model="receipt.service">.</p>
+				<p>Recebi de <input type="text" placeholder="Nome do Cliente" v-model="receipt.client">, <span>{{ clientDocTitle }}</span> nº <input type="text" v-mask="['###.###.###-##', '##.###.###/####-##']" placeholder="000.000.000-00" v-model="receipt.client_doc" @input="updateDoc($event)">, a importância de <span>{{ fullNumber }}</span> referente à <input type="text" placeholder="Serviço Prestado" v-model="receipt.service">.</p>
 
 				<p>Para maior clareza firmo o presente recibo para que produza os seus efeitos, dando plena, rasa e irrevogável quitação, pelo valor recebido.</p>
 
@@ -192,10 +192,10 @@ body{background-color:#f8fafd}
 	
 	<script src="http://www.arquivocristao.com.br/js/vue.min.js"></script>
 	<script src="http://www.arquivocristao.com.br/js/vue-the-mask.js"></script>
-	<script src="https://www.invertexto.com/js/v-money.js"></script>
-	<script src="https://www.invertexto.com/js/stretchy.min.js"></script>
-	<script src="https://www.invertexto.com/js/helpers.js"></script>
-	<script src="https://www.invertexto.com/js/recibo-online.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/v-money.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/stretchy.min.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/helpers.js"></script>
+	<script src="http://www.arquivocristao.com.br/js/recibo-online.js"></script>
 	<script>
 	if (typeof run === "function") { 
     	run();
