@@ -1,0 +1,9 @@
+[autorun]
+OPEN=INSTALAR.EXE /AUTORUN
+ICON=INSTALAR.EXE,1
+
+shell\configure=&Configurar...
+shell\configure\command=INSTALAR.EXE
+
+shell\install=&Instalar...
+shell\install\command=INSTALAR.EXE

@@ -1,0 +1,378 @@
+#### OPC FILE VERSION 11 -- WARNING -- VERY DELICATE FILE SYNTAX ####
+;
+;	Last saved date:    5/12/2000
+;	Custom OPC Data Template
+;
+
+[SAFE, ACCESS94, ACCESS94RT] "Microsoft Access 2.0."
+; WINDIR\msacc20.ini
+
+[RISKY, ACCESS94, ACCESS94RT] "Microsoft Access 2.0."
+; ACCESS94DIR\system.mda
+
+[RISKY, CUSTOMDIC94] "Custom dictionary used by Microsoft Office 4.x."
+; MSAPPS94DIR\proof\custom.dic
+; WIN.INI, MS Proofing Tools, Custom Dict 1
+
+[RISKY, MSQUERY94] "Microsoft Office 4.x Query."
+; SYSMENUPROGRAMSDIR\microsoft office\microsoft query.lnk
+
+[RISKY, SYSTEM94] "Microsoft Office."
+; SYSDIR\ctl3d.dll
+; SYSDIR\odbcinst.dll   "Core file"
+; SYSDIR\ttembed.dll
+; WINDIR\odbc.ini
+; WINDIR\odbcinst.ini
+
+[RISKY, WORD94] "Word 6.0."
+; WORD94DIR\winword.opt
+; WINDIR\winword6.ini 
+
+[SAFE, ACCESS95] "Microsoft Access 95."
+; HKCU\Software\Microsoft\Access\7.0
+
+[RISKY, ACCESS95] "Microsoft Access 95."
+; HKLM\Software\Microsoft\Access\7.0
+; ACCESS95DIR\system.mdw
+; ACCESS95DIR\system1x.mdw
+; ACCESS95DIR\system70.mdw
+
+[RISKY, BOOKS95] "Microsoft Office 95 Bookshelf."
+; WINDIR\bshelf95.ini
+; HKLM\Software\Microsoft\ReferenceTitles\Bookshelf
+; HKCU\Software\Microsoft\BSHELF95
+
+[RISKY, CUSTOMDIC95] "Custom dictionary used by Microsoft Office 95."
+; HKLM\Software\Microsoft\Shared Tools\Proofing Tools\Custom Dictionaries
+; MSAPPS9XDIR\proof\custom.dic
+
+[RISKY, DAO95] "Data Access Object file."
+; Uncomment if you want to remove this shared component
+; MSAPPS9XDIR\dao\mscreate.dir
+; \dao\dao.aw
+; \dao\dao.cnt
+; \dao\dao.ftg
+; \dao\dao.fts
+; \dao\dao.gid
+; \dao\dao.hlp
+; \dao\dao2532.tlb
+; \dao\dao3032.dll
+; HKCR\CLSID\{00025E15-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E19-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E43-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E4C-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E55-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E5F-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E68-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E7A-0000-0000-C000-000000000046}
+; HKCR\CLSID\{00025E8B-0000-0000-C000-000000000046}
+; HKCR\DAO.DBEngine
+; HKCR\DAO.Field
+; HKCR\DAO.Group
+; HKCR\DAO.Index
+; HKCR\DAO.PrivateDBEngine
+; HKCR\DAO.QueryDef
+; HKCR\DAO.Relation
+; HKCR\DAO.TableDef
+; HKCR\DAO.User
+; HKLM\Software\Microsoft\Shared Tools\DAO
+
+[RISKY, EXCEL95] "Microsoft Excel 95."
+; EXCEL95DIR\xlstart\xl5galry.xls
+
+[RISKY, OFFICEACL95] "Microsoft Office 95."
+; HKLM\Software\Microsoft\Shared Tools\AutoCorrect
+; WINDIR\msoffice.acl
+
+[RISKY, SYSTEM95] "Microsoft Office."
+; HKLM\Software\ODBC   "Core file"
+; SYSDIR\12520437.cpx   "Core file"
+; SYSDIR\12520850.cpx   "Core file"
+; SYSDIR\commtb32.dll   "Core file"
+; SYSDIR\ctl3dv2.dll   "Core file"
+; SYSDIR\dbnmpntw.dll   "Core file"
+; SYSDIR\docobj.dll   "Core file"
+; SYSDIR\drvssrvr.ftg   "Core file"
+; SYSDIR\drvssrvr.fts   "Core file"
+; SYSDIR\drvssrvr.gid   "Core file"
+; SYSDIR\drvssrvr.hlp   "Core file"
+; SYSDIR\ds16gt.dll   "Core file"
+; SYSDIR\ds32gt.dll   "Core file"
+; SYSDIR\hlp95en.dll   "Core file"
+; SYSDIR\imxgrd32.ocx   "Core file"
+; SYSDIR\mscpxl32.dll   "Core file"
+; SYSDIR\msjetsql.tlb   "Core file"
+; SYSDIR\msjint32.dll   "Core file"
+; SYSDIR\msjt3032.dll   "Core file"
+; SYSDIR\msjter32.dll   "Core file"
+; SYSDIR\msrd2x32.dll   "Core file"
+; SYSDIR\mstx3032.dll   "Core file"
+; SYSDIR\msxl3032.dll   "Core file"
+; SYSDIR\odbc16gt.dll   "Core file"
+; SYSDIR\odbc32.dll   "Core file"
+; SYSDIR\odbc32gt.dll   "Core file"
+; SYSDIR\odbccp32.cpl   "Core file"
+; SYSDIR\odbccp32.dll   "Core file"
+; SYSDIR\odbccr32.dll   "Core file"
+; SYSDIR\odbcint.dll   "Core file"
+; SYSDIR\odbcjet.hlp   "Core file"
+; SYSDIR\odbcjet.gid   "Core file"
+; SYSDIR\odbcjet.fts   "Core file"
+; SYSDIR\odbcjet.ftg   "Core file"
+; SYSDIR\odbcji32.dll   "Core file"
+; SYSDIR\odbcjt32.dll   "Core file"
+; SYSDIR\odbcjtnw.hlp   "Core file"
+; SYSDIR\odbcjtnw.gid   "Core file"
+; SYSDIR\odbcjtnw.fts   "Core file"
+; SYSDIR\odbcjtnw.ftg   "Core file"
+; SYSDIR\odbctl32.dll   "Core file"
+; SYSDIR\oddbse32.dll   "Core file"
+; SYSDIR\odexl32.dll   "Core file"
+; SYSDIR\odfox32.dll   "Core file"
+; SYSDIR\odpdx32.dll   "Core file"
+; SYSDIR\odtext32.dll   "Core file"
+; SYSDIR\pcdlib32.dll   "Core file"
+; SYSDIR\picstore.dll   "Core file"
+; SYSDIR\qfeupd.exe   "Core file"
+; SYSDIR\sqlsrv32.dll   "Core file"
+; SYSDIR\vaen232.dll   "Core file"
+; SYSDIR\vba232.dll   "Core file"
+; SYSDIR\vbaen32.olb   "Core file"
+; SYSDIR\vbajet32.dll   "Core file"
+; SYSDIR\vbar2232.dll   "Core file"
+; SYSDIR;\vbrun300.dll   "Core file"
+; SYSDIR\ven2232.olb   "Core file"
+; WINDIR\odbc.ini
+; WINDIR\odbcinst.ini
+
+[RISKY, WINDOWS95] "Microsoft Office 95."
+; WINDIR\pcdlib32.dll   "Core file"
+; WINDIR\twain.dll   "Core file"
+; WINDIR\twain_32.dll   "Core file"
+
+[RISKY, ACCESS97] "Microsoft Access 97."
+; SYSDIR\accwiz.dll   "Core file"
+
+[RISKY, ACCESS95, ACCESS97, ACCESS9] "Microsoft Access."
+; SYSDIR\mswng300.dll "Core File"
+
+[RISKY, EXCEL97, POWERPOINT97, WORD97] "Microsoft Office 97 Bookshelf Basics."
+; SHAREDDLL=MSAPPS9XDIR\reference titles\msreftl.dll
+; MSAPPS9XDIR\reference titles\msreftl.dll
+
+[SAFE, EXCEL97] "Microsoft Excel 97." 
+; EXCEL97DIR\xlstart\xl8galry.xls   "User Data"
+
+[RISKY, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94, ACCESS95, EXCEL95, POWERPOINT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, ACCESS9, EXCEL9, OUTLOOK9, POWERPOINT9, WORD9] "all versions of Microsoft Office."
+; HKCU\Software\Microsoft\Shared Tools\Outlook
+
+[RISKY, POWERPOINT94, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint."
+; WINDIR\powerpnt.ini
+
+[RISKY, OUTLOOK97] "Microsoft Outlook."
+; SYSDIR\cnfnot32.exe   "Core file"
+; SYSDIR\contab32.dll   "Core file"
+; SYSDIR\emsabp32.dll   "Core file"
+; SYSDIR\emsmdb32.dll   "Core file"
+; SYSDIR\emsuix32.dll   "Core file"
+; SYSDIR\gapi32.dll   "Core file"
+; SYSDIR\inetab32.dll   "Core file"
+; SYSDIR\mapi.dll   "Core file"
+; SYSDIR\minet32.dll   "Core file"
+; SYSDIR\mmfmig32.dll   "Core file"
+; SYSDIR\mspst32.dll   "Core file"
+; SYSDIR\oc25.dll   "Core file"
+; SYSDIR\org11svr.exe   "Core file"
+; SYSDIR\org21.tlb   "Core file"
+; SYSDIR\org21svr.exe   "Core file"
+; SYSDIR\orgapi.dll   "Core file"
+; SYSDIR\orgcsw10.tlb   "Core file"
+; SYSDIR\threed16.ocx   "Core file"
+; SYSDIR\vaen2.dll   "Core file"
+; SYSDIR\vaen21.olb   "Core file"
+; SYSDIR\vb40016.dll   "Core file"
+; SYSDIR\vb4en16.dll   "Core file"
+; SYSDIR\wmsui32.dll   "Core file"
+
+[SAFE, SCHEDULE95, SCHEDULE97, OUTLOOK97, OUTLOOK9] "Microsoft Outlook."
+; HKLM\Software\Microsoft\Exchange\Client\Extensions\Outlook Setup Extension
+
+[RISKY, SCHEDULE95, SCHEDULE97, OUTLOOK97, OUTLOOK9] "Microsoft Outlook."
+; HKLM\Software\Microsoft\Schedule+\Application
+
+[SAFE, OUTLOOK97, OUTLOOK9] "Microsoft Outlook."
+; HKLM\Software\Microsoft\Office\8.0\Outlook\Setup
+; HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{00020D75-0000-0000-C000-000000000046}
+
+[SAFE, OUTLOOK97, OUTLOOK9, PHOTODRAW1] "Microsoft Outlook and PhotoDraw."
+; HKCR\CLSID\{00020D75-0000-0000-C000-000000000046}
+
+[RISKY, WORD94, WORD95, WORD97, WORD9, FRONTPAGE97, FRONTPAGE98, FRONTPAGE9] "Microsoft Word and FrontPage."
+; HKLM\Software\Microsoft\Shared Tools\Proofing Tools\Thesaurus
+; MSAPPS94DIR\proof\msth32.dll
+; MSAPPS9XDIR\proof\msth32.dll
+
+[RISKY, WORD94, WORD95, WORD97, WORD9] "Microsoft Word."
+; HKCR\rtffile "Do not remove.  In shipped Win95."
+
+[RISKY, PUBLISHER5, MSDRAW97] "Files used by Microsoft Publisher 98 and MSDraw 97."
+; MSAPPS9XDIR\MSDraw\mscreate.dir
+; MSAPPS9XDIR\MSDraw\msdraw.cnt
+; MSAPPS9XDIR\MSDraw\msdraw.exe
+; MSAPPS9XDIR\MSDraw\msdraw.gid
+; MSAPPS9XDIR\MSDraw\msdraw.hlp
+
+[RISKY, DMM97, DMM9PLUS] "Direct Mail Manager 97."
+; HKLM\Software\Microsoft\Direct Mail Manager
+
+[SAFE, EQUATION95, EQUATION97, EQUATION9] "Microsoft Office Equation Editor."
+; HKCU\Software\Microsoft\Equation Editor\3.0
+
+[RISKY, MSINFO95, MSINFO97, MSINFO9] "Microsoft Office and MS Info."
+; HKLM\Software\Microsoft\Shared Tools\MSInfo
+; MSAPPS9XDIR\msinfo\imgwalk.dll
+; MSAPPS9XDIR\msinfo\msinf16h.exe
+; MSAPPS9XDIR\msinfo\msinfo32.cnt
+; MSAPPS9XDIR\msinfo\msinfo32.exe
+; MSAPPS9XDIR\msinfo\msinfo32.hlp
+; MSAPPS9XDIR\msinfo\msinfo32.gid
+; MSAPPS9XDIR\msinfo\msinfo32.fts
+; MSAPPS9XDIR\msinfo\msinfo32.ftg
+
+[SAFE, SBFM97] "Small Business Financial Manager 97."
+; HKLM\Software\Microsoft\MS Setup (ACME)\Table Files\Microsoft Small Business Financial Manager@v97.02.20.01 (1033)
+; HKLM\Software\Microsoft\MS Setup (ACME)\Table Files\Microsoft Small Business Financial Manager@v98.01.12.01  (1033)
+; SBFM97DIR\mscreate.dir
+; \aamyob60.dll
+; \aamyob7x.dll
+; \aap.cnt
+; \aap.gid
+; \aap.hlp
+; \aapacc.dll
+; \aapbww.dll
+; \aapcgold.dll
+; \aapdac.dll
+; \aapgreat.dll
+; \aapmas90.dll
+; \aapone.dll
+; \aappdos.dll
+; \aappla44.dll
+; \aapplat.dll
+; \aappss.cnt
+; \aappss.gid
+; \aappss.hlp
+; \aappw35.dll
+; \aappw40.dll
+; \aappw50.dll
+; \aappwin.dll
+; \aapqbw.dll
+; \aapqbw40.dll
+; \aapqbw50.dll
+; \aaprdt.ico
+; \aapsage4.dll
+; \aapsim40.dll
+; \aapsim50.dll
+; \aapsimp.dll
+; \qba.dll
+; \qbdrivhk.dll
+; \qbexp.exe
+; \readme.txt
+; \Report Workbook.xlt
+; \template.mdb
+; \What-If Workbook.xls
+; \What-If.xla
+; SBFM97DIR\setup\mscreate.dir
+; \setup\acmsetup.hlp
+; \setup\complinc.dll
+; \setup\mssetup.dll
+; \setup\odbckey.inf
+; \setup\odbcstf.dll
+; \setup\offsetup.ttf
+; \setup\sbfmstp.dll
+; \setup\sbfmstp.exe
+; \setup\sbfmstp.inf
+; \setup\sbfmstp.stf
+; \setup\setup.ini
+; \setup\setup.tdf
+; SBFM97DIR\reports\mscreate.dir
+; \reports\Balance Sheet.xls
+; \reports\Cash Flow.xls
+; \reports\Change in Shareholders Equity.xls
+; \reports\Changes in Financial Position.xls
+; \reports\Changes in Stockholders Equity.xls
+; \reports\Funds Flow Statement.xls
+; \reports\Income Statement.xls
+; \reports\Profit and Loss.xls
+; \reports\Ratios.xls
+; \reports\Sales Analysis.xls
+; \reports\Shareholders Equity.xls
+; \reports\Statement of Earnings.xls
+; \reports\Trial Balance.xls
+; SBFM97DIR\analysis tools\mscreate.dir
+; SBFM97DIR\analysis tools\business comparison\mscreate.dir
+; \analysis tools\business comparison\Business Comparison.xlt
+; \analysis tools\business comparison\RMA.MDB
+; \analysis tools\business comparison\Sic Codes.txt
+; SBFM97DIR\analysis tools\create projection wizard\mscreate.dir
+; \analysis tools\create projection wizard\Projection.exe
+; \analysis tools\create projection wizard\Projections.xlt
+; SBFM97DIR\analysis tools\projection reports\mscreate.dir
+; \analysis tools\projection reports\Projected Balance Sheet.xls
+; \analysis tools\projection reports\Projected Cash Flow.xls
+; \analysis tools\projection reports\Projected changes in financial position.xls
+; \analysis tools\projection reports\Projected Funds Flow.xls
+; \analysis tools\projection reports\Projected Income Statement.xls
+; \analysis tools\projection reports\Projected Profit & Loss.xls
+; \analysis tools\projection reports\Projected statement of earnings.xls
+; \analysis tools\projection reports\Projection Assumptions.xls
+; SBFM97DIR\charts\mscreate.dir
+; \charts\Balance Sheet Composition.xls
+; \charts\Cash Flow Trend.xls
+; \charts\Revenue-Expense Trend.xls
+; \charts\Sales Composition.xls
+; SBFM97DIR\database\mscreate.dir
+; \database\Volcano Coffee Company.mdb
+; HKLM\Software\Microsoft\Office\8.0\Excel\SBFM
+; HKLM\Software\ODBC\odbc.ini\Small Business Financial Manager
+; SYSDIR\msaap.dll
+; \msaap.xla
+; \sbfm20.xla
+; \sbfmpid.dll
+
+[RISKY, WORDART95, PUBLISHER3, PUBLISHER4] "Microsoft Office Word Art, Publisher 3.0 and 4.0."
+; SYSDIR\pubole32.dll   "Core file"
+
+[SAFE, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "all Microsoft Office components."
+; ROOTDIR\ffastun.ffa
+; ROOTDIR\ffastun.ffl
+; ROOTDIR\ffastun.ffo
+; ROOTDIR\ffastun0.ffx
+
+[RISKY, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "all Microsoft Office components."
+; SYSDIR\msothunk.dll   "Core file"
+
+[RISKY, ACCESS95, EXCEL95, POWERPOINT95, PROJECT94, PROJECT95, SCHEDULE95, TEAMMANAGER97, WORD95] "all Microsoft Office 95 components."
+; SYSDIR\mso95.dll   "Core File"
+; SYSDIR\mso5enu.dll   "Core File"
+; SYSDIR\mstool32.dll   "Core File"
+; SYSDIR\openenu.dll   "Core File"
+
+[RISKY, ARTGALLERY94, ARTGALLERY95, ARTGALLERY97, ARTGALLERY98, PUBLISHER5, PUBLISHER9] "Microsoft ArtGallery and Publisher."
+; SYSDIR\pubdlg.dll   "Core file"
+
+[RISKY, FRONTPAGE1X, FRONTPAGE97, FRONTPAGE98, FRONTPAGE9] "Microsoft FrontPage."
+; HKLM\Software\Microsoft\FrontPage
+
+[RISKY, SYSTEM94, SYSTEM95] "Microsoft Office."
+; SYSDIR\ctl3dv2.dll   "Core file"
+; SYSDIR\odbcinst.hlp   "Core file"
+; SYSDIR\odbcinst.gid   "Core file"
+; SYSDIR\odbcinst.fts   "Core file"
+; SYSDIR\odbcinst.ftg   "Core file"
+
+[RISKY, SYSTEM97] "Microsoft Office."
+; SYSDIR\mscal.ocx   "Core file"
+; SYSDIR\mscal.dep   "Core file"
+; SYSDIR\mscal.cnt   "Core file"
+; SYSDIR\mscal.gid   "Core file"
+; SYSDIR\mscal.hlp   "Core file"

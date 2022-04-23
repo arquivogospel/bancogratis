@@ -1,0 +1,473 @@
+<html>
+<head><META HTTP-EQUIV="Content-Type" Content="text/html; charset=utf-8">
+<title>Setup Command-line Options and Property</title>
+</head>
+
+<body>
+
+<p><h2><font face="Verdana">Propriedades e opções de linha de comando de instalação</font></h2></p>
+
+
+<p><font face="Verdana" size="2">Ao executar a instalação, você pode usar as opções de linha de comando para alterar alguns parâmetros utilizados para instalar o aplicativo,
+como configurações de exibição e valores padrão para as propriedades da instalação.</font></p>
+
+<p><font face="Verdana" size="2">O Programa de Instalação e o Windows Installer usam propriedades para controlar o processo de instalação dos aplicativos. Os valores padrão para as propriedades da instalação são definidos no pacote do Windows Installer (arquivo MSI). É possível especificar novos valores de propriedade na linha de comando ou no arquivo de configurações da instalação (Setup.ini). </font> </p>
+
+<blockquote>
+	<p><font face="Verdana" size="2"><b>Observação</b>&nbsp;&nbsp; Na maioria dos casos, as opções de linha de comando substituem personalizações duplicadas no arquivo de configurações da instalação (Setup.ini) ou em uma transformação (arquivo MST). Nem todos os arquivos MSI aceitam as propriedades e as opções de linha de comando.
+</font></p>
+</blockquote>
+<p>&nbsp;</p>
+<p><font face="Verdana" size="2"><a href="#a">/a</a></font></p>
+<p><font face="Verdana" size="2"><a href="#f">/f</a></font></p>
+<p><font face="Verdana" size="2"><a href="#i">/i</a></font></p>
+<p><font face="Verdana" size="2"><a href="#j">/j</a></font></p>
+<p><font face="Verdana" size="2"><a href="#l">/l</a></font></p>
+<p><font face="Verdana" size="2"><a href="#noreboot">/noreboot</a></font></p>
+<p><font face="Verdana" size="2"><a href="#p">/p</a></font></p>
+<p><font face="Verdana" size="2"><a href="#q">/q</a></font></p>
+<p><font face="Verdana" size="2"><a href="#settings">/settings</a></font></p>
+<p><font face="Verdana" size="2"><a href="#x">/x</a></font></p>
+<p><font face="Verdana" size="2"><a href="#property">property=value</a></font></p>
+<p><font face="Verdana" size="2"><a href="#?">/?</a></font></p>
+<p>&nbsp;</p>
+<p>
+<h2><font face="Verdana"><a name="a"></a>
+/a<i> [arquivomsi</i>]</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">
+Cria um ponto de instalação administrativa para o pacote especificado (arquivo MSI).
+O pacote deve estar na mesma pasta que o arquivo Setup.exe e ambos devem estar na raiz do ponto de instalação administrativa.
+</font></p>
+
+	<p>
+	<font face="Verdana" size="2">Exemplos:</font></p>
+	<p>
+	<font size="2" face="Courier">/a My.msi</font></p>
+	<p>
+	<font face="Courier" size="2">/a &quot;subfolder1\My.msi&quot;</font></p>
+
+
+<h2><font face="Verdana"><a name="f"></a>
+/f<i> [opções][arquivomsi</i>]</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">
+Força o reparo de um aplicativo associado a um pacote especificado (arquivo MSI).
+O pacote deve estar na mesma pasta que o arquivo Setup.exe e ambos devem estar na raiz do ponto de instalação administrativa.
+Você também pode especificar o código do produto para o pacote em que ele pode ser copiado, na seção [Produto] do arquivo de configurações da instalação.
+</font></p>
+<blockquote>
+	<p>
+	<font face="Verdana" size="2">Observação&nbsp;&nbsp; Você deve especificar o mesmo pacote
+	usado originalmente na instalação do aplicativo.</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">Os valores válidos para as &lt;i&gt;opções&lt;/i&gt; são:</font></p>
+<table border="1"width="61%" id="table2">
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">a</font></b></td>
+		<td><font face="Verdana" size="2">Força a reinstalação de todos os arquivos, independentemente da soma de verificação ou da versão.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">c</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala um arquivo se ele não for encontrado ou se estiver corrompido.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">d</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala um arquivo se ele não for encontrado ou se existir uma outra versão.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">e</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala um arquivo se ele não for encontrado ou se existir uma versão igual ou anterior.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">m</font></b></td>
+		<td><font face="Verdana" size="2">Regrava todas as entradas de registro HKEY_LOCAL_MACHINE necessárias.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">o</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala um arquivo se ele não for encontrado ou se existir uma versão anterior.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">p</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala um arquivo apenas se ele não for encontrado.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">s</font></b></td>
+		<td><font face="Verdana" size="2">Reinstala todos os atalhos e substitui os atalhos existentes.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">u</font></b></td>
+		<td><font face="Verdana" size="2">Regrava todas as entradas de registro HKEY_CURRENT_USER necessárias.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">v</font></b></td>
+		<td><font face="Verdana" size="2">Recupera o pacote original, armazenando-o novamente em cache no computador local.</font></td>
+	</tr>
+</table>
+<p><font face="Verdana" size="2">
+O comando <b>Detectar</b> e <b>Reparar</b> realiza em um aplicativo a mesma função que a opção <b>/focums</b>.
+Executar o Programa de Instalação e selecionar Reinstalar realiza a mesma função que a opção <b>/fecums</b>.
+Em uma instalação, o Windows Installer salva o arquivo MSI no computador local.
+O uso da opção <b>/fvm</b> para forçar um novo armazenamento em cache e uma reinstalação, faz com que o Windows Installer recupere
+o arquivo MSI original, armazenando-o novamente em cache no computador local. Você pode utilizar a opção <b>/fvm</b> para atualizar computadores 
+clientes após corrigir um ponto de instalação administrativa.
+</font></p>
+<blockquote>
+	<p><font face="Verdana" size="2">
+	<b>Importante </b>  Se um usuário aplicar patches de cliente (binário) a um computador, você
+	não poderá usar a opção /f para reinstalar e armazenar novamente aplicativos em cache nesse computador a partir de um ponto de instalação administrativa atualizado. Nesse caso, os usuários devem desinstalar e reinstalar aplicativos a partir da imagem administrativa atualizada.
+	</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">Exemplo:</font></p>
+	<p>
+	<font size="2" face="Courier">/fpiwae My.msi</font></p>
+<p><font size="2" face="Courier">/fvm {12345678-1234-1234-1234-123456789123}</font></p>
+
+
+<h2><font face="Verdana"><a name="i"></a>
+/i<i> [arquivomsi</i>]</font></h2>
+<p><font face="Verdana" size="2">Instala aplicativos usando o pacote especificado. O pacote deve estar na mesma pasta que o arquivo Setup.exe.</font></p>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>Observação&nbsp;</b>Por padrão,
+	o arquivo Setup.exe faz com que o Windows Installer realize a mesma função que a opção /i.</font></p>
+</blockquote>
+
+	<p>
+	<font face="Verdana" size="2">Exemplos:</font></p>
+	<p>
+	<font size="2" face="Courier">/i My.msi</font></p>
+	<p>
+	<font face="Courier" size="2">/i "subfolder1\My.msi"</font></p>
+
+
+
+
+<h2><font face="Verdana"><a name="j"></a>
+/j<i> [opção] [arquivomsi] [/t arquivomsi]</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">
+Anuncia um aplicativo no computador, instalando-o na primeira utilização; especifique uma opção para anunciar o aplicativo ao computador ou ao usuário. Você só poderá usar a opção /j quando executar o Programa de Instalação a partir de um ponto de instalação administrativa ou de uma imagem do CD na rede. Se nenhum pacote for especificado, o Programa de Instalação usará o pacote especificado no arquivo Setup.ini. Para aplicar uma transformação ao aplicativo anunciado, use a opção /t e especifique um arquivo MST.
+</font></p>
+
+<p>
+	<font face="Verdana" size="2">Os valores válidos para essa opção são:</font></p>
+<table border="1"width="61%" id="table2">
+	<tr>
+		<td width="126"><b><font size="2" face="Verdana">m</font></b></td>
+		<td><font size="2" face="Verdana">Anuncia a todos os usuários do computador.</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font size="2" face="Verdana">u</font></b></td>
+		<td><font size="2" face="Verdana">Anuncia ao usuário atual.</font></td>
+	</tr>
+	</table>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>Observação&nbsp; </b>&nbsp;Além da opção /t, você pode utilizar 
+	as opções de linha de comando /l, /q, e /settings quando usar a opção /j para anunciar o aplicativo.
+ 	</font></p>
+</blockquote>
+<p>
+	<font face="Verdana" size="2">Exemplo:</font></p>
+	<p>
+	<font size="2" face="Courier">/jm My.msi /t Custom.mst </font></p>
+
+
+<h2><font face="Verdana"><a name="l"></a>
+/l<i> [opções] arquivo de log</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">
+Cria um log de ações de instalação para o Programa de Instalação e um arquivo de log para cada tarefa do Windows Installer.
+A opção /l substitui as configurações especificadas na seção [Log] do arquivo Setup.ini.</font></p>
+
+	<p>
+	<font face="Verdana" size="2">Os valores para essa opção e a captura de dados correspondente são:</font></p>
+<table border="1"width="61%" id="table3">
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">a</font></b></td>
+		<td><font face="Verdana" size="2">Início da notificação da ação</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">c</font></b></td>
+		<td><font face="Verdana" size="2">Parâmetros de IU iniciais</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">e</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens de erro</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">i</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens somente informação</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">m</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens de memória insuficiente</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">o</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens de espaço em disco insuficiente</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">p</font></b></td>
+		<td><font face="Verdana" size="2">Lista de tabelas de propriedades no formulário property=value</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">r</font></b></td>
+		<td><font face="Verdana" size="2">Registro de dados da ação (contém informações específicas da ação)</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">u</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens de solicitação do usuário</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">v</font></b></td>
+		<td><font face="Verdana" size="2">Modo detalhado com mensagens de depuração</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">w</font></b></td>
+		<td><font face="Verdana" size="2">Mensagens de aviso</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">*</font></b></td>
+		<td><font face="Verdana" size="2">Ativa todas as opções de log, exceto v</font></td>
+	</tr>
+	<tr>
+		<td width="126"><b><font face="Verdana" size="2">+</font></b></td>
+		<td><font face="Verdana" size="2">Acrescenta dados a um arquivo de log existente</font></td>
+	</tr>
+</table>
+<p><font face="Verdana" size="2"><i>Arquivo de log</i> significa o nome e o caminho do arquivo de log a ser criado. Quando você adiciona (*) ao nome do arquivo de log, o Programa de Instalação cria um nome de arquivo exclusivo para cada instância da instalação.</font></p>
+
+
+	<p>
+	<font face="Verdana" size="2">Exemplo:</font></p>
+	<p>
+	<font size="2" face="Courier">/lv* "%temp%\MyApp Setup(*).txt"
+	</font></p>
+
+<p><font face="Verdana" size="2"> Essa linha de comando cria os seguintes arquivos de 
+log:</font></p>
+
+
+
+<ul>
+	<li><font face="Verdana" size="2">arquivo de log Setup.exe<br>
+	</font><font size="2" face="Courier New">"%temp%\MyAppSetup(0001).text"
+	</font>
+	</li>
+</ul>
+
+<ul>
+	<li><font face="Verdana" size="2">arquivo de log do Windows Installer para pacotes principais<br>
+	</font><font size="2" face="Courier New">"%temp%\MyApp(0001)_Task(0001).txt"
+	</font>
+	</li>
+</ul>
+
+
+<h2><font face="Verdana">
+<a name="noreboot"></a>
+/noreboot</font></h2>
+<p></p>
+<p><font face="Verdana" size="2">Não reinicia o computador ou exibe uma caixa de diálogo de reinicialização 
+ao final da instalação. A opção <b>/noreboot</b> define a propriedade REBOOT do 
+Windows Installer como <b> ReallySuppress </b>para cada pacote incluído na instalação, exceto o último.</font></p>
+
+<h2><font face="Verdana"><a name="p"></a>
+/p [<i>arquivomsp</i>]</font></h2><p>
+<font size="2" face="Verdana">Aplica uma atualização administrativa (arquivo MSP) a uma instalação cliente. Você também pode usar a opção <b>/p</b> para aplicar uma atualização a uma instalação administrativa, incluindo a opção <b>/a</b>, o nome e o caminho do arquivo MSI no ponto de instalação administrativa. Para aplicar a correção sigilosamente, inclua a opção <b>/qb</b>
+na linha de comando para gerar um arquivo de log e a opção <b>/l</b>.</font></p>
+	<p>
+	<font face="Verdana" size="2">Exemplos:</font></p>
+	<p>
+	<font size="2" face="Courier">msiexec /p [<i>arquivomsp</i>] /qb /l[<i>opções</i>]</font></p>
+	<p>
+	<font size="2" face="Courier">msiexec /p [<i>arquivomsp</i>] /a [<i>arquivomsi</i>]
+	/qb /l[<i>opções</i>]</font></p>
+
+
+
+<h2><font face="Verdana"><a name="q"></a>
+/q<i> [opção]</i></font></h2>
+<p></p>
+<p><font face="Verdana" size="2">
+Define o nível de exibição da interface do usuário da instalação.
+</font></p>
+<p>
+	<font face="Verdana" size="2">Os valores válidos para as opções são:</font></p>
+<table border="1"width="61%" id="table4">
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>b</b></font></td>
+		<td><font face="Verdana" size="2">Exibe apenas indicadores de progresso simples e mensagens de erro (básico).</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>f</b></font></td>
+		<td><font face="Verdana" size="2">Exibe caixas de diálogo e mensagens; equivale a omitir a opção <b>/q</b> (completo).</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>n</b></font></td>
+		<td><font face="Verdana" size="2">Não exibe interface do usuário; equivale a não especificar uma opção para <b>/q</b> (nenhum).</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>r</b></font></td>
+		<td><font face="Verdana" size="2">Exibe todos os indicadores de progresso e mensagens de erro, mas não coleta informações de usuário (reduzido).</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>-</b></font></td>
+		<td><font face="Verdana" size="2">Suprime todas as caixas de diálogo restritas (usado apenas com a opção <b>b</b>).</font></td>
+	</tr>
+	<tr>
+		<td width="126"><font face="Verdana" size="2"><b>+</b></font></td>
+		<td><font face="Verdana" size="2">Adiciona uma mensagem de conclusão à opção <b>n</b> ou <b>b</b>.</font></td>
+	</tr>
+	</table>
+<blockquote>
+	<p><font face="Verdana" size="2"><b>Observação&nbsp; </b>&nbsp;A mensagem de conclusão é exibida apenas quando a instalação 
+	não exige que o computador seja reiniciado.
+ 	</font></p>
+</blockquote>
+
+
+<h2><font face="Verdana">
+<a name="settings"></a>
+/settings <i>arquivo</i></font></h2><p>
+<font size="2" face="Verdana">Especifica um arquivo de configurações da instalação personalizado para o arquivo Setup.exe usar no lugar do arquivo 
+Setup.ini. O arquivo de configurações deve estar na mesma pasta que o Setup.exe, ou o caminho deve estar na linha de comando.</font></p>
+<p>
+<font size="2" face="Verdana"></p>
+
+	<p>
+	Exemplo:</p>
+	<p>
+	<font size="2" face="Courier">/settings MyApp.ini</font></p>
+
+
+
+<h2><font face="Verdana"><a name="x"></a>
+/x <i>[arquivomsi]</i></font></h2><p>
+Remove o aplicativo associado ao pacote especificado. O pacote deve estar na mesma pasta que o arquivo Setup.exe e ambos devem estar na raiz do ponto de instalação administrativa.
+</p>
+<blockquote>
+	<p><b>Observação&nbsp; </b>Você deve especificar o mesmo pacote usado originalmente na instalação do aplicativo.
+ 	</p>
+</blockquote>
+
+	<p>
+	Exemplo:</p>
+	<p>
+	<font size="2" face="Courier">/x My.msi</font></p>
+
+</font>
+
+
+
+<h2><font face="Verdana"><a name="property"></a>
+property=value</font></h2><p>
+<font size="2" face="Verdana">Especifica um valor de propriedade na linha de comando. Se o valor tiver espaços, escreva-o entre aspas ("). Para especificar dois ou mais pares de valor de propriedade, separe-os com espaços.
+</font></p>
+<table border="1"width="61%" id="table5">
+	<tr>
+		<td width="126"><font face="Verdana" size="2">ALLUSERS=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Instala o aplicativo para todos os usuários do computador ou apenas para o usuário atual. Por padrão, o Windows Installer instala o aplicativo
+		para todos os usuários do computador. Se um valor nulo ("") for definido para ALLUSERS, esse comportamento padrão é substituído e a instalação é feita por usuário.</font></p>
+		<p>
+		<font face="Verdana" size="2">1 = </font>Instala o aplicativo para todos os usuários do computador (exige privilégios administrativos).</p>
+		<p>
+		2 = Instala o aplicativo para todos os usuários do computador.</p>
+		<p>
+		&quot;&quot; = Instala o aplicativo apenas para o usuário que executar o Programa de Instalação. </p>
+
+		<p><i>
+		<font face="Verdana" size="2">ALLUSER=&quot;&quot;</font></i></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">CDCACHE=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica o nível de armazenamento em cache.</font></p>
+		<p>
+		<font face="Verdana" size="2">Auto = cache com base no espaço em disco disponível</font></p>
+		<p>
+		<font face="Verdana" size="2">1 = armazena em cache apenas o que foi instalado</font></p>
+		<p>
+		<font face="Verdana" size="2">2 = armazena toda a fonte em cache</font></p>
+		<p>
+		<font face="Verdana" size="2">0 = cache desabilitado</font></p>
+		<p><i>
+		<font face="Verdana" size="2">CDCACHE=auto</font></i></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">COMPANYNAME=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica o nome de uma empresa.</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>COMPANYNAME=My Business</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">INSTALLLOCATION=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica o local da instalação. </font></p>
+		<p>
+		<font face="Verdana" size="2"><i>INSTALLLOCATION=C:\Program Files\MyApp</i></font></p></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">LOCALCACHEDRIVE=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica a unidade em que os arquivos de instalação serão armazenados em cache.</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>LOCALCACHEDRIVE=C</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">PIDKEY=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Insere uma chave de licença com 25 caracteres no arquivo de linha de comando de instalação ou no arquivo de configurações de instalação. Quando você define a propriedade PIDKEY, os usuários não são solicitados a inserir a chave do produto durante sua instalação.</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>PIDKEY=123467890123456789012345</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">TRANSFORMS=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica uma transformação a ser aplicada à instalação.</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>
+		TRANSFORMS=\\server\share\myApp\Custom.mst</i></font></td>
+	</tr>
+	<tr>
+		<td width="126">
+		<p>
+		<font face="Verdana" size="2">USERNAME=[seqüência de caracteres]</font></td>
+		<td>
+		<p>
+		<font face="Verdana" size="2">Especifica um nome de usuário padrão.</font></p>
+		<p>
+		<font face="Verdana" size="2"><i>USERNAME=Carina Terra</i></font></td>
+	</tr>
+	</table>
+<font size="2" face="Verdana">
+
+
+</body>
+
+</html>

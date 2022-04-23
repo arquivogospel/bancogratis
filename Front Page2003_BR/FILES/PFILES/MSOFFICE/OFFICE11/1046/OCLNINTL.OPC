@@ -1,0 +1,3118 @@
+#### OPC FILE VERSION 11 -- WARNING -- VERY DELICATE FILE SYNTAX ####
+;
+;	Last saved date:    6/30/2000
+;	LCID = 1046
+;	BRZ
+;
+
+[RISKY, ACCESS94, ACCESS94RT] "Microsoft Access 2.0"
+ACCESS94DIR\aplexemp\nwind.mdb
+\aplexemp\orders.mdb
+\aplexemp\solution.mdb
+
+[RISKY, ACCESS95] "Microsoft Access 95"
+ACCESS95DIR\exemplos\northwind.ldb
+\exemplos\northwind.mdb
+\exemplos\pedidos.ldb
+\exemplos\pedidos.mdb
+\exemplos\soluções.ldb
+\exemplos\soluções.mdb
+\wzcnf70.mda
+\wzdat70.mdt
+\wzlib70.mda
+\wzmain70.mda
+\wztool70.mda
+HKLM\Software\Microsoft\Access\7.0
+
+[RISKY, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\95
+HKLM\Software\Microsoft\Shared Tools\Location\Find Fast
+HKLM\Software\Microsoft\Shared Tools\Location\FindFast
+HKLM\SOFTWARE\Shared Tools Location\FindFast
+
+[RISKY, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECT9] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\ffastlog.txt
+HKLM\Software\Microsoft\Shared Tools\findfast.cpl
+
+[RISKY, ACCESS95, EXCEL95, POWERPOINT95, SCHEDULE95, WORD95] "Microsoft Office 95"
+OFFICEROOT95DIR\office\barra de atalho\msdos.pif
+\office\barra de atalho\office\adicionar um contato.lnk
+\office\barra de atalho\office\adicionar uma tarefa.lnk
+\office\barra de atalho\office\fichário da microsoft.lnk
+\office\barra de atalho\office\File Manager.lnk
+\office\barra de atalho\office\getting results book.lnk
+\office\barra de atalho\office\impressoras.lnk
+\office\barra de atalho\office\marcar um compromisso.lnk
+\office\barra de atalho\office\microsoft access.lnk
+\office\barra de atalho\office\microsoft bookshelf '95.lnk
+\office\barra de atalho\office\microsoft excel.lnk
+\office\barra de atalho\office\microsoft powerpoint.lnk
+\office\barra de atalho\office\microsoft schedule+.lnk
+\office\barra de atalho\office\microsoft word.lnk
+\office\barra de atalho\office\painel de controle.lnk
+\office\barra de atalho\office\Print Manager.lnk
+\office\barra de atalho\office\Program Manager.lnk
+\office\barra de atalho\office\prompt do MS-DOS.lnk
+\office\barra de atalho\office\protetor de tela.lnk
+\office\barra de atalho\office\windows explorer.lnk
+\office\barra de atalho\quickshelf\1995 almanac contents.lnk
+\office\barra de atalho\quickshelf\1995 almanac find.lnk
+\office\barra de atalho\quickshelf\address builder.lnk
+\office\barra de atalho\quickshelf\all books contents.lnk
+\office\barra de atalho\quickshelf\all books find.lnk
+\office\barra de atalho\quickshelf\atlas contents.lnk
+\office\barra de atalho\quickshelf\atlas find.lnk
+\office\barra de atalho\quickshelf\chronology contents.lnk
+\office\barra de atalho\quickshelf\chronology find.lnk
+\office\barra de atalho\quickshelf\dictionary contents.lnk
+\office\barra de atalho\quickshelf\dictionary find.lnk
+\office\barra de atalho\quickshelf\encyclopedia contents.lnk
+\office\barra de atalho\quickshelf\encyclopedia find.lnk
+\office\barra de atalho\quickshelf\mscreate.dir
+\office\barra de atalho\quickshelf\quotations contents.lnk
+\office\barra de atalho\quickshelf\quotations find.lnk
+\office\barra de atalho\quickshelf\thesaurus contents.lnk
+\office\barra de atalho\quickshelf\thesaurus find.lnk
+\office\shortcut bar\office\adicionar um contato.lnk
+\office\shortcut bar\office\adicionar uma tarefa.lnk
+\office\shortcut bar\office\fichário da microsoft.lnk
+\office\shortcut bar\office\impressoras.lnk
+\office\shortcut bar\office\marcar um compromisso.lnk
+\office\shortcut bar\office\painel de controle.lnk
+\office\shortcut bar\office\prompt do MS-DOS.lnk
+\office\shortcut bar\office\protetor de tela.lnk
+
+[RISKY, ACCESS97] "Microsoft Access 97"
+ACCESS97DIR\exemplos\northwind.ldb
+\exemplos\northwind.mdb
+\exemplos\pedidos.ldb
+\exemplos\pedidos.mdb
+\exemplos\soluções.ldb
+\exemplos\soluções.mdb
+\wzcnf80.mda
+\wzdat80.mdt
+\wzlib80.mde
+\wzmain80.mde
+\wztool80.mde
+
+[RISKY, ACCESS97, ACCESS97RT, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECT9, WORDMSIREG] "Microsoft Office"
+WINDIR\mso97.acl    "User data"
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\97
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECT9, WORDMSIREG] "Microsoft Office"
+MSAPPS9XDIR\vba\vba332.dll
+\vba\vba3ptb.dll
+\vba\vbacv10.dll
+\vba\vbacv20.dll
+\vba\vbe.dll
+\vba\vbeext1.olb
+\vba\veenlr3.ftg
+\vba\veenob3.cnt
+\vba\veenob3.hlp
+\vba\vepb3.aw
+\vba\vepba3.aw
+\vba\veptbcn3.cnt
+\vba\veptbcn3.ftg
+\vba\veptbcn3.fts
+\vba\veptbcn3.gid
+\vba\veptbcn3.hlp
+\vba\veptbdf3.ftg
+\vba\veptbdf3.fts
+\vba\veptbdf3.gid
+\vba\veptbdf3.hlp
+\vba\veptber3.ftg
+\vba\veptber3.fts
+\vba\veptber3.gid
+\vba\veptbhw3.cnt
+\vba\veptbhw3.ftg
+\vba\veptbhw3.fts
+\vba\veptbhw3.gid
+\vba\veptbhw3.hlp
+\vba\veptblr3.cnt
+\vba\veptblr3.fts
+\vba\veptblr3.gid
+\vba\veptblr3.hlp
+\vba\veptbmc3.ftg
+\vba\veptbmc3.fts
+\vba\veptbmc3.gid
+\vba\veptbmc3.hlp
+\vba\veptbui3.cnt
+\vba\veptbui3.ftg
+\vba\veptbui3.fts
+\vba\veptbui3.gid
+\vba\veptbui3.hlp
+SHAREDDLL=MSAPPS9XDIR\vba\vba3ptb.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbe.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbeext1.olb
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office 97"
+OFFICE97DIR\barra de atalho\office\fichário da microsoft.lnk
+\barra de atalho\office\internet explorer.lnk
+\barra de atalho\office\manual obtendo resultados.lnk
+\barra de atalho\office\microsoft access.lnk
+\barra de atalho\office\microsoft binder.lnk
+\barra de atalho\office\microsoft outlook.lnk
+\barra de atalho\office\microsoft powerpoint.lnk
+\barra de atalho\office\microsoft word.lnk
+\barra de atalho\office\MS-DOS prompt.lnk
+\barra de atalho\office\new appointment.lnk
+\barra de atalho\office\new contact.lnk
+\barra de atalho\office\new journal entry.lnk
+\barra de atalho\office\new message.lnk
+\barra de atalho\office\new note.lnk
+\barra de atalho\office\new task.lnk
+\barra de atalho\office\painel de controle.lnk
+\barra de atalho\office\printers.lnk
+\barra de atalho\office\screen saver.lnk
+\barra de atalho\office\windows explorer.lnk
+\barra de atalhos\office\fichário da microsoft.lnk
+\barra de atalhos\office\internet explorer.lnk
+\barra de atalhos\office\manual obtendo resultados.lnk
+\barra de atalhos\office\microsoft access.lnk
+\barra de atalhos\office\microsoft binder.lnk
+\barra de atalhos\office\microsoft outlook.lnk
+\barra de atalhos\office\microsoft powerpoint.lnk
+\barra de atalhos\office\microsoft word.lnk
+\barra de atalhos\office\MS-DOS prompt.lnk
+\barra de atalhos\office\ms-dos prompt.pif
+\barra de atalhos\office\new appointment.lnk
+\barra de atalhos\office\new contact.lnk
+\barra de atalhos\office\new journal entry.lnk
+\barra de atalhos\office\new message.lnk
+\barra de atalhos\office\new note.lnk
+\barra de atalhos\office\new task.lnk
+\barra de atalhos\office\painel de controle.lnk
+\barra de atalhos\office\printers.lnk
+\barra de atalhos\office\screen saver.lnk
+\barra de atalhos\office\windows explorer.lnk
+\instalar\off97inv.dll
+
+[RISKY, ARTGALLERY94, ARTGALLERY95, ARTGALLERY97, ARTGALLERY98, ARTGALLERY9] "Microsoft ArtGallery"
+MSAPPS94DIR\artgalry\artgalry.cnt
+\artgalry\artgalry.ftg
+\artgalry\artgalry.fts
+\artgalry\artgalry.hlp
+MSAPPS9XDIR\artgalry\artgalry.cnt
+\artgalry\artgalry.ftg
+\artgalry\artgalry.fts
+\artgalry\artgalry.gid
+\artgalry\artgalry.hlp
+\artgalry\artgalry.srg
+\artgalry\gifplay.dll
+\artgalry\qartgalry.gid
+\artgalry\qartglry.fts
+\artgalry\selfreg.dll
+\artgalry\wmfimp32.flt
+\artgalry\www_clip.url
+WINDIR\artgalry.cag
+\artgalry.ini    "USER DATA"
+
+[RISKY, BOOKS94] "Microsoft Office 4.x"
+BOOKS94DIR\bsh.wll
+MENU_ITEM=Inicializar\quickshelf 1994
+
+[RISKY, CUSTOMDIC94] "Microsoft Office 4.x"
+MSAPPS94DIR\proof\custom.dic
+
+[RISKY, DMM97, DMM9PLUS] "Arquivo usado pelo Direct Mail Manager"
+HKLM\Software\Microsoft\Direct Mail Manager
+
+[RISKY, EXCEL94] "Microsoft Excel 5.0"
+EXCEL94DIR\xlinicio\xl5galry.xls
+
+[RISKY, EXCEL95] "Microsoft Excel 95"
+EXCEL95DIR\bibliote\bdcarpto.xls
+\bibliote\bdespesa.xls
+\bibliote\bdfatura.xls
+\bibliote\bdpcomp.xls
+\bibliote\bdptroca.xls
+\bibliote\bdpvenda.xls
+\bibliote\comum.xls
+\xlinicio\xl5galer.xls
+EXCEL97DIR\xlinicio\xl5galer.xls
+OFFICEROOT95DIR\modelos\soluçoes de planilha\cartão de ponto.xlt
+\modelos\soluçoes de planilha\despesas.xlt
+\modelos\soluçoes de planilha\empréstimo.xlt
+\modelos\soluçoes de planilha\fatura.xlt
+\modelos\soluçoes de planilha\leasing de carro.xlt
+\modelos\soluçoes de planilha\orçamento.xlt
+\modelos\soluçoes de planilha\pedido de compra.xlt
+\modelos\soluçoes de planilha\pedido de troca.xlt
+\modelos\soluçoes de planilha\planejamento financeiro.xlt
+\modelos\soluçoes de planilha\proposta de vendas.xlt
+
+[RISKY, EXCEL95, EXCEL97, EXCELMSIREG] "Arquivo usado pelo DataMap"
+MSAPPS9XDIR\datamap\data\e_2dpc.dat
+\datamap\data\e_2dpc.id
+\datamap\data\e_2dpc.ind
+\datamap\data\e_2dpc.map
+\datamap\data\e_2dpc.tab
+\datamap\data\e_airpt.dat
+\datamap\data\e_airpt.id
+\datamap\data\e_airpt.map
+\datamap\data\e_airpt.tab
+\datamap\data\e_citya.dat
+\datamap\data\e_citya.id
+\datamap\data\e_citya.map
+\datamap\data\e_citya.tab
+\datamap\data\e_cityb.dat
+\datamap\data\e_cityb.id
+\datamap\data\e_cityb.map
+\datamap\data\e_cityb.tab
+\datamap\data\e_hiway.dat
+\datamap\data\e_hiway.id
+\datamap\data\e_hiway.map
+\datamap\data\e_hiway.tab
+\datamap\data\spain.dat
+\datamap\data\spain.gst
+\datamap\data\spain.id
+\datamap\data\spain.ind
+\datamap\data\spain.map
+\datamap\data\spain.tab
+
+[RISKY, EXCEL95, POWERPOINT95, WORD95] "Microsoft Office 95"
+OFFICEROOT95DIR\modelos\ficharios\organizador de reunião.obt
+\modelos\ficharios\proposta e plano de marketing.obt
+\modelos\ficharios\relatório.obt
+WINDIR\shellnew\binder70.obd
+
+[RISKY, EXCEL97] "Microsoft Excel 97"
+EXCEL97DIR\bibliote\bdcompr.xls
+\bibliote\bdespesa.xls
+\bibliote\bdfatura.xls
+\bibliote\comum.xls
+\xlinicio\xl8galry.xls    "User Data"
+HKLM\Software\Microsoft\Office\8.0\Excel\SBFM
+HKLM\SOFTWARE\ODBC\odbc.ini\Small Business Financial Manager
+OFFICEROOT97DIR\modelos\soluçoes de planilha\demonstrativo de despesas.xlt
+\modelos\soluçoes de planilha\fatura.xlt
+\modelos\soluçoes de planilha\pedido de compra.xlt
+WINDIR\shellnew\excel8.xls
+
+[RISKY, EXCEL97, EXCELMSIREG] "Arquivo usado pelo DataMap"
+MSAPPS9XDIR\datamap\vbamap8.fts
+
+[RISKY, EXCEL97, POWERPOINT97, WORD97] "Microsoft Office 97"
+OFFICE97DIR\barra de atalho\office\microsoft bookshelf basics.lnk
+\barra de atalho\quickshelf\all books contents.lnk
+\barra de atalho\quickshelf\all books find.lnk
+\barra de atalho\quickshelf\dictionary contents.lnk
+\barra de atalho\quickshelf\dictionary find.lnk
+\barra de atalho\quickshelf\quotations contents.lnk
+\barra de atalho\quickshelf\quotations find.lnk
+\barra de atalho\quickshelf\thesaurus contents.lnk
+\barra de atalhos\office\microsoft bookshelf basics.lnk
+
+[RISKY, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office 97"
+OFFICEROOT97DIR\modelos\fichários\mscreate.dir
+\modelos\fichários\organizador de reunião.obt
+\modelos\fichários\proposta e plano de marketing.obt
+\modelos\fichários\relatório.obt
+WINDIR\shellnew\binder.obd
+
+[RISKY, FONTS94, FONTS95] "Microsoft Office"
+WINDIR\fonts\tahomabd.ttf
+
+[RISKY, FONTS95, FONTS97] "Microsoft Office"
+WINDIR\fonts\alger.ttf
+\fonts\antqua.ttf
+\fonts\antquab.ttf
+\fonts\antquabi.ttf
+\fonts\antquai.ttf
+\fonts\arbli___.ttf
+\fonts\arial.ttf
+\fonts\arialb.ttf
+\fonts\arialbd.ttf
+\fonts\arialbi.ttf
+\fonts\ariali.ttf
+\fonts\arialn.ttf
+\fonts\arialnb.ttf
+\fonts\arialnbi.ttf
+\fonts\arialni.ttf
+\fonts\ariblk.ttf
+\fonts\arlrdbd.ttf
+\fonts\baskvill.ttf
+\fonts\bauhs93.ttf
+\fonts\bell.ttf
+\fonts\bellb.ttf
+\fonts\belli.ttf
+\fonts\bernhc.ttf
+\fonts\bkant.ttf
+\fonts\bkmnos.ttf
+\fonts\bookos.ttf
+\fonts\bookosb.ttf
+\fonts\bookosbi.ttf
+\fonts\bookosi.ttf
+\fonts\bradhitc.ttf
+\fonts\bragga.ttf
+\fonts\britanic.ttf
+\fonts\broadw.ttf
+\fonts\brushsci.ttf
+\fonts\calist.ttf
+\fonts\calistb.ttf
+\fonts\calistbi.ttf
+\fonts\calisti.ttf
+\fonts\castelar.ttf
+\fonts\censcbk.ttf
+\fonts\centaur.ttf
+\fonts\chiller.ttf
+\fonts\colonna.ttf
+\fonts\comic.ttf
+\fonts\comicbd.ttf
+\fonts\coopbl.ttf
+\fonts\coprgtb.ttf
+\fonts\coprgtl.ttf
+\fonts\cour.ttf
+\fonts\courb.ttf
+\fonts\couri.ttf
+\fonts\courz.ttf
+\fonts\curlz___.ttf
+\fonts\desdemon.ttf
+\fonts\elephnt.ttf
+\fonts\elephnti.ttf
+\fonts\engr.ttf
+\fonts\erasbd.ttf
+\fonts\erasdemi.ttf
+\fonts\eraslght.ttf
+\fonts\erasmd.ttf
+\fonts\felixti.ttf
+\fonts\forte.ttf
+\fonts\frabk.ttf
+\fonts\frabkit.ttf
+\fonts\fradm.ttf
+\fonts\fradmcn.ttf
+\fonts\fradmit.ttf
+\fonts\frahv.ttf
+\fonts\frahvit.ttf
+\fonts\framd.ttf
+\fonts\framdcn.ttf
+\fonts\framdit.ttf
+\fonts\frscript.ttf
+\fonts\ftltlt.ttf
+\fonts\gara.ttf
+\fonts\garabd.ttf
+\fonts\garait.ttf
+\fonts\georgia.ttf
+\fonts\georgiab.ttf
+\fonts\georgiai.ttf
+\fonts\georgiaz.ttf
+\fonts\gil_____.ttf
+\fonts\gilb____.ttf
+\fonts\gilbi___.ttf
+\fonts\gilc____.ttf
+\fonts\gili____.ttf
+\fonts\gillubcd.ttf
+\fonts\gilsanub.ttf
+\fonts\glecb.ttf
+\fonts\glsnecb.ttf
+\fonts\gothic.ttf
+\fonts\goudos.ttf
+\fonts\goudosb.ttf
+\fonts\goudosi.ttf
+\fonts\goudysto.ttf
+\fonts\harlowsi.ttf
+\fonts\harngton.ttf
+\fonts\hatten.ttf
+\fonts\impact.ttf
+\fonts\imprisha.ttf
+\fonts\infroman.ttf
+\fonts\itcblkad.ttf
+\fonts\itcedscr.ttf
+\fonts\itckrist.ttf
+\fonts\jokerman.ttf
+\fonts\juice___.ttf
+\fonts\kino.ttf
+\fonts\kunstler.ttf
+\fonts\latinwd.ttf
+\fonts\lbrite.ttf
+\fonts\lbrited.ttf
+\fonts\lbritedi.ttf
+\fonts\lbritei.ttf
+\fonts\lcallig.ttf
+\fonts\lfax.ttf
+\fonts\lfaxd.ttf
+\fonts\lfaxdi.ttf
+\fonts\lfaxi.ttf
+\fonts\lhandw.ttf
+\fonts\lsans.ttf
+\fonts\lsansd.ttf
+\fonts\lsansdi.ttf
+\fonts\lsansi.ttf
+\fonts\ltype.ttf
+\fonts\ltypeb.ttf
+\fonts\ltypebo.ttf
+\fonts\ltypeo.ttf
+\fonts\maian.ttf
+\fonts\mapsym.ttf
+\fonts\maturasc.ttf
+\fonts\mod20.ttf
+\fonts\mtextra.ttf
+\fonts\mtsorts.ttf
+\fonts\ocraext.ttf
+\fonts\oldengl.ttf
+\fonts\onyx.ttf
+\fonts\palscri.ttf
+\fonts\papyrus.ttf
+\fonts\per_____.ttf
+\fonts\perb____.ttf
+\fonts\perbi___.ttf
+\fonts\peri____.ttf
+\fonts\pertibd.ttf
+\fonts\pertili.ttf
+\fonts\playbill.ttf
+\fonts\pristina.ttf
+\fonts\rage.ttf
+\fonts\rocc____.ttf
+\fonts\roccb___.ttf
+\fonts\rock.ttf
+\fonts\rockb.ttf
+\fonts\rockbi.ttf
+\fonts\rockeb.ttf
+\fonts\rocki.ttf
+\fonts\schlbkb.ttf
+\fonts\schlbkbi.ttf
+\fonts\schlbki.ttf
+\fonts\scriptbl.ttf
+\fonts\snap____.ttf
+\fonts\stencil.ttf
+\fonts\symbol.ttf
+\fonts\tahoma.ttf
+\fonts\tcb_____.ttf
+\fonts\tcbi____.ttf
+\fonts\tccb____.ttf
+\fonts\tcceb.ttf
+\fonts\tccm____.ttf
+\fonts\tcm_____.ttf
+\fonts\tcmi____.ttf
+\fonts\tempsitc.ttf
+\fonts\times.ttf
+\fonts\timesb.ttf
+\fonts\timesbi.ttf
+\fonts\timesi.ttf
+\fonts\trebuc.ttf
+\fonts\trebucbd.ttf
+\fonts\trebucbi.ttf
+\fonts\trebucit.ttf
+\fonts\verdana.ttf
+\fonts\verdanab.ttf
+\fonts\verdanai.ttf
+\fonts\verdanaz.ttf
+\fonts\vineritc.ttf
+\fonts\vivaldii.ttf
+\fonts\vladimir.ttf
+\fonts\wingding.ttf
+\fonts\wingdng2.ttf
+\fonts\wingdng3.ttf
+
+[RISKY, GRPHFLT95] "Microsoft Office 4.x"
+MSAPPS9XDIR\grphflt\cgmimp32.cfg
+\grphflt\cgmimp32.fnt
+\grphflt\cgmimp32.hlp
+\grphflt\emfimp32.flt
+\grphflt\ms.bmp
+\grphflt\ms.cdr
+\grphflt\ms.dxf
+\grphflt\ms.emf
+\grphflt\ms.jpg
+\grphflt\ms.png
+\grphflt\ms.tga
+\grphflt\ms.wmf
+\grphflt\pcdlib32.dll
+\grphflt\png32.flt
+
+[RISKY, OUTLOOK97] "Microsoft Outlook"
+OFFICEROOT97DIR\modelos\outlook\compromisso.oft
+\modelos\outlook\contato.oft
+\modelos\outlook\mensagem.oft
+\modelos\outlook\na sua ausência.oft
+\modelos\outlook\remessa.oft
+\modelos\outlook\tarefa.oft
+
+[RISKY, POWERPOINT94] "Microsoft PowerPoint 4.0"
+POWERPOINT94DIR\assist\badnews.ppt
+\assist\general.ppt
+\assist\progress.ppt
+\assist\selling.ppt
+\assist\strategy.ppt
+\assist\training.ppt
+\default.ppt
+\exemplos\calendar.ppt
+\exemplos\flowchrt.ppt
+\exemplos\printme.ppt
+\exemplos\tables.ppt
+\exemplos\timeline.ppt
+\modelo\bwovrhd\azureb.ppt
+\modelo\bwovrhd\bannerb.ppt
+\modelo\bwovrhd\bevelb.ppt
+\modelo\bwovrhd\blackb.ppt
+\modelo\bwovrhd\blstripb.ppt
+\modelo\bwovrhd\bludiagb.ppt
+\modelo\bwovrhd\blueboxb.ppt
+\modelo\bwovrhd\bluegrnb.ppt
+\modelo\bwovrhd\brknbarb.ppt
+\modelo\bwovrhd\bubbleb.ppt
+\modelo\bwovrhd\checksb.ppt
+\modelo\bwovrhd\cheersb.ppt
+\modelo\bwovrhd\colorbxb.ppt
+\modelo\bwovrhd\confetib.ppt
+\modelo\bwovrhd\dbllineb.ppt
+\modelo\bwovrhd\diamondb.ppt
+\modelo\bwovrhd\dropstrb.ppt
+\modelo\bwovrhd\embossdb.ppt
+\modelo\bwovrhd\fiestab.ppt
+\modelo\bwovrhd\flagb.ppt
+\modelo\bwovrhd\forestb.ppt
+\modelo\bwovrhd\gridwrkb.ppt
+\modelo\bwovrhd\intlb.ppt
+\modelo\bwovrhd\islandb.ppt
+\modelo\bwovrhd\linsblub.ppt
+\modelo\bwovrhd\marbleb.ppt
+\modelo\bwovrhd\medicalb.ppt
+\modelo\bwovrhd\metlbarb.ppt
+\modelo\bwovrhd\movnglnb.ppt
+\modelo\bwovrhd\multbarb.ppt
+\modelo\bwovrhd\multboxb.ppt
+\modelo\bwovrhd\musicb.ppt
+\modelo\bwovrhd\neonlitb.ppt
+\modelo\bwovrhd\pastelb.ppt
+\modelo\bwovrhd\patchwkb.ppt
+\modelo\bwovrhd\redlineb.ppt
+\modelo\bwovrhd\seashorb.ppt
+\modelo\bwovrhd\shadbarb.ppt
+\modelo\bwovrhd\sidebarb.ppt
+\modelo\bwovrhd\sidefadb.ppt
+\modelo\bwovrhd\soaringb.ppt
+\modelo\bwovrhd\southwsb.ppt
+\modelo\bwovrhd\sparkleb.ppt
+\modelo\bwovrhd\splatb.ppt
+\modelo\bwovrhd\tabletb.ppt
+\modelo\bwovrhd\theatreb.ppt
+\modelo\bwovrhd\toplineb.ppt
+\modelo\bwovrhd\travelb.ppt
+\modelo\bwovrhd\tridotsb.ppt
+\modelo\bwovrhd\triumphb.ppt
+\modelo\bwovrhd\tropicb.ppt
+\modelo\bwovrhd\twinkleb.ppt
+\modelo\bwovrhd\vividlnb.ppt
+\modelo\bwovrhd\watercob.ppt
+\modelo\bwovrhd\worldb.ppt
+\modelo\clrovrhd\azurec.ppt
+\modelo\clrovrhd\bannerc.ppt
+\modelo\clrovrhd\bevelc.ppt
+\modelo\clrovrhd\blackc.ppt
+\modelo\clrovrhd\blstripc.ppt
+\modelo\clrovrhd\bludiagc.ppt
+\modelo\clrovrhd\blueboxc.ppt
+\modelo\clrovrhd\bluegrnc.ppt
+\modelo\clrovrhd\brknbarc.ppt
+\modelo\clrovrhd\bubblec.ppt
+\modelo\clrovrhd\checksc.ppt
+\modelo\clrovrhd\cheersc.ppt
+\modelo\clrovrhd\colorbxc.ppt
+\modelo\clrovrhd\confetic.ppt
+\modelo\clrovrhd\dbllinec.ppt
+\modelo\clrovrhd\diamondc.ppt
+\modelo\clrovrhd\dropstrc.ppt
+\modelo\clrovrhd\embossdc.ppt
+\modelo\clrovrhd\fiestac.ppt
+\modelo\clrovrhd\flagc.ppt
+\modelo\clrovrhd\forestc.ppt
+\modelo\clrovrhd\gridwrkc.ppt
+\modelo\clrovrhd\intlc.ppt
+\modelo\clrovrhd\islandc.ppt
+\modelo\clrovrhd\linsbluc.ppt
+\modelo\clrovrhd\marblec.ppt
+\modelo\clrovrhd\medicalc.ppt
+\modelo\clrovrhd\metlbarc.ppt
+\modelo\clrovrhd\movnglnc.ppt
+\modelo\clrovrhd\multbarc.ppt
+\modelo\clrovrhd\multboxc.ppt
+\modelo\clrovrhd\musicc.ppt
+\modelo\clrovrhd\neonlitc.ppt
+\modelo\clrovrhd\pastelc.ppt
+\modelo\clrovrhd\patchwkc.ppt
+\modelo\clrovrhd\redlinec.ppt
+\modelo\clrovrhd\seashorc.ppt
+\modelo\clrovrhd\shadbarc.ppt
+\modelo\clrovrhd\sidebarc.ppt
+\modelo\clrovrhd\sidefadc.ppt
+\modelo\clrovrhd\soaringc.ppt
+\modelo\clrovrhd\southwsc.ppt
+\modelo\clrovrhd\sparklec.ppt
+\modelo\clrovrhd\splatc.ppt
+\modelo\clrovrhd\tabletc.ppt
+\modelo\clrovrhd\theatrec.ppt
+\modelo\clrovrhd\toplinec.ppt
+\modelo\clrovrhd\travelc.ppt
+\modelo\clrovrhd\tridotsc.ppt
+\modelo\clrovrhd\triumphc.ppt
+\modelo\clrovrhd\tropicc.ppt
+\modelo\clrovrhd\twinklec.ppt
+\modelo\clrovrhd\vividlnc.ppt
+\modelo\clrovrhd\watercoc.ppt
+\modelo\clrovrhd\worldc.ppt
+\modelo\sldshow\azures.ppt
+\modelo\sldshow\banners.ppt
+\modelo\sldshow\bevels.ppt
+\modelo\sldshow\blacks.ppt
+\modelo\sldshow\blstrips.ppt
+\modelo\sldshow\bludiags.ppt
+\modelo\sldshow\blueboxs.ppt
+\modelo\sldshow\bluegrns.ppt
+\modelo\sldshow\brknbars.ppt
+\modelo\sldshow\bubbles.ppt
+\modelo\sldshow\checkss.ppt
+\modelo\sldshow\cheerss.ppt
+\modelo\sldshow\colorbxs.ppt
+\modelo\sldshow\confetis.ppt
+\modelo\sldshow\dbllines.ppt
+\modelo\sldshow\diamonds.ppt
+\modelo\sldshow\dropstrs.ppt
+\modelo\sldshow\embossds.ppt
+\modelo\sldshow\fiestas.ppt
+\modelo\sldshow\flags.ppt
+\modelo\sldshow\forests.ppt
+\modelo\sldshow\gridwrks.ppt
+\modelo\sldshow\intls.ppt
+\modelo\sldshow\islands.ppt
+\modelo\sldshow\linsblus.ppt
+\modelo\sldshow\marbles.ppt
+\modelo\sldshow\medicals.ppt
+\modelo\sldshow\metlbars.ppt
+\modelo\sldshow\movnglns.ppt
+\modelo\sldshow\multbars.ppt
+\modelo\sldshow\multboxs.ppt
+\modelo\sldshow\musics.ppt
+\modelo\sldshow\neonlits.ppt
+\modelo\sldshow\pastels.ppt
+\modelo\sldshow\patchwks.ppt
+\modelo\sldshow\redlines.ppt
+\modelo\sldshow\seashors.ppt
+\modelo\sldshow\shadbars.ppt
+\modelo\sldshow\sidebars.ppt
+\modelo\sldshow\sidefads.ppt
+\modelo\sldshow\soarings.ppt
+\modelo\sldshow\southwss.ppt
+\modelo\sldshow\sparkles.ppt
+\modelo\sldshow\splats.ppt
+\modelo\sldshow\tablets.ppt
+\modelo\sldshow\theatres.ppt
+\modelo\sldshow\toplines.ppt
+\modelo\sldshow\travels.ppt
+\modelo\sldshow\tridotss.ppt
+\modelo\sldshow\triumphs.ppt
+\modelo\sldshow\tropics.ppt
+\modelo\sldshow\twinkles.ppt
+\modelo\sldshow\vividlns.ppt
+\modelo\sldshow\watercos.ppt
+\modelo\sldshow\worlds.ppt
+
+[RISKY, POWERPOINT94, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint"
+WINDIR\powerpnt.ini
+
+[RISKY, POWERPOINT94, POWERPOINT95, POWERPOINT97, POWERPOINTMSIREG] "Microsoft PowerPoint"
+HKCR\.ppt
+
+[RISKY, POWERPOINT95] "Microsoft PowerPoint 95"
+OFFICEROOT95DIR\modelos\apresentaçoes\comunicar más notícas.pot
+\modelos\apresentaçoes\comunicar más notícias (longo).pot
+\modelos\apresentaçoes\geral (longo).pot
+\modelos\apresentaçoes\geral.pot
+\modelos\apresentaçoes\lista dos dez principais.pot
+\modelos\apresentaçoes\mscreate.dir
+\modelos\apresentaçoes\orientação aos funcionários.pot
+\modelos\apresentaçoes\planejamento de marketing.pot
+\modelos\apresentaçoes\planejamento financeiro.pot
+\modelos\apresentaçoes\recomendar uma estratégia (longo).pot
+\modelos\apresentaçoes\recomendar uma estratégia.pot
+\modelos\apresentaçoes\relatar progresso (longo).pot
+\modelos\apresentaçoes\relatar progresso.pot
+\modelos\apresentaçoes\relatório financeiro.pot
+\modelos\apresentaçoes\reunião empresarial.pot
+\modelos\apresentaçoes\sessão de criatividade.pot
+\modelos\apresentaçoes\treinamento (longo).pot
+\modelos\apresentaçoes\treinamento.pot
+\modelos\apresentaçoes\vender um produto ou idéia (longo).pot
+\modelos\apresentaçoes\vender um produto ou idéia.pot
+\modelos\apresentação em branco.pot
+\modelos\estruturas de apresentaçao\areia molhada.pot
+\modelos\estruturas de apresentaçao\azul.pot
+\modelos\estruturas de apresentaçao\barra de metal.pot
+\modelos\estruturas de apresentaçao\barra rosa.pot
+\modelos\estruturas de apresentaçao\barras múltiplas.pot
+\modelos\estruturas de apresentaçao\brilhante.pot
+\modelos\estruturas de apresentaçao\caixas coloridas.pot
+\modelos\estruturas de apresentaçao\cintilante.pot
+\modelos\estruturas de apresentaçao\cometa.pot
+\modelos\estruturas de apresentaçao\contemporâneo.pot
+\modelos\estruturas de apresentaçao\diagonal azul.pot
+\modelos\estruturas de apresentaçao\em relevo.pot
+\modelos\estruturas de apresentaçao\entalhe.pot
+\modelos\estruturas de apresentaçao\entrelace azul.pot
+\modelos\estruturas de apresentaçao\globo.pot
+\modelos\estruturas de apresentaçao\inverso.pot
+\modelos\estruturas de apresentaçao\linhas azuis.pot
+\modelos\estruturas de apresentaçao\linhas duplas.pot
+\modelos\estruturas de apresentaçao\mscreate.dir
+\modelos\estruturas de apresentaçao\mármore marrom.pot
+\modelos\estruturas de apresentaçao\profissional.pot
+\modelos\estruturas de apresentaçao\subindo.pot
+\modelos\estruturas de apresentaçao\superfície rochosa.pot
+\modelos\estruturas de apresentaçao\tatami.pot
+\modelos\estruturas de apresentaçao\teatro.pot
+\modelos\estruturas de apresentaçao\triângulos.pot
+\modelos\estruturas de apresentaçao\tropical.pot
+\modelos\estruturas de apresentaçao\turquesa.pot
+WINDIR\shellnew\ppt70.ppt
+
+[RISKY, POWERPOINT97] "Microsoft PowerPoint 97"
+MSAPPS9XDIR\clipart\fotos\fotos.cag
+\clipart\mmidia\mmidia.cag
+\clipart\powerpnt\powerpnt.cag
+\clipart\scrbeans\scrbeans.cag
+OFFICEROOT97DIR\clipart\popular\acordo.wmf
+\clipart\popular\ajato.wmf
+\clipart\popular\aprtmao1.wmf
+\clipart\popular\aprtmao2.wmf
+\clipart\popular\aprtmao3.wmf
+\clipart\popular\armadil.wmf
+\clipart\popular\balanca.wmf
+\clipart\popular\bandaid.wmf
+\clipart\popular\batpul.wmf
+\clipart\popular\bomba.wmf
+\clipart\popular\burro.wmf
+\clipart\popular\cadeado.wmf
+\clipart\popular\carro.wmf
+\clipart\popular\cartomag.wmf
+\clipart\popular\champnhe.wmf
+\clipart\popular\chapeus.wmf
+\clipart\popular\chave.wmf
+\clipart\popular\contorp.wmf
+\clipart\popular\corredor.wmf
+\clipart\popular\dados.wmf
+\clipart\popular\dardos.wmf
+\clipart\popular\dinamite.wmf
+\clipart\popular\dinheiro.wmf
+\clipart\popular\diploma.wmf
+\clipart\popular\dominos.wmf
+\clipart\popular\eagora.wmf
+\clipart\popular\edificio.wmf
+\clipart\popular\estrela.wmf
+\clipart\popular\euconfus.wmf
+\clipart\popular\eudesast.wmf
+\clipart\popular\eufeliz.wmf
+\clipart\popular\euideia.wmf
+\clipart\popular\euorgan.wmf
+\clipart\popular\euproblm.wmf
+\clipart\popular\euvenced.wmf
+\clipart\popular\euvitor.wmf
+\clipart\popular\examina.wmf
+\clipart\popular\fita.wmf
+\clipart\popular\flor.wmf
+\clipart\popular\futebol.wmf
+\clipart\popular\indicima.wmf
+\clipart\popular\leao.wmf
+\clipart\popular\lebre.wmf
+\clipart\popular\lupa.wmf
+\clipart\popular\luz.wmf
+\clipart\popular\maosaber.wmf
+\clipart\popular\martelo.wmf
+\clipart\popular\moedas.wmf
+\clipart\popular\odiocomp.wmf
+\clipart\popular\palmas.wmf
+\clipart\popular\parar.wmf
+\clipart\popular\placseta.wmf
+\clipart\popular\platpetr.wmf
+\clipart\popular\polbaixo.wmf
+\clipart\popular\pomba.wmf
+\clipart\popular\pop97.cag
+\clipart\popular\porta.wmf
+\clipart\popular\quebcab.wmf
+\clipart\popular\relogio.wmf
+\clipart\popular\reuniao.wmf
+\clipart\popular\reuniao2.wmf
+\clipart\popular\sacodinh.wmf
+\clipart\popular\setas1.wmf
+\clipart\popular\setas2.wmf
+\clipart\popular\setas3.wmf
+\clipart\popular\setas4.wmf
+\clipart\popular\setas5.wmf
+\clipart\popular\setas6.wmf
+\clipart\popular\setas7.wmf
+\clipart\popular\setas8.wmf
+\clipart\popular\sintrans.wmf
+\clipart\popular\tartarug.wmf
+\clipart\popular\tenis.wmf
+\clipart\popular\tijolo.wmf
+\clipart\popular\triunfo.wmf
+\clipart\popular\trofeu.wmf
+\clipart\popular\tubarao.wmf
+\clipart\popular\veleiro.wmf
+\clipart\popular\visto.wmf
+\clipart\popular\yinyang.wmf
+\modelos\apresentação em branco.pot
+\modelos\Apresentações\agradecer a um apresentador - dale carnegie training (r).pot
+\modelos\Apresentações\anúncio (on-line).pot
+\modelos\Apresentações\anúncio (padrão).pot
+\modelos\Apresentações\apresentar um apresentador - dale carnegie training (r).pot
+\modelos\Apresentações\apresentar um relatório técnico - dale carnegie training (r).pot
+\modelos\Apresentações\facilitar uma reunião - dale carnegie training (r).pot
+\modelos\Apresentações\genérico (on-line).pot
+\modelos\Apresentações\genérico (padrão).pot
+\modelos\Apresentações\gerenciar a função variante de rh - dale carnegie training (r).pot
+\modelos\Apresentações\guia para apresentações - dale carnegie training (r).pot
+\modelos\Apresentações\home page da empresa (on-line).pot
+\modelos\Apresentações\home page da empresa (padrão).pot
+\modelos\Apresentações\home page pessoal (on-line).pot
+\modelos\Apresentações\home page pessoal (padrão).pot
+\modelos\Apresentações\motivar uma equipe - dale carnegie training (r).pot
+\modelos\Apresentações\mscreate.dir
+\modelos\Apresentações\planejamento de marketing (on-line).pot
+\modelos\Apresentações\planejamento de marketing (padrão).pot
+\modelos\Apresentações\planejamento financeiro (on-line).pot
+\modelos\Apresentações\planejamento financeiro (padrão).pot
+\modelos\Apresentações\quiosque de informações r.h. (on-line).pot
+\modelos\Apresentações\quiosque de informações r.h. (padrão).pot
+\modelos\Apresentações\recomendar uma estratégia (on-line).pot
+\modelos\Apresentações\recomendar uma estratégia (padrão).pot
+\modelos\Apresentações\relatar progresso (on-line).pot
+\modelos\Apresentações\relatar progresso (padrão).pot
+\modelos\Apresentações\reunião empresarial (on-line).pot
+\modelos\Apresentações\reunião empresarial (padrão).pot
+\modelos\Apresentações\status do projeto (on-line).pot
+\modelos\Apresentações\status do projeto (padrão).pot
+\modelos\Apresentações\vender idéias - dale carnegie training (r).pot
+\modelos\Apresentações\visão financeira da empresa (on-line).pot
+\modelos\Apresentações\visão financeira da empresa (padrão).pot
+\modelos\Apresentações\visão geral da organização (on-line).pot
+\modelos\Apresentações\visão geral da organização (padrão).pot
+\modelos\Apresentações\visão geral de produtos (on-line).pot
+\modelos\Apresentações\visão geral de produtos (padrão).pot
+\modelos\Apresentações\visão geral do projeto (on-line).pot
+\modelos\Apresentações\visão geral do projeto (padrão).pot
+\modelos\estruturas de apresentação\altvolt.pot
+\modelos\estruturas de apresentação\angulos.pot
+\modelos\estruturas de apresentação\cadabert.pot
+\modelos\estruturas de apresentação\caderno.pot
+\modelos\estruturas de apresentação\campo.pot
+\modelos\estruturas de apresentação\charme.pot
+\modelos\estruturas de apresentação\contemp.pot
+\modelos\estruturas de apresentação\figconte.pot
+\modelos\estruturas de apresentação\fitas.pot
+\modelos\estruturas de apresentação\gravata.pot
+\modelos\estruturas de apresentação\leques.pot
+\modelos\estruturas de apresentação\mscreate.dir
+\modelos\estruturas de apresentação\profis.pot
+\modelos\estruturas de apresentação\pulso.pot
+\modelos\estruturas de apresentação\quebcab.pot
+\modelos\estruturas de apresentação\rosado.pot
+\modelos\estruturas de apresentação\sereno.pot
+\modelos\estruturas de apresentação\turbilha.pot
+\modelos\páginas da web\faixa de exemplo 1.pot
+\modelos\páginas da web\faixa de exemplo 2.pot
+
+[RISKY, POWERPOINT97, WORD97] "Microsoft PowerPoint e Word 97"
+MSAPPS9XDIR\clipart\office\office.cag
+
+[RISKY, PROOF95] "Microsoft Office 95"
+MSAPPS9XDIR\proof\mssp2_pt.lex
+
+[RISKY, PUBLISHER3, PUBLISHER4, PUBLISHER5, PUBLISHERMSIREG] "Microsoft Publisher"
+WINDIR\shellnew\mspub.pub
+
+[RISKY, RUNFROMNETCD95] "Microsoft Office 95"
+MENU_ITEM=Microsoft Office\Administrador de grupos de trabalho
+OFFICE97DIR\findfast.exe
+SYSDIR\bdrec.dll
+
+[RISKY, SBFM97] "Arquivo usado pelo Small Business Financial Manager 97"
+HKLM\Software\Microsoft\Office\8.0\Excel\SBFM
+HKLM\SOFTWARE\ODBC\odbc.ini\Small Business Financial Manager
+SBFM97DIR\aamyob60.dll
+\aamyob7x.dll
+\aap.cnt
+\aap.gid
+\aap.hlp
+\aapacc.dll
+\aapbww.dll
+\aapcgold.dll
+\aapdac.dll
+\aapgreat.dll
+\aapmas90.dll
+\aapone.dll
+\aappdos.dll
+\aappla44.dll
+\aapplat.dll
+\aappss.cnt
+\aappss.gid
+\aappss.hlp
+\aappw35.dll
+\aappw40.dll
+\aappw50.dll
+\aappwin.dll
+\aapqbw.dll
+\aapqbw40.dll
+\aapqbw50.dll
+\aaprdt.ico
+\aapsage4.dll
+\aapsim40.dll
+\aapsim50.dll
+\aapsimp.dll
+\analysis tools\business comparison\Business Comparison.xlt
+\analysis tools\business comparison\mscreate.dir
+\analysis tools\business comparison\RMA.ldb
+\analysis tools\business comparison\RMA.MDB
+\analysis tools\business comparison\Sic Codes.txt
+\analysis tools\create projection wizard\mscreate.dir
+\analysis tools\create projection wizard\Projection.exe
+\analysis tools\create projection wizard\Projections.xlt
+\analysis tools\mscreate.dir
+\analysis tools\projection reports\mscreate.dir
+\analysis tools\projection reports\Projected Balance Sheet.xls
+\analysis tools\projection reports\Projected Cash Flow.xls
+\analysis tools\projection reports\Projected changes in financial position.xls
+\analysis tools\projection reports\Projected Funds Flow.xls
+\analysis tools\projection reports\Projected Income Statement.xls
+\analysis tools\projection reports\Projected Profit & Loss.xls
+\analysis tools\projection reports\Projected statement of earnings.xls
+\analysis tools\projection reports\Projection Assumptions.xls
+\charts\Balance Sheet Composition.xls
+\charts\Cash Flow Trend.xls
+\charts\mscreate.dir
+\charts\Revenue-Expense Trend.xls
+\charts\Sales Composition.xls
+\database\mscreate.dir
+\database\Volcano Coffee Company.ldb
+\database\Volcano Coffee Company.mdb
+\mscreate.dir
+\qba.dll
+\qbdrivhk.dll
+\qbexp.exe
+\readme.txt
+\Report Workbook.xlt
+\reports\Balance Sheet.xls
+\reports\Cash Flow.xls
+\reports\Change in Shareholders Equity.xls
+\reports\Changes in Financial Position.xls
+\reports\Changes in Stockholders Equity.xls
+\reports\Funds Flow Statement.xls
+\reports\Income Statement.xls
+\reports\mscreate.dir
+\reports\Profit and Loss.xls
+\reports\Ratios.xls
+\reports\Sales Analysis.xls
+\reports\Shareholders Equity.xls
+\reports\Statement of Earnings.xls
+\reports\Trial Balance.xls
+\setup\acmsetup.hlp
+\setup\complinc.dll
+\setup\mscreate.dir
+\setup\mssetup.dll
+\setup\odbckey.inf
+\setup\odbcstf.dll
+\setup\sbfmstp.dll
+\setup\sbfmstp.exe
+\setup\sbfmstp.inf
+\setup\sbfmstp.stf
+\setup\setup.ini
+\setup\setup.tdf
+\template.ldb
+\template.mdb
+\What-If Workbook.xls
+\What-If.xla
+SYSDIR\msaap.dll
+\msaap.xla
+\sbfm20.xla
+\sbfmpid.dll
+
+[RISKY, SCHEDULE95, SCHEDULE97, OUTLOOK97] "Microsoft Schedule+ e Outlook"
+MENU_ITEM=Microsoft Office\Instalação do Microsoft Schedule+
+OFFICEROOT95DIR\office\av41206.fmt
+SCHEDULE95DIR\scleiame.txt
+
+[RISKY, SCHEDULE95, SCHEDULE97, OUTLOOK97, OUTLOOKMSIREG] "Microsoft Schedule+ e Outlook"
+HKLM\Software\Microsoft\Exchange\Client\Extensions\Outlook Setup Extension
+HKLM\Software\Microsoft\Schedule+\Application
+
+[RISKY, SYSTEM95] "Microsoft Office 95"
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.aw
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.cnt
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.hlp
+SHAREDDLL=SYSDIR\selfreg.dll
+SYSDIR\msvcp50.dll
+\selfreg.dll
+\vbaptb32.dll
+
+[RISKY, TEXTCONV95] "Microsoft Office 95"
+MSAPPS9XDIR\textconv\html32.cnv
+\textconv\msconv97.dll
+\textconv\mscthunk.dll
+\textconv\msencode.dll
+\textconv\mswrd832.cnv
+\textconv\nims32.dll
+\textconv\recovr32.cnv
+\textconv\wrd6er32.cnv
+\textconv\wrd6ex32.cnv
+
+[RISKY, WORD94] "Microsoft Word 6.0"
+WINDIR\winword6.ini
+WORD94DIR\modelo\agenda.wiz
+\modelo\award.wiz
+\modelo\brochur1.dot
+\modelo\calendar.wiz
+\modelo\classic1.wzs
+\modelo\classic2.wzs
+\modelo\classic3.wzs
+\modelo\classic4.wzs
+\modelo\directr1.dot
+\modelo\fax.wiz
+\modelo\faxcovr1.dot
+\modelo\faxcovr2.dot
+\modelo\invoice.dot
+\modelo\letter.wiz
+\modelo\letter1.dot
+\modelo\letter2.dot
+\modelo\letter3.dot
+\modelo\manual1.dot
+\modelo\manuscr1.dot
+\modelo\manuscr3.dot
+\modelo\memo.wiz
+\modelo\memo1.dot
+\modelo\memo2.dot
+\modelo\memo3.dot
+\modelo\modern1.wzs
+\modelo\modern2.wzs
+\modelo\modern3.wzs
+\modelo\modern4.wzs
+\modelo\newslttr.wiz
+\modelo\pleading.wiz
+\modelo\present1.dot
+\modelo\presrel1.dot
+\modelo\presrel2.dot
+\modelo\presrel3.dot
+\modelo\purchord.dot
+\modelo\report1.dot
+\modelo\report2.dot
+\modelo\report3.dot
+\modelo\resume.wiz
+\modelo\resume1.dot
+\modelo\resume2.dot
+\modelo\resume4.dot
+\modelo\table.wiz
+\modelo\thesis1.dot
+\modelo\weektime.dot
+\modelo\wishfax.dot
+\winword.opt
+
+[RISKY, WORD94, WORD95, WORD97] "Microsoft Word"
+SYSMENUPROGRAMSDIR\Microsoft Office\Instalação do Word.lnk
+
+[RISKY, WORD95] "Microsoft Word 95"
+OFFICEROOT95DIR\modelos\cartas e fax\carta contemporânea.dot
+\modelos\cartas e fax\carta elegante.dot
+\modelos\cartas e fax\carta profissional.dot
+\modelos\cartas e fax\fax contemporâneo.dot
+\modelos\cartas e fax\fax elegante.dot
+\modelos\cartas e fax\fax profissional.dot
+\modelos\memorandos\memorando contemporâneo.dot
+\modelos\memorandos\memorando elegante.dot
+\modelos\memorandos\memorando profissional.dot
+\modelos\outros documentos\currículo contemporâneo.dot
+\modelos\outros documentos\currículo elegante.dot
+\modelos\outros documentos\currículo profissional.dot
+\modelos\outros documentos\fatura.dot
+\modelos\outros documentos\nota fiscal.dot
+\modelos\outros documentos\relatório de horas semanal.dot
+\modelos\pub\boletim.dot
+\modelos\pub\diretor.dot
+\modelos\pub\lançamento contemporâneo.dot
+\modelos\pub\lançamento elegante.dot
+\modelos\pub\lançamento profissional.dot
+\modelos\pub\manual.dot
+\modelos\pub\panfleto.dot
+\modelos\pub\tese.dot
+\modelos\relat\relatório contemporâneo.dot
+\modelos\relat\relatório elegante.dot
+\modelos\relat\relatório profissional.dot
+WINDIR\shellnew\wordia.htm
+WORD95DIR\cartas\aluguel.dot
+\cartas\cobrar.dot
+\cartas\empreg1.dot
+\cartas\empreg2.dot
+\cartas\marktg.dot
+\cartas\outras.dot
+\cartas\pedido.dot
+\cartas\precos.dot
+\clipart\ancora.wmf
+\clipart\artista.wmf
+\clipart\atomo.wmf
+\clipart\ave.wmf
+\clipart\aviao.wmf
+\clipart\bagagem.wmf
+\clipart\balanca.wmf
+\clipart\bebida.wmf
+\clipart\borbolet.wmf
+\clipart\bussola.wmf
+\clipart\cadrodas.wmf
+\clipart\cafe.wmf
+\clipart\casas.wmf
+\clipart\cavalo.wmf
+\clipart\celta.wmf
+\clipart\cinema.wmf
+\clipart\computad.wmf
+\clipart\coracao.wmf
+\clipart\correio.wmf
+\clipart\corrida.wmf
+\clipart\danca.wmf
+\clipart\decora.wmf
+\clipart\disco.wmf
+\clipart\divisao1.wmf
+\clipart\divisao2.wmf
+\clipart\divisao3.wmf
+\clipart\elefante.wmf
+\clipart\escritor.wmf
+\clipart\esporte.wmf
+\clipart\faixa.wmf
+\clipart\farmacia.wmf
+\clipart\festa.wmf
+\clipart\filme.wmf
+\clipart\flor1.wmf
+\clipart\flor2.wmf
+\clipart\flor3.wmf
+\clipart\florista.wmf
+\clipart\folha.wmf
+\clipart\garcon.wmf
+\clipart\gato.wmf
+\clipart\golfe.wmf
+\clipart\hospital.wmf
+\clipart\imovel.wmf
+\clipart\inverno.wmf
+\clipart\jantar1.wmf
+\clipart\jantar2.wmf
+\clipart\jato.wmf
+\clipart\lampada.wmf
+\clipart\livros.wmf
+\clipart\madeira.wmf
+\clipart\maestro.wmf
+\clipart\mancha.wmf
+\clipart\matemat.wmf
+\clipart\moldura5.wmf
+\clipart\moldura6.wmf
+\clipart\moldurh1.wmf
+\clipart\moldurh2.wmf
+\clipart\moldurh3.wmf
+\clipart\moldurh4.wmf
+\clipart\moldurv1.wmf
+\clipart\moldurv2.wmf
+\clipart\moldurv3.wmf
+\clipart\moldurv4.wmf
+\clipart\naofumar.wmf
+\clipart\notas.wmf
+\clipart\orador.wmf
+\clipart\ornamen1.wmf
+\clipart\ornamen2.wmf
+\clipart\ornamen3.wmf
+\clipart\ornamen4.wmf
+\clipart\outono.wmf
+\clipart\placa1.wmf
+\clipart\placa2.wmf
+\clipart\placa3.wmf
+\clipart\placa4.wmf
+\clipart\placa5.wmf
+\clipart\prilugar.wmf
+\clipart\primaver.wmf
+\clipart\reciclar.wmf
+\clipart\teatro.wmf
+\clipart\tenis.wmf
+\clipart\touro.wmf
+\clipart\urso.wmf
+\clipart\veleiro.wmf
+\clipart\verao.wmf
+\clipart\viagem.wmf
+\clipart\vinho.wmf
+\clipart\vistacid.wmf
+\clipart\visto.wmf
+\email.dot
+\email1.dot
+\email2.dot
+\email3.dot
+\macros\apresent.dot
+\macros\convert.dot
+\macros\layout.dot
+\macros\macro70.dot
+
+[RISKY, WORD97] "Microsoft Word 97"
+OFFICEROOT97DIR\modelos\cartas e faxes\carta contemporânea.dot
+\modelos\cartas e faxes\carta elegante.dot
+\modelos\cartas e faxes\carta profissional.dot
+\modelos\cartas e faxes\fax contemporâneo.dot
+\modelos\cartas e faxes\fax elegante.dot
+\modelos\cartas e faxes\fax profissional.dot
+\modelos\memos\memorando contemporâneo.dot
+\modelos\memos\memorando elegante.dot
+\modelos\memos\memorando profissional.dot
+\modelos\outlook\chama.oft
+\modelos\outlook\chuva.oft
+\modelos\outlook\email.oft
+\modelos\outlook\meianoi.oft
+\modelos\outlook\oceano.oft
+\modelos\outlook\tecnolog.oft
+\modelos\outlook\urgente.oft
+\modelos\outros documentos\currículo contemporâneo.dot
+\modelos\outros documentos\currículo elegante.dot
+\modelos\outros documentos\currículo profissional.dot
+\modelos\outros documentos\mais modelos e assistentes.dot
+\modelos\relatorios\relatório contemporâneo.dot
+\modelos\relatorios\relatório elegante.dot
+\modelos\relatorios\relatório profissional.dot
+WORD97DIR\email.dot
+
+[RISKY, WORD97, WORDMSIREG] "Microsoft Word"
+WINDIR\shellnew\winword8.doc
+
+[SAFE, ACCESS94, ACCESS94RT] "Microsoft Access 2.0"
+ACCESS94DIR\aplexemp\newcust.dbf
+\aplexemp\nwind.ldb
+\aplexemp\orders.ftg
+\aplexemp\orders.fts
+\aplexemp\orders.gid
+\aplexemp\orders.hlp
+\aplexemp\orders.ldb
+\aplexemp\solution.ftg
+\aplexemp\solution.fts
+\aplexemp\solution.gid
+\aplexemp\solution.hlp
+\aplexemp\solution.ldb
+\config\_mssetup.exe
+\config\acmsetup.ftg
+\config\acmsetup.fts
+\config\acmsetup.gid
+\config\acmsetup.hlp
+\config\acmsetup.ttf
+\config\acsetup.ttf
+\config\decomp.exe
+\config\msacahbb.dll
+\config\mscpydis.dll
+\config\mssetup.dll
+\config\odbcinst.dll
+\config\setup.exe
+\config\setup.inf
+\config\setup.ini
+\config\setup.stf
+USER_MODIFIABLE_FILE=ACCESS94DIR\aplexemp\nwind.mdb
+USER_MODIFIABLE_FILE=ACCESS94DIR\aplexemp\orders.mdb
+USER_MODIFIABLE_FILE=ACCESS94DIR\aplexemp\solution.mdb
+
+[SAFE, ACCESS94, ACCESS94RT, ACCESS95, ACCESS97, ACCESSMSIREG] "Microsoft Access"
+MENU_ITEM=Microsoft Office\administrador de grupos de trabalho do ms access
+MENU_ITEM=Microsoft Office\ajuda leiame do access
+MENU_ITEM=Microsoft Office\Instalação do Microsoft Access
+MENU_ITEM=Microsoft Office\instalação do ms access
+MENU_ITEM=Microsoft Office\Leiame do Microsoft Access
+STARTMENU94DIR\ajuda leiame do ms access.lnk
+\config do ms access.lnk
+
+[SAFE, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94] "Microsoft Office 4.x"
+MENU_ITEM=Iniciar\Microsoft Office manager
+MENU_ITEM=Microsoft Office\ajuda leiame do office
+MENU_ITEM=Microsoft Office\Microsoft Imager
+STARTMENU94DIR\ajuda leiame do office.lnk
+
+[SAFE, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECT9] "Microsoft Office"
+MENU_ITEM=Iniciar\Microsoft Office
+
+[SAFE, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+MENU_ITEM=Microsoft Office\instalação do office
+STARTMENU94DIR\config do office.lnk
+
+[SAFE, ACCESS94, ACCESS94RT, EXCEL94, POWERPOINT94, WORD94, ACCESS95, EXCEL95, POWERPOINT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG] "Microsoft Office"
+SYSMENUROOTDIR\abrir documento do office.lnk
+\novo documento do office.lnk
+
+[SAFE, ACCESS95] "Microsoft Access 95"
+ACCESS95DIR\acleiame.txt
+\bitmaps\dbwiz\comabeba.bmp
+\bitmaps\dbwiz\contatos.bmp
+\bitmaps\dbwiz\domestic.bmp
+\bitmaps\dbwiz\escola.bmp
+\bitmaps\dbwiz\financas.bmp
+\bitmaps\dbwiz\fotos.bmp
+\bitmaps\dbwiz\ginastic.bmp
+\bitmaps\dbwiz\invntari.bmp
+\bitmaps\dbwiz\livros.bmp
+\bitmaps\dbwiz\membros.bmp
+\bitmaps\dbwiz\musicabd.bmp
+\bitmaps\dbwiz\pedidos.bmp
+\bitmaps\dbwiz\recursos.bmp
+\bitmaps\styles\anoitec.wmf
+\bitmaps\styles\globo.wmf
+\bitmaps\styles\linho.bmp
+\bitmaps\styles\nuvens.wmf
+\bitmaps\styles\padroes.bmp
+\bitmaps\styles\pedra.bmp
+\exemplos\mscreate.dir
+\exemplos\orders.ftg
+\exemplos\orders.fts
+\exemplos\orders.gid
+\exemplos\pedidos.cnt
+\exemplos\pedidos.hlp
+\exemplos\solution.ftg
+\exemplos\solution.fts
+\exemplos\solution.gid
+\exemplos\solutions.ftg
+\exemplos\solutions.fts
+\exemplos\solutions.gid
+\exemplos\soluções.cnt
+\exemplos\soluções.hlp
+\instalar\acc95.stf
+\instalar\acc95inv.dll
+\instalar\acme.exe
+\instalar\acme.lst
+\instalar\mscreate.dir
+\mscreate.dir
+\soa301.dll
+\utility.95
+OFFICEROOT95DIR\access\IA95\instalar\acmsetup.ftg
+\access\IA95\instalar\acmsetup.fts
+\access\IA95\instalar\acmsetup.hlp
+\access\IA95\instalar\msacccah.dll
+\access\IA95\instalar\msadtusa.dll
+\access\IA95\instalar\mssetup.dll
+\access\IA95\instalar\setup.exe
+\access\IA95\instalar\setup.inf
+\access\IA95\instalar\setup.ini
+\access\IA95\instalar\setup.stf
+\access\IA95\instalar\setup.tdf
+\administrador de grupo de trabalho do ms access.lnk
+\modelos\banco de dados\agenda de recursos.mdz
+\modelos\banco de dados\associações.mdz
+\modelos\banco de dados\biblioteca de fotografias.mdz
+\modelos\banco de dados\catálogo de endereços.mdz
+\modelos\banco de dados\coleção de livros.mdz
+\modelos\banco de dados\coleção de vídeos.mdz
+\modelos\banco de dados\coleção musical.mdz
+\modelos\banco de dados\controle de inventário.mdz
+\modelos\banco de dados\custos de projeto.mdz
+\modelos\banco de dados\despesas.mdz
+\modelos\banco de dados\doações.mdz
+\modelos\banco de dados\entrada de pedidos.mdz
+\modelos\banco de dados\estudantes e classes.mdz
+\modelos\banco de dados\gerenciamento de chamadas.mdz
+\modelos\banco de dados\gerenciamento de contatos.mdz
+\modelos\banco de dados\gerenciamento de eventos.mdz
+\modelos\banco de dados\ginástica.mdz
+\modelos\banco de dados\inventário de bens.mdz
+\modelos\banco de dados\inventário doméstico.mdz
+\modelos\banco de dados\lista de vinhos.mdz
+\modelos\banco de dados\livro-razão.mdz
+\modelos\banco de dados\mscreate.dir
+\modelos\banco de dados\receitas.mdz
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\northwind.ldb
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\northwind.mdb
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\pedidos.ldb
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\pedidos.mdb
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\soluções.ldb
+USER_MODIFIABLE_FILE=ACCESS95DIR\exemplos\soluções.mdb
+
+[SAFE, ACCESS95, ACCESS97, ACCESSMSIREG, EXCEL95, EXCEL97, EXCELMSIREG, POWERPOINT95, POWERPOINT97, POWERPOINTMSIREG, SCHEDULE95, WORD95, WORD97, WORDMSIREG] "Microsoft Access, Excel, PowerPoint e Word"
+MSAPPS9XDIR\proof\mswds_pb.lex
+SHAREDDLL=MSAPPS9XDIR\proof\mswds_pb.lex
+
+[SAFE, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+MENU_ITEM=Iniciar\Microsoft Binder
+MENU_ITEM=Iniciar\Microsoft Office Fast Start
+SHAREDDLL=OFFICEROOT95DIR\office\fastboot.exe
+SYSMENUSTARTUPDIR\barra de atalho do Microsoft Office.lnk
+\barra de atalhos do Microsoft Office.lnk
+\Busca acelerada do Microsoft Office.lnk
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95] "Microsoft Office 95"
+MENU_ITEM=Iniciar\Microsoft Office Find Fast Indexer
+MENU_ITEM=Microsoft Office\instalar
+MENU_ITEM=Microsoft Office\Instalação do Microsoft Office
+MENU_ITEM=Microsoft Office\Manual Obtendo Resultados
+OFFICEROOT95DIR\instalar.lnk
+\Instalação do Microsoft Office Pro.lnk
+\Instalação do Microsoft Office.lnk
+\manual obtendo resultados.lnk
+\office\instalar\acme.exe
+\office\instalar\acme.lst
+\office\instalar\instalar.lst
+\office\instalar\mscreate.dir
+\office\instalar\off95inv.dll
+\office\instalar\off95pro.stf
+\office\instalar\off95std.stf
+\office\instalar\rede.txt
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECT9] "Microsoft Office"
+SHAREDDLL=SYSDIR\ffastlog.txt
+SYSDIR\ffastlog.txt
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, SCHEDULE95, WORD95] "Microsoft Office 95"
+OFFICEROOT95DIR\Barra de atalho do Microsoft Office.lnk
+\office\barra de atalho\msn.lnk
+\office\barra de atalho\office\abrir um documento.lnk
+\office\barra de atalho\office\assistente de resposta.lnk
+\office\barra de atalho\office\iniciar um novo documento.lnk
+\office\barra de atalho\office\office compatible.lnk
+\office\barra de atalho\office\send a message.lnk
+\office\msn\fórum microsoft access 95.mcc
+\office\msn\fórum microsoft excel 95.mcc
+\office\msn\fórum microsoft office 95.mcc
+\office\msn\fórum microsoft office family.mcc
+\office\msn\fórum microsoft powerpoint 95.mcc
+\office\msn\fórum microsoft schedule+ 95.mcc
+\office\msn\fórum microsoft word 95.mcc
+\office\msow.exe
+\office\ofleiame.txt
+\office\shortcut bar\office\abrir um documento.lnk
+\office\shortcut bar\office\assistente de resposta.lnk
+\office\shortcut bar\office\iniciar um novo documento.lnk
+\office\shortcutbar\mscreate.dir
+\office\shortcutbar\msdos.pif
+\office\shortcutbar\office.tbb
+\office\shortcutbar\office\mscreate.dir
+\office\shortcutbar\officeh.bmp
+\office\shortcutbar\officeh.tbb
+\office\shortcutbar\offices.tbb
+\office\shortcutbar\officev.bmp
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, SCHEDULE95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office"
+MENU_ITEM=Iniciar\Barra de atalho do Microsoft Office
+MENU_ITEM=Microsoft Office\Barra de atalho do Microsoft Office
+MENU_ITEM=Startup\Barra de atalho do Microsoft Office
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, WORD95] "Microsoft Access, Excel, PowerPoint e Word"
+OFFICEROOT95DIR\Barra de atalho do Microsoft Office.lnk
+\office\msoffice.exe
+
+[SAFE, ACCESS97] "Microsoft Access 97"
+ACCESS97DIR\acleia80.wri
+\bitmaps\dbwiz\comabeba.gif
+\bitmaps\dbwiz\contatos.gif
+\bitmaps\dbwiz\domestic.gif
+\bitmaps\dbwiz\escola.gif
+\bitmaps\dbwiz\financas.gif
+\bitmaps\dbwiz\fotos.gif
+\bitmaps\dbwiz\ginastic.gif
+\bitmaps\dbwiz\invntari.gif
+\bitmaps\dbwiz\livros.gif
+\bitmaps\dbwiz\membros.gif
+\bitmaps\dbwiz\musicabd.gif
+\bitmaps\dbwiz\pedidos.gif
+\bitmaps\dbwiz\recursos.gif
+\bitmaps\styles\anoitec.wmf
+\bitmaps\styles\globo.wmf
+\bitmaps\styles\linho.bmp
+\bitmaps\styles\nuvens.wmf
+\bitmaps\styles\padroes.bmp
+\bitmaps\styles\pedra.bmp
+\exemplos\cajbkgrn.gif
+\exemplos\cajlogo.gif
+\exemplos\cajun.htm
+\exemplos\forbkgrn.gif
+\exemplos\forlogo.gif
+\exemplos\formaggi.htm
+\exemplos\mscreate.dir
+\exemplos\nwind80.cnt
+\exemplos\nwind80.ftg
+\exemplos\nwind80.fts
+\exemplos\nwind80.gid
+\exemplos\nwind80.hlp
+\exemplos\nwindtem.htm
+\exemplos\nwlogo.gif
+\exemplos\orders80.ftg
+\exemplos\orders80.fts
+\exemplos\orders80.gid
+\exemplos\pedido80.cnt
+\exemplos\pedido80.hlp
+\exemplos\produtos.doc
+\exemplos\soltn80.ftg
+\exemplos\soltn80.fts
+\exemplos\soltn80.gid
+\exemplos\solu80.cnt
+\exemplos\solu80.hlp
+\exemplos\whatsnew.gif
+\instalar\acc97.stf
+\instalar\acmeacc.lst
+OFFICEROOT97DIR\administrador de grupo de trabalho do ms access.lnk
+\instalação do microsoft access.lnk
+\modelos\access\100.htm
+\modelos\access\100.jpg
+\modelos\access\default.htm
+\modelos\access\gray.htm
+\modelos\access\gray.jpg
+\modelos\access\grayst.htm
+\modelos\access\grayst.jpg
+\modelos\access\mc.htm
+\modelos\access\mc.jpg
+\modelos\access\mcst.htm
+\modelos\access\mcst.jpg
+\modelos\access\msaccess.jpg
+\modelos\access\sky.htm
+\modelos\access\sky.jpg
+\modelos\access\stones.htm
+\modelos\access\stones.jpg
+\modelos\access\tiles.htm
+\modelos\access\tiles.jpg
+\modelos\access\zigzag.htm
+\modelos\access\zigzag.jpg
+\modelos\banco de dados\agenda de recursos.mdz
+\modelos\banco de dados\associações.mdz
+\modelos\banco de dados\biblioteca de fotografias.mdz
+\modelos\banco de dados\catálogo de endereços.mdz
+\modelos\banco de dados\coleção de livros.mdz
+\modelos\banco de dados\coleção de vídeos.mdz
+\modelos\banco de dados\coleção musical.mdz
+\modelos\banco de dados\controle de inventário.mdz
+\modelos\banco de dados\custos de projeto.mdz
+\modelos\banco de dados\despesas.mdz
+\modelos\banco de dados\doações.mdz
+\modelos\banco de dados\entrada de pedidos.mdz
+\modelos\banco de dados\estudantes e classes.mdz
+\modelos\banco de dados\gerenciamento de chamadas.mdz
+\modelos\banco de dados\gerenciamento de contatos.mdz
+\modelos\banco de dados\gerenciamento de eventos.mdz
+\modelos\banco de dados\ginástica.mdz
+\modelos\banco de dados\inventário de bens.mdz
+\modelos\banco de dados\inventário doméstico.mdz
+\modelos\banco de dados\lista de vinhos.mdz
+\modelos\banco de dados\livro-razão.mdz
+\modelos\banco de dados\receitas.mdz
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\northwind.ldb
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\northwind.mdb
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\pedidos.ldb
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\pedidos.mdb
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\soluções.ldb
+USER_MODIFIABLE_FILE=ACCESS97DIR\exemplos\soluções.mdb
+
+[SAFE, ACCESS97, ACCESS97RT] "Microsoft Access 97"
+SYSDIR\wrkgadm.exe
+
+[SAFE, ACCESS97, ACCESS97RT, POWERPOINT97, WORD97] "Microsoft Graph 97"
+OFFICE97DIR\gr8416.dll
+\gr_vba.ftg
+\gr_vba.fts
+\gr_vba.gid
+\gren50.olb
+\grptb50.olb
+
+[SAFE, ACCESS97, EXCEL97, MSDRAW97, MSDRAW98, OUTLOOK97, PHOTODRAW1, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Windows\Help\mso97.dll
+OFFICE97DIR\instalar\mscreate.dir
+\mso7ptb.dll
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+OFFICE97DIR\atores\clippit.acp
+\atores\clippit.act
+\atores\dolphin.acp
+\atores\dolphin.act
+\atores\dot.acp
+\atores\dot.act
+\atores\genius.acp
+\atores\genius.act
+\atores\hoverbot.acp
+\atores\hoverbot.act
+\atores\logo.acp
+\atores\logo.act
+\atores\mnature.acp
+\atores\mnature.act
+\atores\mscreate.dir
+\atores\offlady.acp
+\atores\offlady.act
+\atores\powerpup.acp
+\atores\powerpup.act
+\atores\rocky.acp
+\atores\rocky.act
+\atores\scribble.acp
+\atores\scribble.act
+\atores\tofflogo.act
+\atores\will.acp
+\atores\will.act
+SHAREDDLL=OFFICE97DIR\atores\clippit.act
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+MENU_ITEM=Iniciar\Busca Acelerada do Microsoft Office
+MENU_ITEM=Iniciar\Inicialização do Office
+MENU_ITEM=Iniciar\Início do Office
+MENU_ITEM=Startup\Inicialização do Office
+MENU_ITEM=Startup\Início do Office
+OFFICE97DIR\barra de atalhos\mscreate.dir
+\barra de atalhos\office\mscreate.dir
+\eula8.gid
+\instalar\acme.exe
+\instalar\acme.lst
+\instalar\instalar.lst
+\instalar\off97pro.stf
+\instalar\off97std.sdf
+OFFICEROOT97DIR\mscreate.dir
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97] "Microsoft Office 97"
+OFFICE97DIR\barra de atalho\office\abrir documento do office.lnk
+\barra de atalho\office\novo documento do office.lnk
+\barra de atalhos\office\abrir documento do office.lnk
+\barra de atalhos\office\impressoras.lnk
+\barra de atalhos\office\novo documento do office.lnk
+\ofleia8.txt
+\pss8.fts
+\pss8.gid
+\veenlr3.gid
+OFFICEROOT97DIR\Barra de atalho do Microsoft Office.lnk
+\Instalação do Microsoft Office.lnk
+
+[SAFE, DMM97] "Arquivo usado pelo Direct Mail Manager 97"
+DMM97DIR\instalar\dmm.exe
+\instalar\dmm.inf
+\instalar\dmm.stf
+\instalar\dmmbb.dll
+\instalar\dmmsetup.ttf
+\instalar\mscreate.dir
+\instalar\mssetup.dll
+OFFICEROOT97DIR\modelos\direct mail manager\Flyer Wizard.wiz
+\modelos\direct mail manager\Letter Wizard.wiz
+\modelos\direct mail manager\mscreate.dir
+\modelos\direct mail manager\Postcard Wizard.wiz
+\modelos\direct mail manager\Simple Form Letter.dot
+
+[SAFE, DMM97, DMM9PLUS] "Arquivo usado pelo Direct Mail Manager"
+SYSDIR\emdaz32.dll
+\emlcns32.dll
+
+[SAFE, EQUATION95, EQUATION97, EQUATION9] "Microsoft Office"
+MSAPPS9XDIR\equation\veenmc3.ftg
+\equation\veenmc3.fts
+\equation\veenmc3.gid
+
+[SAFE, EXCEL94] "Microsoft Excel 5.0"
+EXCEL94DIR\bibliote\addinfns.xla
+\bibliote\analise\analysf.xla
+\bibliote\analise\analysis.xla
+\bibliote\analise\analysis.xll
+\bibliote\analise\atpvbaen.xla
+\bibliote\analise\atpvbapb.xla
+\bibliote\analise\funcres.xla
+\bibliote\analise\procdb.xla
+\bibliote\atuavinc.xla
+\bibliote\autosalv.xla
+\bibliote\autosave.xla
+\bibliote\crosstab\crossfnc.xla
+\bibliote\crosstab\crosstab.dll
+\bibliote\crosstab\crosstab.xll
+\bibliote\msquery\qe.xla
+\bibliote\msquery\qexla.dll
+\bibliote\msquery\xlodbc.dll
+\bibliote\msquery\xlodbc.xla
+\bibliote\msquery\xlquery.xla
+\bibliote\relat.xla
+\bibliote\reports.xla
+\bibliote\slides\slides.xla
+\bibliote\slides\slides.xlt
+\bibliote\slides\xlslides.dll
+\bibliote\solver\solver.dll
+\bibliote\solver\solver.xla
+\bibliote\updtlink.xla
+\bibliote\views.xla
+\bibliote\visualiz.xla
+\config\_mssetup.exe
+\config\acmsetup.ftg
+\config\acmsetup.fts
+\config\acmsetup.gid
+\config\acmsetup.hlp
+\config\config.exe
+\config\config.stf
+\config\excel5.inf
+\config\excel_bb.dll
+\config\excel_ca.dll
+\config\mscpydis.dll
+\config\mssetup.dll
+\config\setup.exe
+\config\setup.stf
+\config\xlsetup.ttf
+\excelcbt\agenda.fmt
+\excelcbt\agenda.wk1
+\excelcbt\arte.xls
+\excelcbt\exotico.fmt
+\excelcbt\exotico.wk1
+\excelcbt\pecas.fmt
+\excelcbt\pecas.wk1
+\excelcbt\tendenc.xls
+\excelcbt\vendas93.xls
+\exemplos\bookst.xls
+\exemplos\exemplo.xls
+\exemplos\livraria.xls
+\exemplos\sales.xls
+\exemplos\samples.xls
+\exemplos\solverex.xls
+\exemplos\solvsamp.xls
+\exemplos\vendas.xls
+\redes.txt
+\xlleiame.hlp
+\xlptb50.olb
+
+[SAFE, EXCEL94, EXCEL95, EXCEL97] "Microsoft Excel"
+EXCEL95DIR\Instalação do Microsoft Excel.lnk
+MENU_ITEM=Microsoft Office\Ajuda leiame do ms excel
+MENU_ITEM=Microsoft Office\exemplos do ms excel
+MENU_ITEM=Microsoft Office\instalação do ms excel
+MENU_ITEM=Microsoft Office\leiame do ms excel
+MENU_ITEM=Microsoft Office\microsoft excel
+STARTMENU94DIR\ajuda leiame do ms excel.lnk
+\config do ms excel.lnk
+\exemplos do ms excel.lnk
+\leiame do ms excel.lnk
+\microsoft excel.lnk
+\ms excel.lnk
+
+[SAFE, EXCEL95] "Microsoft Excel 95"
+EXCEL95DIR\bibliote\acclink.xla
+\bibliote\analise\analys32.xll
+\bibliote\analise\atpvbapb.xla
+\bibliote\analise\funcres.xla
+\bibliote\analise\mscreate.dir
+\bibliote\analise\procdb.xla
+\bibliote\assismod.xla
+\bibliote\atuavinc.xla
+\bibliote\autosalv.xla
+\bibliote\mscreate.dir
+\bibliote\msquery\mscreate.dir
+\bibliote\msquery\xlodbc.xla
+\bibliote\msquery\xlodbc32.dll
+\bibliote\msquery\xlquery.xla
+\bibliote\numodelo.xla
+\bibliote\relat.xla
+\bibliote\solver\mscreate.dir
+\bibliote\solver\solver.xla
+\bibliote\solver\solver32.dll
+\bibliote\vincacc.xla
+\bibliote\visualiz.xla
+\exemplos\exemplo.xls
+\exemplos\livraria.xls
+\exemplos\mscreate.dir
+\exemplos\solver\exemsolv.xls
+\exemplos\solver\mscreate.dir
+\exemplos\solver\solverex.xls
+\exemplos\vendas.xls
+\instalar\acme.exe
+\instalar\acme.lst
+\instalar\attach.txt
+\instalar\mscreate.dir
+\instalar\ODBCEXEC.EXE
+\instalar\rede.txt
+\instalar\xl95.stf
+\instalar\xl95inv.dll
+\instalar\XLBB5032.DLL
+\instalar\XLSETUP.TTF
+\instalação do microsoft excel.lnk
+\listavba.xls
+\msoffice\instalação do microsoft excel.lnk
+\xl5ptb32.olb
+\xlinicio\mscreate.dir
+\xlinicio\mswfx4.xls
+\xlinicio\mswfx95.xls
+\xlleiame.txt
+EXCEL95VIEWERDIR\bibliote\html.xla
+\bibliote\mscreate.dir
+\instalar\acmsetup.hlp
+\instalar\microsoft excel viewer setup.lnk
+\instalar\mscreate.dir
+\instalar\mssetup.dll
+\instalar\offsetup.ttf
+\instalar\setup.exe
+\instalar\setup.stf
+\instalar\xlview.inf
+\instalar\xlviewbb.dll
+OFFICEROOT95DIR\clipart\carro.bmp
+\clipart\contabil.bmp
+\clipart\esporte.bmp
+\clipart\fitas.bmp
+\clipart\flor.bmp
+\clipart\hardware.bmp
+\clipart\legal.bmp
+\clipart\medico.bmp
+\clipart\musica.bmp
+\clipart\software.bmp
+\modelos\soluçoes de planilha\mscreate.dir
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdcarpto.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdespesa.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdfatura.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdpcomp.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdptroca.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\bdpvenda.xls
+USER_MODIFIABLE_FILE=EXCEL95DIR\bibliote\comum.xls
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\cartão de ponto.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\despesas.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\empréstimo.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\fatura.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\leasing de carro.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\orçamento.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\pedido de compra.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\pedido de troca.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\planejamento financeiro.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\soluçoes de planilha\proposta de vendas.xlt
+
+[SAFE, EXCEL95, EXCEL97, EXCELMSIREG] "Arquivo usado pelo DataMap"
+HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Excel
+
+[SAFE, EXCEL95, POWERPOINT95, PROJECT94, PROJECT95] "Microsoft Excel, PowerPoint e Project"
+MSAPPS9XDIR\vba\vbapt.aw
+\vba\vbapt.cnt
+\vba\vbapt.hlp
+
+[SAFE, EXCEL95, POWERPOINT95, WORD95] "Microsoft Office 95"
+BINDER95DIR\fichario.txt
+OFFICEROOT95DIR\fichário da microsoft.lnk
+\modelos\ficharios\cliente.obz
+\modelos\ficharios\mscreate.dir
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\ficharios\organizador de reunião.obt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\ficharios\proposta e plano de marketing.obt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\ficharios\relatório.obt
+
+[SAFE, EXCEL95, POWERPOINT95, WORD95, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office"
+MENU_ITEM=Microsoft Office\Fichário da Microsoft
+SYSMENUPROGRAMSDIR\fichário da microsoft.lnk
+
+[SAFE, EXCEL97] "Microsoft Excel 97"
+EXCEL97DIR\bibliote\analise\analys32.xll
+\bibliote\analise\atpvbaen.xla
+\bibliote\analise\atpvbapb.xla
+\bibliote\analise\funcres.xla
+\bibliote\analise\mscreate.dir
+\bibliote\analise\procdb.xla
+\bibliote\assismod.xla
+\bibliote\atuavinc.xla
+\bibliote\autosalv.xla
+\bibliote\fileconv.xla
+\bibliote\html.xla
+\bibliote\mscreate.dir
+\bibliote\msquery\mscreate.dir
+\bibliote\msquery\xlodbc.xla
+\bibliote\msquery\xlodbc32.dll
+\bibliote\msquery\xlquery.xla
+\bibliote\numodelo.xla
+\bibliote\relat.xla
+\bibliote\solver\mscreate.dir
+\bibliote\solver\solver.xla
+\bibliote\solver\solver32.dll
+\bibliote\somase.xla
+\bibliote\views.xla
+\bibliote\vincacc.xla
+\bibliote\visualiz.xla
+\bibliote\webform.xla
+\cliente.dbf
+\exemplos\exemplo.xls
+\exemplos\mscreate.dir
+\exemplos\solver\exemsolv.xls
+\exemplos\solver\mscreate.dir
+\funciona.dbf
+\instalar.lnk
+\instalar\acmexl.lst
+\instalar\excel97.stf
+\instalar\mscreate.dir
+\instalação do microsoft excel.lnk
+\listavba.xls
+\pedidos.dbf
+\xl5ptb32.olb
+\xl8416.dll
+\xlinicio\mscreate.dir
+\xlleia8.txt
+\xltmplt8.fts
+\xltmplt8.gid
+HKLM\Software\Microsoft\Windows\Help\workfunc.aw
+HKLM\Software\Microsoft\Windows\Help\xlmacr8.hlp
+HKLM\Software\Microsoft\Windows\Help\xlmain8.aw
+HKLM\Software\Microsoft\Windows\Help\xlmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\xlmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\xlnew8.cnt
+HKLM\Software\Microsoft\Windows\Help\xlnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\xltip8.hlp
+HKLM\Software\Microsoft\Windows\Help\xltmplt.hlp
+OFFICEROOT97DIR\instalação do microsoft excel.lnk
+\pesquisa\detailed stock quote da pc quote, inc.iqy
+\pesquisa\dow jones stocks da pc quote, inc.iqy
+\pesquisa\mscreate.dir
+\pesquisa\multiple stock quotes da pc quote, inc.iqy
+\pesquisa\obtenha mais consultas à web.iqy
+SHAREDDLL=EXCEL97DIR\recncl.dll
+SYSDESKTOPDIR\Microsoft Small Business Financial Manager.lnk
+SYSMENUPROGRAMSDIR\Microsoft Small Business Financial Manager.lnk
+USER_MODIFIABLE_FILE=EXCEL97DIR\bibliote\bdcompr.xls
+USER_MODIFIABLE_FILE=EXCEL97DIR\bibliote\bdespesa.xls
+USER_MODIFIABLE_FILE=EXCEL97DIR\bibliote\bdfatura.xls
+USER_MODIFIABLE_FILE=EXCEL97DIR\bibliote\comum.xls
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\soluçoes de planilha\demonstrativo de despesas.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\soluçoes de planilha\fatura.xlt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\soluçoes de planilha\pedido de compra.xlt
+OFFICE97DIR\barra de atalhos\office\Microsoft Excel.lnk
+
+[SAFE, EXCEL97, POWERPOINT97, WORD97] "Microsoft Office 97"
+OFFICE97DIR\barra de atalhos\quickshelf\mscreate.dir
+OFFICEROOT97DIR\aamstp\app\mscreate.dir
+\aamstp\mscreate.dir
+
+[SAFE, EXCEL97, WORD97, POWERPOINT97] "Microsoft Office 97"
+OFFICE97DIR\inicio\nm-ppt.ppa
+\inicio\nm-word.dot
+\veenmc3.gid
+\xlinicio\nm-excel.xla
+OFFICEROOT97DIR\bdrec.dll
+\bdrintl.dll
+\binder.exe
+\binder.obd
+\binder8.gid
+\fichário da microsoft.lnk
+\vbabdr8.gid
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\fichários\organizador de reunião.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\fichários\proposta e plano de marketing.obt
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\fichários\relatório.obt
+
+[SAFE, FRONTPAGE1X] "Microsoft FrontPage 1.1"
+FRONTPAGE1XDIR\webs\custsupp.tem\cusuafte.htm
+
+[SAFE, GRAPH95, ACCESS95RT] "Microsoft Graph"
+MSAPPS9XDIR\msgraph5\grptb50.olb
+STARTMENU94DIR\autocoversão do graph.lnk
+
+[SAFE, IMAGER95] "Microsoft Imager 95"
+IMAGER95DIR\mscreate.dir
+
+[SAFE, EXCEL94, MSQUERY94, EXCEL95, MSQUERY95] "Microsoft Office"
+MSAPPS9XDIR\msquery\cliente.dbf
+\msquery\cliente.mdx
+\msquery\forneced.dbf
+\msquery\forneced.mdx
+\msquery\funciona.dbf
+\msquery\funciona.mdx
+\msquery\listaped.dbf
+\msquery\listaped.mdx
+\msquery\pedidos.dbf
+\msquery\pedidos.mdx
+\msquery\produtos.dbf
+\msquery\produtos.mdx
+
+[SAFE, EXCEL94, MSQUERY94, EXCEL95, MSQUERY95, EXCEL97, MSQUERY97] "Microsoft Office"
+WINDIR\ODBC\data sources\arquivos dbase (não compartilhados).dsn
+\ODBC\data sources\arquivos excel (não compartilhados).dsn
+\ODBC\data sources\arquivos foxpro (não compartilhados).dsn
+\ODBC\data sources\arquivos paradox (não compartilhados).dsn
+\ODBC\data sources\arquivos texto (não compartilhados).dsn
+\ODBC\data sources\bancos de dados do ms access 2.0 (não compartilhados).dsn
+\ODBC\data sources\bancos de dados do ms access 7.0 (não compartilhados).dsn
+\ODBC\data sources\bancos de dados do ms access 97 (não compartilhados).dsn
+\ODBC\data sources\visual foxpro table (not sharable).dsn
+
+[SAFE, EXCEL95, MSQUERY95] "Microsoft Office 95"
+MSAPPS9XDIR\msquery\msqry32.cue
+
+[SAFE, OUTLOOK97] "Microsoft Outlook"
+HKLM\Software\Microsoft\Windows\Help\outlimep.cnt
+HKLM\Software\Microsoft\Windows\Help\outlimep.hlp
+HKLM\Software\Microsoft\Windows\Help\vbaoutl.cnt
+HKLM\Software\Microsoft\Windows\Help\vbaoutl.hlp
+OUTLOOK97DIR\cabecalh\appthdr.rtf
+\cabecalh\appthdr.usa
+\cabecalh\forward.rtf
+\cabecalh\forward.usa
+\cabecalh\mscreate.dir
+\cabecalh\post.rtf
+\cabecalh\post.usa
+\cabecalh\reply.rtf
+\cabecalh\reply.usa
+\cabecalh\taskhdr.rtf
+\cabecalh\taskhdr.usa
+\exchng.cnt
+\formular\activitl.ico
+\formular\activits.ico
+\formular\activity.cfg
+\formular\appt.cfg
+\formular\apptl.ico
+\formular\appts.ico
+\formular\cnfnot.cfg
+\formular\cnfnot.ico
+\formular\cnfres.cfg
+\formular\conflict.ico
+\formular\contact.cfg
+\formular\contactl.ico
+\formular\contacts.ico
+\formular\doc.cfg
+\formular\docl.ico
+\formular\docs.ico
+\formular\exitem.cfg
+\formular\exiteml.ico
+\formular\exitems.ico
+\formular\ipm.cfg
+\formular\ipml.ico
+\formular\ipms.ico
+\formular\keyex.cfg
+\formular\keyex.ico
+\formular\keyexs.ico
+\formular\mscreate.dir
+\formular\note.cfg
+\formular\notel.ico
+\formular\notes.ico
+\formular\oofl.ico
+\formular\oofs.ico
+\formular\ooftmpl.cfg
+\formular\post.cfg
+\formular\postit.cfg
+\formular\postitl.ico
+\formular\postits.ico
+\formular\postl.ico
+\formular\posts.ico
+\formular\rclrpt.cfg
+\formular\recall.cfg
+\formular\recalll.ico
+\formular\recalls.ico
+\formular\remote.cfg
+\formular\remotel.ico
+\formular\remotes.ico
+\formular\repltmpl.cfg
+\formular\report.cfg
+\formular\reportl.ico
+\formular\reports.ico
+\formular\resend.cfg
+\formular\resendl.ico
+\formular\resends.ico
+\formular\scdcncll.ico
+\formular\scdcncls.ico
+\formular\scdreql.ico
+\formular\scdreqs.ico
+\formular\scdresnl.ico
+\formular\scdresns.ico
+\formular\scdrespl.ico
+\formular\scdresps.ico
+\formular\scdrestl.ico
+\formular\scdrests.ico
+\formular\schdcncl.cfg
+\formular\schdreq.cfg
+\formular\schdresn.cfg
+\formular\schdresp.cfg
+\formular\schdrest.cfg
+\formular\secure.cfg
+\formular\securl.ico
+\formular\securs.ico
+\formular\sign.cfg
+\formular\signl.ico
+\formular\signs.ico
+\formular\task.cfg
+\formular\taskacc.cfg
+\formular\taskaccl.ico
+\formular\taskaccs.ico
+\formular\taskdec.cfg
+\formular\taskdecl.ico
+\formular\taskdecs.ico
+\formular\taskl.ico
+\formular\taskreq.cfg
+\formular\taskreql.ico
+\formular\taskreqs.ico
+\formular\tasks.ico
+\formular\taskupd.cfg
+\instalar\outljobs\mscreate.dir
+\instalar\outlook\wmsset32.dll
+\olleia.txt
+\outlook.prf
+\setup\outook\mscreate.dir
+\suplemen\activeex.dll
+\suplemen\awfext.ecf
+\suplemen\cserve.ecf
+\suplemen\dlgsetp.ecf
+\suplemen\dumpster.dll
+\suplemen\dumpster.ecf
+\suplemen\emsuix.ecf
+\suplemen\esconf.dll
+\suplemen\etexch.ecf
+\suplemen\exchange.dsm
+\suplemen\frmrdrct.dll
+\suplemen\frmrdrct.ecf
+\suplemen\mail3.ecf
+\suplemen\minet.ecf
+\suplemen\mscreate.dir
+\suplemen\msfsmenu.ecf
+\suplemen\msfsprop.ecf
+\suplemen\msn.ecf
+\suplemen\msspc.ecf
+\suplemen\scrptxtn.dll
+SYSMENUPROGRAMSDIR\accessories\system tools\inbox repair tool.lnk
+SYSMENUPROGRAMSDIR\Leitor de notícias do Microsoft outlook.lnk
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\compromisso.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\contato.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\mensagem.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\na sua ausência.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\remessa.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\tarefa.oft
+WINDIR\media\office97\lembrete.wav
+\sendto\destinarário do correio usando microsoft outlook.lnk
+\sendto\Leitor de notícias do Microsoft outlook.lnk
+
+
+
+[SAFE, POWERPOINT94] "Microsoft PowerPoint 4.0"
+POWERPOINT94DIR\config\_mssetup.exe
+\config\acmsetup.gid
+\config\acmsetup.hlp
+\config\acmsetup.ttf
+\config\acsetup.ttf
+\config\mscpydis.dll
+\config\mssetup.dll
+\config\pp4.inf
+\config\pp4_bb.dll
+\config\setup.exe
+\config\setup.stf
+\config\wwsetup.ttf
+\config\xlsetup.ttf
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\badnews.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\general.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\progress.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\selling.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\strategy.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\assist\training.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\exemplos\calendar.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\exemplos\flowchrt.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\exemplos\printme.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\exemplos\tables.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\exemplos\timeline.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\azureb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\bannerb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\bevelb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\blackb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\blstripb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\bludiagb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\blueboxb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\bluegrnb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\brknbarb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\bubbleb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\checksb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\cheersb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\colorbxb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\confetib.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\dbllineb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\diamondb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\dropstrb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\embossdb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\fiestab.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\flagb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\forestb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\gridwrkb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\intlb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\islandb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\linsblub.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\marbleb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\medicalb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\metlbarb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\movnglnb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\multbarb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\multboxb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\musicb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\neonlitb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\pastelb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\patchwkb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\redlineb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\seashorb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\shadbarb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\sidebarb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\sidefadb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\soaringb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\southwsb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\sparkleb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\splatb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\tabletb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\theatreb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\toplineb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\travelb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\tridotsb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\triumphb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\tropicb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\twinkleb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\vividlnb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\watercob.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\bwovrhd\worldb.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\azurec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\bannerc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\bevelc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\blackc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\blstripc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\bludiagc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\blueboxc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\bluegrnc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\brknbarc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\bubblec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\checksc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\cheersc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\colorbxc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\confetic.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\dbllinec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\diamondc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\dropstrc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\embossdc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\fiestac.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\flagc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\forestc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\gridwrkc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\intlc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\islandc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\linsbluc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\marblec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\medicalc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\metlbarc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\movnglnc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\multbarc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\multboxc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\musicc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\neonlitc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\pastelc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\patchwkc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\redlinec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\seashorc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\shadbarc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\sidebarc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\sidefadc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\soaringc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\southwsc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\sparklec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\splatc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\tabletc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\theatrec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\toplinec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\travelc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\tridotsc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\triumphc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\tropicc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\twinklec.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\vividlnc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\watercoc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\clrovrhd\worldc.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\azures.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\banners.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\bevels.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\blacks.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\blstrips.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\bludiags.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\blueboxs.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\bluegrns.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\brknbars.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\bubbles.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\checkss.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\cheerss.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\colorbxs.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\confetis.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\dbllines.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\diamonds.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\dropstrs.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\embossds.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\fiestas.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\flags.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\forests.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\gridwrks.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\intls.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\islands.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\linsblus.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\marbles.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\medicals.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\metlbars.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\movnglns.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\multbars.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\multboxs.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\musics.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\neonlits.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\pastels.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\patchwks.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\redlines.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\seashors.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\shadbars.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\sidebars.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\sidefads.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\soarings.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\southwss.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\sparkles.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\splats.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\tablets.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\theatres.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\toplines.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\travels.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\tridotss.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\triumphs.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\tropics.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\twinkles.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\vividlns.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\watercos.ppt
+USER_MODIFIABLE_FILE=POWERPOINT94DIR\modelo\sldshow\worlds.ppt
+
+[SAFE, POWERPOINT94, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint"
+HKLM\Config\0001\System\CurrentControlSet\Control\Print\Printers\Genigraphics® Driver
+HKLM\System\CurrentControlSet\control\Print\Environments\Windows 4.0\Drivers\Genigraphics® Driver
+MENU_ITEM=Microsoft Office\ajuda leiame do powerpoint
+MENU_ITEM=Microsoft Office\instalação do powerpoint
+MENU_ITEM=Microsoft Office\microsoft powerpoint
+STARTMENU94DIR\ajuda leiame do powerpoint.lnk
+\instalação do powerpoint.lnk
+\microsoft powerpoint.lnk
+WIN.INI, devices, Genigraphics® Driver
+WIN.INI, printerports, Genigraphics® Driver
+
+[SAFE, POWERPOINT95] "Microsoft PowerPoint 95"
+OFFICEROOT95DIR\sons\carro.wav
+\sons\chicote1.wav
+\sons\digitar.wav
+\sons\estrada2.wav
+\sons\explosao.wav
+\sons\foto.wav
+\sons\laser.wav
+\sons\mscreate.dir
+\sons\palmas1.wav
+\sons\palmas4.wav
+\sons\projetor.wav
+\sons\registr2.wav
+\sons\ricochet.wav
+\sons\sinos01.wav
+\sons\tambor.wav
+\sons\tiro.wav
+\sons\vidro.wav
+POWERPOINT95DIR\instalar\acme.exe
+\instalar\acme.lst
+\instalar\mscreate.dir
+\instalar\ppt95.stf
+\instalar\ppt95inv.dll
+\ppleiame.txt
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\apresentação em branco.pot
+
+[SAFE, POWERPOINT95, POWERPOINT97] "Microsoft PowerPoint"
+MENU_ITEM=Microsoft Office\Instalação do Microsoft Powerpoint
+MENU_ITEM=Microsoft Office\Instalação do Powerpoint
+OFFICEROOT95DIR\instalação do microsoft powerpoint.lnk
+\instalação do powerpoint.lnk
+
+[SAFE, POWERPOINT97] "Microsoft PowerPoint 97"
+HKLM\Software\Microsoft\Windows\Help\ppmain8.aw
+HKLM\Software\Microsoft\Windows\Help\ppmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\ppmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\ppnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\ppnew9.cnt
+HKLM\Software\Microsoft\Windows\Help\pptip8.hlp
+OFFICEROOT97DIR\instalação do microsoft powerpoint.lnk
+\modelos\acalllng.srg
+\modelos\acallsht.srg
+\modelos\acminlng.srg
+\modelos\acminsht.srg
+\modelos\actyplng.srg
+\modelos\actypsht.srg
+\modelos\Apresentações\assistente de autoconteúdo.pwz
+\sons\mscreate.dir
+POWERPOINT97DIR\instalar\_ppt.stf
+\instalar\acmeppt.lst
+\ppleia8.txt
+SYSDIR\msimrt.dll
+\msimrt16.dll
+\msimrt32.dll
+\msimusic.dll
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\apresentação em branco.pot
+WINDIR\media\office97\aplauso.wav
+\media\office97\caixreg.wav
+\media\office97\carro.wav
+\media\office97\chicote.wav
+\media\office97\digitar.wav
+\media\office97\explosao.wav
+\media\office97\freiada.wav
+\media\office97\mscreate.dir
+\media\office97\palmas.wav
+\media\office97\projetor.wav
+\media\office97\sinos.wav
+\media\office97\tambor.wav
+\media\office97\tiro.wav
+\media\office97\vidro.wav
+
+[SAFE, POWERPOINT97, WORD97] "Microsoft PowerPoint e Word 97"
+OFFICE97DIR\inicio\mscreate.dir
+OFFICEROOT97DIR\modelos\páginas da web\mscreate.dir
+
+[SAFE, PUBLISHER3, PUBLISHER4] "Microsoft Publisher"
+SYSMENUPROGRAMSDIR\Microsoft Publisher\MICROSOFT PUBLISHER.LNK
+
+[SAFE, PUBLISHER3, PUBLISHER4, PUBLISHER5, PUBLISHERMSIREG] "Microsoft Publisher"
+SYSDIR\mspub.inf
+\printer.inf
+\pub3brsh.ani
+
+
+[SAFE, PUBLISHER4, PUBLISHER5] "Microsoft Publisher"
+SYSDIR\MSGENBW.PPD
+\MSGENCOL.PPD
+
+[SAFE, PUBLISHER5] "Microsoft Publisher 98"
+PUBLISHER5DIR\Fundo\wb00516l.gif
+\Fundo\wb00530l.gif
+\Fundo\wb00531l.gif
+\Fundo\wb00546l.gif
+\Fundo\wb00673l.gif
+\Fundo\wb00703l.gif
+\Fundo\wb00742l.gif
+\Fundo\wb00756l.gif
+\Fundo\wb00760l.gif
+\Fundo\wb00780l.gif
+\Fundo\wb00785l.gif
+\Fundo\wb00819l.gif
+\Fundo\wb01215l.gif
+\Fundo\wb01231l.gif
+\Fundo\wb01249l.gif
+\Fundo\wb01252l.gif
+\Fundo\wb01302l.gif
+\Fundo\wb01304l.gif
+\Fundo\wb01308l.gif
+\Fundo\wb01329l.gif
+\Fundo\wb01331l.gif
+\Fundo\wb01739l.gif
+\Fundo\wb01741l.gif
+\Fundo\wb01754l.gif
+\Fundo\wb01769l.gif
+\Fundo\wb02035_.gif
+\Fundo\wb02036_.gif
+\Fundo\wb02037_.gif
+\Fundo\wb02038_.gif
+\Fundo\wb02039_.gif
+\Fundo\wb02040_.gif
+\Fundo\wb02041_.gif
+\Fundo\wb02042_.gif
+\Fundo\wb02043_.gif
+\Fundo\wb02044_.gif
+\Fundo\wb02045_.gif
+\Fundo\wb02046_.gif
+\Fundo\wb02047_.gif
+\Fundo\wb02048_.gif
+\Fundo\wb02049_.gif
+\Fundo\wb02050_.gif
+\Fundo\wb02051_.gif
+\Fundo\wb02052_.gif
+\Fundo\wb02053_.gif
+\Fundo\wb02054_.gif
+\Fundo\wb02055_.gif
+\Fundo\wb02056_.gif
+\Fundo\wb02057_.gif
+\Fundo\wb02058_.gif
+\Fundo\wb02059_.gif
+\Fundo\wb02060_.gif
+\Fundo\wb02061_.gif
+\Fundo\wb02062_.gif
+\Fundo\wb02063_.gif
+\Fundo\wb02064_.gif
+\Fundo\wb02065_.gif
+\Fundo\wb02066_.gif
+\Fundo\wb02067_.gif
+\Fundo\wb02068_.gif
+\Fundo\wb02069_.gif
+\Fundo\wb02070_.gif
+\Fundo\wb02071_.gif
+\Fundo\wb02072_.gif
+\Fundo\wb02073_.gif
+\Fundo\wb02074_.gif
+\Fundo\wb02075_.gif
+\Fundo\wb02076_.gif
+\Fundo\wb02077_.gif
+\Fundo\wb02078_.gif
+\Fundo\wb02079_.gif
+\Fundo\wb02080_.gif
+\Fundo\wb02081_.gif
+\Fundo\wb02082_.gif
+\Fundo\wb02083_.gif
+\Fundo\wb02084_.gif
+\Fundo\wb02085_.gif
+\Fundo\wb02086_.gif
+\Fundo\wb02087_.gif
+\Fundo\wb02088_.gif
+\Fundo\wb02089_.gif
+\Fundo\wb02090_.gif
+\Fundo\wb02091_.gif
+\Fundo\wb02092_.gif
+\Fundo\wb02093_.gif
+\Fundo\wb02094_.gif
+\Fundo\wb02095_.gif
+\Fundo\wb02096_.gif
+\Fundo\wb02097_.gif
+\Fundo\wb02098_.gif
+\Fundo\wb02099_.gif
+\Fundo\wb02100_.gif
+\Fundo\wb02101_.gif
+\Fundo\wb02102_.gif
+\Fundo\wb02103_.gif
+\Fundo\wb02104_.gif
+\Fundo\wb02105_.gif
+\Fundo\wb02106_.gif
+\Fundo\wb02107_.gif
+\Fundo\wb02108_.gif
+\Fundo\wb02109_.gif
+\Fundo\wb02110_.gif
+\Fundo\wb02111_.gif
+\Fundo\wb02112_.gif
+\Fundo\wb02113_.gif
+\Fundo\wb02114_.gif
+\Fundo\wb02115_.gif
+\Fundo\wb02116_.gif
+\Fundo\wb02117_.gif
+\Fundo\wb02118_.gif
+\Fundo\wb02119_.gif
+\Fundo\wb02120_.gif
+\Fundo\wb02121_.gif
+\Fundo\wb02122_.gif
+\Fundo\wb02123_.gif
+\Fundo\wb02124_.gif
+\Fundo\wb02125_.gif
+\Fundo\wb02126_.gif
+\Fundo\wb02127_.gif
+\Fundo\wb02128_.gif
+\Fundo\wb02129_.gif
+\Fundo\wb02130_.gif
+\Fundo\wb02131_.gif
+\Fundo\wb02132_.gif
+\Fundo\wb02133_.gif
+\Fundo\wb02134_.gif
+\Fundo\wb02135_.gif
+\Fundo\wb02136_.gif
+\Fundo\wb02137_.gif
+\Fundo\wb02138_.gif
+\Fundo\wb02139_.gif
+\Fundo\wb02140_.gif
+\Fundo\wb02141_.gif
+\Fundo\wb02142_.gif
+\Fundo\wb02143_.gif
+\Fundo\wb02144_.gif
+\Fundo\wb02145_.gif
+\Fundo\wb02146_.gif
+\Fundo\wb02147_.gif
+\Fundo\wb02148_.gif
+\Fundo\wb02149_.gif
+\Fundo\wb02150_.gif
+\Fundo\wb02151_.gif
+\Fundo\wb02152_.gif
+\Fundo\wb02153_.gif
+\Fundo\wb02154_.gif
+\Fundo\wb02155_.gif
+\Fundo\wb02156_.gif
+\Fundo\wb02157_.gif
+\Fundo\wb02158_.gif
+\Fundo\wb02159_.gif
+\Fundo\wb02160_.gif
+\Fundo\wb02161_.gif
+\Fundo\wb02162_.gif
+\Fundo\wb02163_.gif
+\Fundo\wb02164_.gif
+\Fundo\wb02165_.gif
+\Fundo\wb02166_.gif
+\Fundo\wb02167_.gif
+\Fundo\wb02168_.gif
+\Fundo\wb02169_.gif
+\Fundo\wb02170_.gif
+\Fundo\wb02171_.gif
+\Fundo\wb02172_.gif
+\Fundo\wb02173_.gif
+\Fundo\wb02174_.gif
+\Fundo\wb02175_.gif
+\Fundo\wb02176_.gif
+\Fundo\wb02177_.gif
+\Fundo\wb02178_.gif
+\Fundo\wb02179_.gif
+\Fundo\wb02180_.gif
+\Fundo\wb02181_.gif
+\Fundo\wb02182_.gif
+\Fundo\wb02183_.gif
+\Fundo\wb02184_.gif
+\Fundo\wb02185_.gif
+\Fundo\wb02186_.gif
+\Fundo\wb02187_.gif
+\Fundo\wb02188_.gif
+\Fundo\wb02189_.gif
+\Fundo\wb02190_.gif
+\Fundo\wb02191_.gif
+\Fundo\wb02192_.gif
+\Fundo\wb02193_.gif
+\Fundo\wb02194_.gif
+\Fundo\wb02195_.gif
+\Fundo\wb02196_.gif
+\Fundo\wb02197_.gif
+\Fundo\wb02198_.gif
+\Fundo\wb02199_.gif
+\Fundo\wb02200_.gif
+\Fundo\wb02201_.gif
+\Fundo\wb02202_.gif
+\Fundo\wb02203_.gif
+\Fundo\wb02204_.gif
+\Fundo\wb02205_.gif
+\Fundo\wb02206_.gif
+\Fundo\wb02207_.gif
+\Fundo\wb02208_.gif
+\Fundo\wb02209_.gif
+\Fundo\wb02210_.gif
+\Fundo\wb02211_.gif
+\Fundo\wb02212_.gif
+\Fundo\wb02213_.gif
+\Fundo\wb02214_.gif
+\Fundo\wb02215_.gif
+\Fundo\wb02216_.gif
+\Fundo\wb02217_.gif
+\Fundo\wb02218_.gif
+\Fundo\wb02219_.gif
+\msdraw8.cnt
+\msdraw8.fts
+\msdraw8.gid
+\msdraw8.hlp
+\msdraw8a.exe
+\msdraw8a.opt
+\msgenbw.ppd
+\msgencol.ppd
+\setup\acmsetup.exe
+\setup\insert.dll
+\setup\msd8int.dll
+\setup\pub5.stf
+SYSDESKTOPDIR\Instalação do Assistente de publicação na web 1.52.lnk
+\instalação do microsoft internet explorer 4.0.lnk
+
+[SAFE, RUNFROMNETCD95] "Microsoft Office 95"
+OFFICEROOT95DIR\odbcstf.dll
+
+[SAFE, SBFM97] "Arquivo usado pelo Small Business Financial Manager 97"
+SBFM97DIR\setup\offsetup.ttf
+
+[SAFE, WORD94] "Microsoft Word 6.0"
+MENU_ITEM=Microsoft Office\Arquivo de Ajuda leiame
+MENU_ITEM=Microsoft Office\Config do Word
+MENU_ITEM=Microsoft Office\Dialog Editor do Word
+STARTMENU94DIR\ajuda leiame do Word.lnk
+\Arquivo de ajuda leiame.lnk
+\Config do Word.lnk
+\Dialog Editor do Word.lnk
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\agenda.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\award.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\brochur1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\calendar.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\classic1.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\classic2.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\classic3.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\classic4.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\directr1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\fax.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\faxcovr1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\faxcovr2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\invoice.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\letter.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\letter1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\letter2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\letter3.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\manual1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\manuscr1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\manuscr3.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\memo.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\memo1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\memo2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\memo3.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\modern1.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\modern2.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\modern3.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\modern4.wzs
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\newslttr.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\pleading.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\present1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\presrel1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\presrel2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\presrel3.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\purchord.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\report1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\report2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\report3.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\resume.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\resume1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\resume2.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\resume4.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\table.wiz
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\thesis1.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\weektime.dot
+USER_MODIFIABLE_FILE=WORD94DIR\modelo\wishfax.dot
+WORD94DIR\cartas\aluguel.dot
+\cartas\cobrar.dot
+\cartas\cred01.dot
+\cartas\cred05.dot
+\cartas\cred11.dot
+\cartas\cstmrc01.dot
+\cartas\cstmrc03.dot
+\cartas\cstmrr03.dot
+\cartas\cstmrr05.dot
+\cartas\empreg1.dot
+\cartas\empreg2.dot
+\cartas\marktg.dot
+\cartas\mktg07.dot
+\cartas\outras.dot
+\cartas\pedido.dot
+\cartas\precos.dot
+\cartas\space03.dot
+\config\_mssetup.exe
+\config\acmsetup.ftg
+\config\acmsetup.fts
+\config\acmsetup.gid
+\config\acmsetup.hlp
+\config\config.exe
+\config\config.stf
+\config\mscpydis.dll
+\config\mssetup.dll
+\config\winword6.inf
+\config\word_bb.dll
+\config\wwsetup.ttf
+\gram.ini
+\inicio\bsh.wll
+\inicio\present.dot
+\wrdbasic.hlp
+
+[SAFE, WORD94, WORD95, WORD97] "Microsoft Word"
+MENU_ITEM=Microsoft Office\Ajuda leiame do Word
+MENU_ITEM=Microsoft Office\Instalação do Microsoft Word
+MENU_ITEM=Microsoft Office\Instalação do Word
+MENU_ITEM=Microsoft Office\Microsoft Word
+STARTMENU94DIR\microsoft word.lnk
+SYSMENUPROGRAMSDIR\Microsoft Office\Instalação do Microsoft Word.lnk
+\Microsoft Office\Microsoft Word.lnk
+
+[SAFE, WORD95] "Microsoft Word 95"
+HKLM\Software\Microsoft\New User Settings\Word\7.0
+OFFICEROOT95DIR\modelos\cartas e fax\assistente de carta.wiz
+\modelos\cartas e fax\assistente de fax.wiz
+\modelos\cartas e fax\mscreate.dir
+\modelos\memorandos\assistente de memorando.wiz
+\modelos\memorandos\mscreate.dir
+\modelos\outros documentos\assistente de agenda.wiz
+\modelos\outros documentos\assistente de calendário.wiz
+\modelos\outros documentos\assistente de certificado.wiz
+\modelos\outros documentos\assistente de currículo.wiz
+\modelos\outros documentos\assistente de tabela.wiz
+\modelos\outros documentos\mscreate.dir
+\modelos\pub\assistente de boletim.wiz
+\modelos\pub\classic1.wzs
+\modelos\pub\classic2.wzs
+\modelos\pub\classic3.wzs
+\modelos\pub\classic4.wzs
+\modelos\pub\modern1.wzs
+\modelos\pub\modern2.wzs
+\modelos\pub\modern3.wzs
+\modelos\pub\modern4.wzs
+\modelos\pub\mscreate.dir
+\modelos\relat\mscreate.dir
+\office\gram32.dll
+SYSDIR\gram32.ini
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\carta contemporânea.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\carta elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\carta profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\fax contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\fax elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\cartas e fax\fax profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\memorandos\memorando contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\memorandos\memorando elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\memorandos\memorando profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\currículo contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\currículo elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\currículo profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\fatura.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\nota fiscal.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\outros documentos\relatório de horas semanal.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\boletim.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\diretor.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\lançamento contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\lançamento elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\lançamento profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\manual.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\panfleto.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\pub\tese.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\relat\relatório contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\relat\relatório elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT95DIR\modelos\relat\relatório profissional.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\aluguel.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\cobrar.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\empreg1.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\empreg2.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\marktg.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\outras.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\pedido.dot
+USER_MODIFIABLE_FILE=WORD95DIR\cartas\precos.dot
+USER_MODIFIABLE_FILE=WORD95DIR\macros\apresent.dot
+USER_MODIFIABLE_FILE=WORD95DIR\macros\convert.dot
+USER_MODIFIABLE_FILE=WORD95DIR\macros\layout.dot
+USER_MODIFIABLE_FILE=WORD95DIR\macros\macro70.dot
+WORD95DIR\cartas\mscreate.dir
+\inicio\mscreate.dir
+\instalar\acme.exe
+\instalar\acme.lst
+\instalar\mscreate.dir
+\instalar\wrd95.stf
+\instalar\wrd95inv.dll
+\wdleiame.txt
+
+[SAFE, WORD95, WORD97] "Microsoft Word"
+OFFICEROOT95DIR\Instalação do Microsoft Word.lnk
+
+[SAFE, WORD97] "Microsoft Word 97"
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.aw
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdhtml8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdmain8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdmain8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdnew8.cnt
+HKLM\Software\Microsoft\Windows\Help\wdnew8.hlp
+HKLM\Software\Microsoft\Windows\Help\wdtip8.hlp
+OFFICE97DIR\wordmail\favoritos\Chama.lnk
+\wordmail\favoritos\chuva.lnk
+\wordmail\favoritos\email.lnk
+\wordmail\favoritos\meia-noite.lnk
+\wordmail\favoritos\mscreate.dir
+\wordmail\favoritos\oceano.lnk
+\wordmail\favoritos\Tecnologia.lnk
+\wordmail\favoritos\urgente.lnk
+OFFICEROOT97DIR\clipart\fundos\brick wall.lnk
+\clipart\fundos\club deco.lnk
+\clipart\fundos\fancy green patterns.lnk
+\clipart\fundos\granite edifice.lnk
+\clipart\fundos\leaves on the side.lnk
+\clipart\fundos\off yellow bookcover.lnk
+\clipart\fundos\stained glass on side.lnk
+\clipart\fundos\wheat.lnk
+\clipart\linhas\alternado.gif
+\clipart\linhas\folhas de outono.gif
+\clipart\linhas\linhas duplas.gif
+\clipart\linhas\listra verde e preta.gif
+\clipart\linhas\mscreate.dir
+\clipart\linhas\pedra colorida.gif
+\clipart\linhas\seixos.gif
+\clipart\linhas\vitral em linha.gif
+\clipart\linhas\vizinhança.gif
+\clipart\marcador\bola verde.gif
+\clipart\marcador\esfera metálica.gif
+\clipart\marcador\espiral vermelha.gif
+\clipart\marcador\losango em 3-d.gif
+\clipart\marcador\losango verde e preto.gif
+\clipart\marcador\mscreate.dir
+\clipart\marcador\pedregulho.gif
+\clipart\marcador\traço preto.gif
+\clipart\marcador\vitral em círculo.gif
+\instalação do microsoft word.lnk
+\modelos\cartas e faxes\assistente de carta.wiz
+\modelos\cartas e faxes\assistente de envelope.wiz
+\modelos\cartas e faxes\assistente de etiqueta de endereçamento.wiz
+\modelos\cartas e faxes\assistente de fax.wiz
+\modelos\cartas e faxes\mscreate.dir
+\modelos\legal pleadings\mscreate.dir
+\modelos\memos\assistente de memorando.wiz
+\modelos\memos\mscreate.dir
+\modelos\outros documentos\assistente de currículo.wiz
+\modelos\outros documentos\mscreate.dir
+\modelos\publicações\assistente de boletim.wiz
+\modelos\publicações\mscreate.dir
+\modelos\páginas da web\assistente de página da web.wiz
+\modelos\páginas da web\informações interessantes.dot
+\modelos\páginas da web\página da web em branco.lnk
+\modelos\relatorios\mscreate.dir
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\carta contemporânea.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\carta elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\carta profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\fax contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\fax elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\cartas e faxes\fax profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\memos\memorando contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\memos\memorando elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\memos\memorando profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\chama.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\chuva.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\email.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\meianoi.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\oceano.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\tecnolog.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outlook\urgente.oft
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outros documentos\currículo contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outros documentos\currículo elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outros documentos\currículo profissional.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\outros documentos\mais modelos e assistentes.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\relatorios\relatório contemporâneo.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\relatorios\relatório elegante.dot
+USER_MODIFIABLE_FILE=OFFICEROOT97DIR\modelos\relatorios\relatório profissional.dot
+WORD95DIR\instalar\acme.exe
+\instalar\acme.lst
+\instalar\mscreate.dir
+\instalar\wrd95.stf
+\instalar\wrd95inv.dll
+WORD97DIR\ wdmain8.gid
+\bordas\msart1.bdr
+\bordas\msart10.bdr
+\bordas\msart11.bdr
+\bordas\msart12.bdr
+\bordas\msart13.bdr
+\bordas\msart14.bdr
+\bordas\msart15.bdr
+\bordas\msart2.bdr
+\bordas\msart3.bdr
+\bordas\msart4.bdr
+\bordas\msart5.bdr
+\bordas\msart6.bdr
+\bordas\msart7.bdr
+\bordas\msart8.bdr
+\bordas\msart9.bdr
+\bordas\mscreate.dir
+\chama.dot
+\chuva.dot
+\html\caixas de diálogo\bullet1.gif
+\html\caixas de diálogo\bullet2.gif
+\html\caixas de diálogo\bullet3.gif
+\html\caixas de diálogo\bullet4.gif
+\html\caixas de diálogo\bullet5.gif
+\html\caixas de diálogo\bullet6.gif
+\html\caixas de diálogo\bullet7.gif
+\html\caixas de diálogo\bullet8.gif
+\html\caixas de diálogo\line1.gif
+\html\caixas de diálogo\line2.gif
+\html\caixas de diálogo\line3.gif
+\html\caixas de diálogo\line4.gif
+\html\caixas de diálogo\line5.gif
+\html\caixas de diálogo\line6.gif
+\html\caixas de diálogo\line7.gif
+\html\caixas de diálogo\line8.gif
+\html\caixas de diálogo\line9.gif
+\html\caixas de diálogo\mscreate.dir
+\html\inlinemultimedia.twd
+\html\marqueelib.twd
+\instalar\acmeword.lst
+\instalar\word97.stf
+\meianoi.dot
+\oceano.dot
+\páginas da web\conteudo\calendario.doc
+\páginas da web\conteudo\formulário - pesquisa.doc
+\páginas da web\conteudo\formulário - registro on-line.doc
+\páginas da web\conteudo\formulário - retorno.doc
+\páginas da web\conteudo\home page pessoal.doc
+\páginas da web\conteudo\indice analitico.doc
+\páginas da web\conteudo\layout centralizado.doc
+\páginas da web\conteudo\layout de 2 colunas.doc
+\páginas da web\conteudo\layout de 3 colunas.doc
+\páginas da web\conteudo\layout simples.doc
+\páginas da web\conteudo\mscreate.dir
+\páginas da web\mscreate.dir
+\páginas da web\styles\capa em amarelo pálido.gif
+\páginas da web\styles\colheita.dot
+\páginas da web\styles\comunidade.dot
+\páginas da web\styles\contemporâneo.dot
+\páginas da web\styles\decoração.gif
+\páginas da web\styles\elegante.dot
+\páginas da web\styles\festivo.dot
+\páginas da web\styles\folhas ao lado.gif
+\páginas da web\styles\granito.gif
+\páginas da web\styles\jazzy.dot
+\páginas da web\styles\mscreate.dir
+\páginas da web\styles\outdoors.dot
+\páginas da web\styles\parede.gif
+\páginas da web\styles\profissional.dot
+\páginas da web\styles\sofisticados verde.gif
+\páginas da web\styles\trigo.gif
+\páginas da web\styles\vitral no lado.gif
+\tecnolog.dot
+\urgente.dot
+\wdleia8.txt
+\wordmail\mapif1.cfg
+\wordmail\mapif1l.ico
+\wordmail\mapif1s.ico
+
+[SAFE, WORD97, PUBLISHER5] "Microsoft Publisher e Word"
+MSAPPS9XDIR\proof\mshy32.dll
+\proof\mshy_en.lex
+\proof\mshy_es.lex
+\proof\mshy_pt.lex
+SHAREDDLL=MSAPPS9XDIR\proof\mshy32.dll
+
+[RISKY, EXCEL95, POWERPOINT95, WORD95, EXCEL97, WORD97, POWERPOINT97, EXCELMSIREG, POWERPOINTMSIREG, WORDMSIREG] "Microsoft Binder, Shortcut bar"
+HKCR\CLSID\{59850403-6664-101B-B21C-00AA004BA90B}
+HKCR\CLSID\{59850404-6664-101B-B21C-00AA004BA90B}
+HKCU\Software\Microsoft\Binder
+SYSAPPDATADIR\Microsoft\office\shortcut bar\msn.lnk
+\Microsoft\office\Barra de Atalhos\office\answer wizard.lnk
+\Microsoft\office\Barra de Atalhos\office\control panel.lnk
+\Microsoft\office\Barra de Atalhos\office\File Manager.lnk
+\Microsoft\office\Barra de Atalhos\office\getting results book.lnk
+\Microsoft\office\Barra de Atalhos\office\microsoft binder.lnk
+\Microsoft\office\Barra de Atalhos\office\microsoft bookshelf '95.lnk
+\Microsoft\office\Barra de Atalhos\office\microsoft schedule+.lnk
+\Microsoft\office\Barra de Atalhos\office\MS-DOS Prompt.lnk
+\Microsoft\office\Barra de Atalhos\office\MS-DOS Prompt.PIF
+\Microsoft\office\Barra de Atalhos\office\office compatible.lnk
+\Microsoft\office\Barra de Atalhos\office\open a document.lnk
+\Microsoft\office\Barra de Atalhos\office\Print Manager.lnk
+\Microsoft\office\Barra de Atalhos\office\printers.lnk
+\Microsoft\office\Barra de Atalhos\office\Program Manager.lnk
+\Microsoft\office\Barra de Atalhos\office\screen saver.lnk
+\Microsoft\office\Barra de Atalhos\office\Abrir documento do office.lnk
+\Microsoft\office\Barra de Atalhos\office\Impressoras.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Access.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Outlook.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Excel.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Word.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Powerpoint.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova anotação.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova entrada de diário.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova mensagem.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova tarefa.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo compromisso.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo contato.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo documento do Office.lnk
+\Microsoft\office\Barra de Atalhos\office\Painel de controle.lnk
+\Microsoft\office\Barra de Atalhos\office\Prompt do MS-DOS.lnk
+\Microsoft\office\Barra de Atalhos\office\Proteção de tela.lnk
+\Microsoft\office\Barra de Atalhos\office\windows explorer.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\1995 almanac contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\1995 almanac find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\address builder.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\all books contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\all books find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\atlas contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\atlas find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\chronology contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\chronology find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\dictionary contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\dictionary find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\encyclopedia contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\encyclopedia find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\quotations contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\quotations find.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\thesaurus contents.lnk
+\Microsoft\office\Barra de Atalhos\quickshelf\thesaurus find.lnk
+
+[SAFE, EXCEL95, POWERPOINT95, WORD95, EXCEL97, WORD97, POWERPOINT97, EXCELMSIREG, POWERPOINTMSIREG, WORDMSIREG] "Microsoft Binder"
+SHORTCUT=SYSMENUPROGRAMSDIR\microsoft office\binder.exe|BinderFiles
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, WORD95] "Microsoft Office 95 Shortcut bar"
+OFFICEROOT95DIR\microsoft office shortcut bar.lnk
+\office\Barra de Atalhos\mscreate.dir
+\office\Barra de Atalhos\msn.lnk
+\office\Barra de Atalhos\office\add a contact.lnk
+\office\Barra de Atalhos\office\add a task.lnk
+\office\Barra de Atalhos\office\answer wizard.lnk
+\office\Barra de Atalhos\office\control panel.lnk
+\office\Barra de Atalhos\office\File Manager.lnk
+\office\Barra de Atalhos\office\getting results book.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Access.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Outlook.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Excel.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Word.lnk
+\Microsoft\office\Barra de Atalhos\office\Microsoft Powerpoint.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova anotação.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova entrada de diário.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova mensagem.lnk
+\Microsoft\office\Barra de Atalhos\office\Nova tarefa.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo compromisso.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo contato.lnk
+\Microsoft\office\Barra de Atalhos\office\Novo documento do Office.lnk
+\Microsoft\office\Barra de Atalhos\office\Painel de controle.lnk
+\Microsoft\office\Barra de Atalhos\office\Prompt do MS-DOS.lnk
+\Microsoft\office\Barra de Atalhos\office\Proteção de tela.lnk
+\office\Barra de Atalhos\office\make an appointment.lnk
+\office\Barra de Atalhos\office\microsoft binder.lnk
+\office\Barra de Atalhos\office\microsoft bookshelf '95.lnk
+\office\Barra de Atalhos\office\microsoft schedule+.lnk
+\office\Barra de Atalhos\office\MS-DOS Prompt.lnk
+\office\Barra de Atalhos\office\MS-DOS Prompt.PIF
+\office\Barra de Atalhos\office\mscreate.dir
+\office\Barra de Atalhos\office\office compatible.lnk
+\office\Barra de Atalhos\office\open a document.lnk
+\office\Barra de Atalhos\office\Print Manager.lnk
+\office\Barra de Atalhos\office\printers.lnk
+\office\Barra de Atalhos\office\Program Manager.lnk
+\office\Barra de Atalhos\office\screen saver.lnk
+\office\Barra de Atalhos\office\send a message.lnk
+\office\Barra de Atalhos\office\start a new document.lnk
+\office\Barra de Atalhos\office\windows explorer.lnk
